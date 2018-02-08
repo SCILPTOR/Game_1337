@@ -1,0 +1,251 @@
+﻿[2018.02.08-07.27.22:906][  0]Log file open, 02/08/18 15:27:22
+[2018.02.08-07.27.22:906][  0]LogInit:Display: Running engine for game: TopDown
+[2018.02.08-07.27.22:906][  0]LogInit:Display: RandInit(-1520393112) SRandInit(-1520393112).
+[2018.02.08-07.27.22:906][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2018.02.08-07.27.22:906][  0]LogStats: Stats thread started at 0.067298
+[2018.02.08-07.27.22:906][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2018.02.08-07.27.22:906][  0]LogInit: API Version: 2672455
+[2018.02.08-07.27.22:906][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2018.02.08-07.27.22:906][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2018.02.08-07.27.22:906][  0]LogInit: Build Configuration: Development
+[2018.02.08-07.27.22:906][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2018.02.08-07.27.22:906][  0]LogInit: Command line:  
+[2018.02.08-07.27.22:906][  0]LogInit: Base directory: D:/UE_4.9/Engine/Binaries/Win64/
+[2018.02.08-07.27.22:906][  0]LogInit: Rocket: 1
+[2018.02.08-07.27.22:985][  0]LogInit: Using libcurl 7.41.0
+[2018.02.08-07.27.22:985][  0]LogInit:  - built for x86_64-pc-win32
+[2018.02.08-07.27.22:985][  0]LogInit:  - supports SSL with WinSSL
+[2018.02.08-07.27.22:985][  0]LogInit:  - other features:
+[2018.02.08-07.27.22:985][  0]LogInit:      CURL_VERSION_SSL
+[2018.02.08-07.27.22:985][  0]LogInit:      CURL_VERSION_IPV6
+[2018.02.08-07.27.22:985][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2018.02.08-07.27.22:985][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2018.02.08-07.27.22:985][  0]LogInit:      CURL_VERSION_IDN
+[2018.02.08-07.27.22:985][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2018.02.08-07.27.22:985][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2018.02.08-07.27.22:985][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2018.02.08-07.27.22:985][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2018.02.08-07.27.22:985][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2018.02.08-07.27.22:995][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2018.02.08-07.27.23:006][  0]LogInit: Object subsystem initialized
+[2018.02.08-07.27.23:008][  0]LogInit: Selected Device Profile: [Windows]
+[2018.02.08-07.27.23:008][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.02.08-07.27.23:067][  0]LogInit: Computer: 1-ПК
+[2018.02.08-07.27.23:067][  0]LogInit: User: 1
+[2018.02.08-07.27.23:067][  0]LogInit: CPU Page size=4096, Cores=2
+[2018.02.08-07.27.23:067][  0]LogInit: High frequency timer resolution =2.338496 MHz
+[2018.02.08-07.27.23:067][  0]LogMemory: Memory total: Physical=3.9GB (4GB approx)
+[2018.02.08-07.27.23:067][  0]LogMemory: Platform Memory Stats for Windows
+[2018.02.08-07.27.23:067][  0]LogMemory: Process Physical Memory: 59.93 MB used, 59.93 MB peak
+[2018.02.08-07.27.23:067][  0]LogMemory: Process Virtual Memory: 63.74 MB used, 63.74 MB peak
+[2018.02.08-07.27.23:067][  0]LogMemory: Physical Memory: 1600.59 MB used, 4010.14 MB total
+[2018.02.08-07.27.23:067][  0]LogMemory: Virtual Memory: 350.29 MB used, 8388608.00 MB total
+[2018.02.08-07.27.23:338][  0]LogTextLocalizationManager: No translations for ('ru-RU') exist, falling back to 'en' for localization and internationalization data.
+[2018.02.08-07.27.25:629][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce 410M (Feature Level 11_0)
+[2018.02.08-07.27.25:629][  0]LogD3D11RHI: Adapter has 979MB of dedicated video memory, 0MB of dedicated system memory, and 1749MB of shared system memory, 1 output[s]
+[2018.02.08-07.27.25:661][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA GeForce 410M (Feature Level 11_0)
+[2018.02.08-07.27.25:661][  0]LogD3D11RHI: Adapter has 979MB of dedicated video memory, 0MB of dedicated system memory, and 1749MB of shared system memory, 0 output[s]
+[2018.02.08-07.27.25:661][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2018.02.08-07.27.25:693][  0]LogD3D11RHI: !Direct3DDevice
+[2018.02.08-07.27.25:693][  0]LogRHI: Texture pool is 1297 MB (70% of 1854 MB)
+[2018.02.08-07.27.25:716][  0]LogD3D11RHI: Async texture creation enabled
+[2018.02.08-07.27.26:080][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../sergey/UnrealProjects/Game_1337/TopDown/Intermediate/Shaders/WorkingDirectory/5948/).
+[2018.02.08-07.27.26:080][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../sergey/UnrealProjects/Game_1337/TopDown/Intermediate/Shaders/tmp/4CC29199495CAA48D6E6A08642B76983/'.
+[2018.02.08-07.27.26:080][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.02.08-07.27.32:601][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.02.08-07.27.32:612][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.02.08-07.27.32:623][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.02.08-07.27.32:633][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.02.08-07.27.32:663][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.02.08-07.27.32:698][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.02.08-07.27.32:744][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.02.08-07.27.32:805][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.02.08-07.27.32:875][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.02.08-07.27.32:941][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.02.08-07.27.32:964][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.02.08-07.27.32:983][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.02.08-07.27.33:011][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.02.08-07.27.33:123][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.02.08-07.27.33:163][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.02.08-07.27.33:210][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.02.08-07.27.33:229][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.02.08-07.27.33:229][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.02.08-07.27.34:077][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.02.08-07.27.34:681][  0]LogDerivedDataCache: Loaded boot cache 0.59s 41MB C:/Users/1/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2018.02.08-07.27.34:681][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/1/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2018.02.08-07.27.34:681][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../sergey/UnrealProjects/Game_1337/TopDown/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.02.08-07.27.34:681][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.02.08-07.27.34:681][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../sergey/UnrealProjects/Game_1337/TopDown/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.02.08-07.27.34:682][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.02.08-07.27.34:990][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.02.08-07.27.35:003][  0]LogDerivedDataCache: Using Local data cache path C:/Users/1/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.02.08-07.27.45:123][  0]LogInit: Selected Device Profile: [Windows]
+[2018.02.08-07.27.45:170][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2018.02.08-07.27.45:597][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2018.02.08-07.27.45:597][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.02.08-07.27.50:787][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.02.08-07.28.15:847][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.02.08-07.28.17:347][  0]LogAssetRegistry: FAssetRegistry took 0.0099 seconds to start up
+[2018.02.08-07.28.21:784][  0]SourceControl: Info Source control is disabled
+[2018.02.08-07.28.21:786][  0]SourceControl: Info Source control is disabled
+[2018.02.08-07.28.22:229][  0]SourceControl: Info Source control is disabled
+[2018.02.08-07.28.22:668][  0]SourceControl: Info Source control is disabled
+[2018.02.08-07.28.24:032][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.02.08-07.28.24:591][  0]LogObj: 28361 objects as part of root set at end of initial load.
+[2018.02.08-07.28.24:591][  0]LogUObjectAllocator: 6038864 out of 0 bytes used by permanent object pool.
+[2018.02.08-07.28.25:589][  0]LogEngine: Initializing Engine...
+[2018.02.08-07.28.25:639][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2018.02.08-07.28.25:740][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2018.02.08-07.28.26:454][  0]LogAIModule: Creating AISystem for world NewWorld
+[2018.02.08-07.28.26:538][  0]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.02.08-07.28.26:579][  0]LogInit: FAudioDevice initialized.
+[2018.02.08-07.28.26:621][  0]LogDerivedDataCache: Saved boot cache 0.04s 41MB C:/Users/1/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2018.02.08-07.28.26:627][  0]LogInit: Texture streaming: Enabled
+[2018.02.08-07.28.26:653][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2018.02.08-07.28.26:653][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2018.02.08-07.28.26:653][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId fdb2de1848db1fa47a6f94acde81dca0|be1dc849c34248278283a980c6ca8968|82021297-a794-427f-b0e0-602fe21b1b06
+[2018.02.08-07.28.26:654][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2018.02.08-07.28.27:311][  0]LogInit: Transaction tracking system initialized
+[2018.02.08-07.28.27:912][  0]BlueprintLog: New page: Editor Load
+[2018.02.08-07.28.30:148][  0]LocalizationService: Info Localization service is disabled
+[2018.02.08-07.28.31:001][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2018.02.08-07.28.31:001][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2018.02.08-07.28.31:001][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/FirstPersonBP/FirstPersonOverview.FirstPersonOverview_C'
+[2018.02.08-07.28.31:638][  0]LogConsoleResponse:Display: 
+[2018.02.08-07.28.36:312][  0]LogFileCache: Scanning file cache for directory 'D:/sergey/UnrealProjects/Game_1337/TopDown/Content/' took 0.04s
+[2018.02.08-07.28.36:312][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2018.02.08-07.28.39:017][  0]SourceControl: Info Source control is disabled
+[2018.02.08-07.28.39:064][  0]Cmd: MAP LOAD FILE="../../../../sergey/UnrealProjects/Game_1337/TopDown/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.02.08-07.28.39:094][  0]LightingResults: New page: Lighting Build
+[2018.02.08-07.28.39:144][  0]MapCheck: New page: Map Check
+[2018.02.08-07.28.39:144][  0]LightingResults: New page: Lighting Build
+[2018.02.08-07.28.39:170][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000025F76160
+[2018.02.08-07.28.39:279][  0]LogLinker:Warning: Asset '../../../../sergey/UnrealProjects/Game_1337/TopDown/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.02.08-07.28.39:301][  0]LogLinker:Warning: Asset '../../../../sergey/UnrealProjects/Game_1337/TopDown/Content/Mannequin/Animations/ThirdPerson_Jump.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.02.08-07.28.39:371][  0]LogLinker:Warning: Asset '../../../../sergey/UnrealProjects/Game_1337/TopDown/Content/Mannequin/Animations/ThirdPersonJump_Loop.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.02.08-07.28.39:383][  0]LogLinker:Warning: Asset '../../../../sergey/UnrealProjects/Game_1337/TopDown/Content/Mannequin/Animations/ThirdPersonJump_Start.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.02.08-07.28.39:400][  0]LogLinker:Warning: Asset '../../../../sergey/UnrealProjects/Game_1337/TopDown/Content/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.02.08-07.28.39:408][  0]LogLinker:Warning: Asset '../../../../sergey/UnrealProjects/Game_1337/TopDown/Content/Mannequin/Animations/ThirdPersonIdle.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.02.08-07.28.39:421][  0]LogLinker:Warning: Asset '../../../../sergey/UnrealProjects/Game_1337/TopDown/Content/Mannequin/Animations/ThirdPersonRun.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.02.08-07.28.39:432][  0]LogLinker:Warning: Asset '../../../../sergey/UnrealProjects/Game_1337/TopDown/Content/Mannequin/Animations/ThirdPersonWalk.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.02.08-07.28.41:970][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/TopDownBP/Blueprints/Inventory/Chests/chest-base.chest-base_C:UserConstructionScript; removing parent information, but keeping function
+[2018.02.08-07.28.42:125][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/TopDownBP/Blueprints/Inventory/Item/Items/Base_Items/Item_aid_base.Item_aid_base_C:UserConstructionScript; removing parent information, but keeping function
+[2018.02.08-07.28.42:312][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/TopDownBP/Blueprints/Inventory/Item/Items/Base_Items/Item_Statue.Item_Statue_C:UserConstructionScript; removing parent information, but keeping function
+[2018.02.08-07.28.55:642][  0]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2018.02.08-07.28.57:169][  0]LogEditorServer: Finished looking for orphan Actors (0.020 secs)
+[2018.02.08-07.28.57:300][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.02.08-07.28.57:457][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 144.525ms to complete.
+[2018.02.08-07.28.57:457][  0]LogFileHelpers: Loading map 'TopDownExampleMap' took 18.409
+[2018.02.08-07.28.59:038][  0]LogCollectionManager: Loaded 0 collections in 0.005172 seconds
+[2018.02.08-07.28.59:220][  0]LogFileCache: Scanning file cache for directory 'D:/sergey/UnrealProjects/Game_1337/TopDown/Saved/Collections/' took 0.01s
+[2018.02.08-07.28.59:220][  0]LogFileCache: Scanning file cache for directory 'D:/sergey/UnrealProjects/Game_1337/TopDown/Content/Developers/1/Collections/' took 0.01s
+[2018.02.08-07.28.59:220][  0]LogFileCache: Scanning file cache for directory 'D:/sergey/UnrealProjects/Game_1337/TopDown/Content/Collections/' took 0.00s
+[2018.02.08-07.28.59:220][  0]LogContentBrowser: Native class hierarchy populated in 0.0389 seconds. Added 1868 classes and 335 folders.
+[2018.02.08-07.28.59:348][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2018.02.08-07.28.59:442][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.02.08-07.29.01:370][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.02.08-07.29.02:003][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.02.08-07.29.02:209][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2018.02.08-07.29.02:314][  0]LogLoad: Full Startup: 100.72 seconds (BP compile: 1.06 seconds)
+[2018.02.08-07.29.03:396][  0]LogContentStreaming: Texture pool size now 400 MB
+[2018.02.08-07.29.04:050][  1]LogRenderer: Reallocating scene render targets to support 532x340 (Frame:2).
+[2018.02.08-07.29.08:283][ 11]LogAssetRegistry: Asset discovery search completed in 50.9443 seconds
+[2018.02.08-07.29.08:283][ 11]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.02.08-07.29.08:283][ 11]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000033 seconds (updated 0 objects)
+[2018.02.08-07.48.27:939][576]LogRenderer: Reallocating scene render targets to support 536x352 (Frame:109).
+[2018.02.08-07.48.35:424][795]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.02.08-07.48.37:157][795]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0095 seconds. Added 107 classes and 0 folders.
+[2018.02.08-07.49.08:834][371]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.02.08-07.49.08:834][371]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.08-07.49.08:865][371]PIE: New page: PIE session: TopDownExampleMap (Feb 8, 2018, 11:49:08 PM)
+[2018.02.08-07.49.08:895][371]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2018.02.08-07.49.09:058][371]LogPlayLevel: PIE: StaticDuplicateObject took: (0.163053s)
+[2018.02.08-07.49.09:059][371]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2018.02.08-07.49.09:059][371]LogPlayLevel: PIE: World Init took: (0.001404s)
+[2018.02.08-07.49.09:078][371]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.183229s)
+[2018.02.08-07.49.09:432][371]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.02.08-07.49.09:441][371]LogInit: FAudioDevice initialized.
+[2018.02.08-07.49.09:600][371]LogWorld: Game class is 'TopDownGameMode_C'
+[2018.02.08-07.49.09:615][371]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2018.02.08-07.49.09:615][371]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2018.02.08-15.49.09
+[2018.02.08-07.49.09:615][371]LogActor:Warning: GameSession /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.02.08-07.49.09:636][371]LogActor:Warning: GameNetworkManager /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.02.08-07.49.09:707][371]LogWorld: Bringing up level for play took: 0.105653
+[2018.02.08-07.49.10:165][371]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 1.604
+[2018.02.08-07.49.10:175][371]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.02.08-07.49.10:571][372]LogRenderer: Reallocating scene render targets to support 1280x720 (Frame:1883).
+[2018.02.08-07.49.15:686][442]LogBlueprintUserMessages: [TopDownCharacter_C_2] item placed to slot :  0
+[2018.02.08-07.49.15:686][442]LogBlueprintUserMessages: [Item_Statue9_389] use
+[2018.02.08-07.49.18:604][485]LogBlueprintUserMessages: [TopDownCharacter_C_2] item placed to slot :  1
+[2018.02.08-07.49.18:605][485]LogBlueprintUserMessages: [Item_Statue_C_6] use
+[2018.02.08-07.50.05:978][218]LogBlueprintUserMessages: [TopDownCharacter_C_2] item placed to slot :  2
+[2018.02.08-07.50.05:980][218]LogBlueprintUserMessages: [Item_aid_base_C_6] use
+[2018.02.08-07.50.06:551][227]LogBlueprintUserMessages: [TopDownCharacter_C_2] item stacked to slot :  2
+[2018.02.08-07.50.06:553][227]LogBlueprintUserMessages: [Item_aid_base_C_9] use
+[2018.02.08-07.50.07:071][235]LogBlueprintUserMessages: [Item_aid_base_C_5] long distance for picked up
+[2018.02.08-07.50.07:391][240]LogBlueprintUserMessages: [Item_aid_base_C_5] long distance for picked up
+[2018.02.08-07.50.07:721][245]LogBlueprintUserMessages: [Item_aid_base_C_7] long distance for picked up
+[2018.02.08-07.50.10:122][282]LogBlueprintUserMessages: [TopDownCharacter_C_2] item stacked to slot :  2
+[2018.02.08-07.50.10:123][282]LogBlueprintUserMessages: [Item_aid_base_C_7] use
+[2018.02.08-07.50.10:739][291]LogBlueprintUserMessages: [Item_aid_base_C_5] long distance for picked up
+[2018.02.08-07.50.12:856][324]LogBlueprintUserMessages: [TopDownCharacter_C_2] item stacked to slot :  2
+[2018.02.08-07.50.12:858][324]LogBlueprintUserMessages: [Item_aid_base_C_5] use
+[2018.02.08-07.50.14:206][345]LogBlueprintUserMessages: [Item_aid_base_C_8] long distance for picked up
+[2018.02.08-07.50.14:523][350]LogBlueprintUserMessages: [TopDownCharacter_C_2] item stacked to slot :  2
+[2018.02.08-07.50.14:525][350]LogBlueprintUserMessages: [Item_aid_base_C_8] use
+[2018.02.08-07.50.14:843][355]LogBlueprintUserMessages: [Item_Statue_C_9] long distance for picked up
+[2018.02.08-07.50.18:864][418]LogBlueprintUserMessages: [TopDownCharacter_C_2] item placed to slot :  3
+[2018.02.08-07.50.18:866][418]LogBlueprintUserMessages: [Item_Statue21] use
+[2018.02.08-07.50.19:308][425]LogBlueprintUserMessages: [TopDownCharacter_C_2] item placed to slot :  4
+[2018.02.08-07.50.19:310][425]LogBlueprintUserMessages: [Item_Statue17] use
+[2018.02.08-07.50.19:752][432]LogBlueprintUserMessages: [TopDownCharacter_C_2] item placed to slot :  5
+[2018.02.08-07.50.19:755][432]LogBlueprintUserMessages: [Item_Statue19_1489] use
+[2018.02.08-07.50.20:007][436]LogBlueprintUserMessages: [TopDownCharacter_C_2] item placed to slot :  6
+[2018.02.08-07.50.20:010][436]LogBlueprintUserMessages: [Item_Statue16_1328] use
+[2018.02.08-07.50.33:693][651]LogBlueprintUserMessages: [TopDownCharacter_C_2] Item dropped from  2
+[2018.02.08-07.50.35:233][675]LogBlueprintUserMessages: [TopDownCharacter_C_2] Item dropped from  2
+[2018.02.08-07.50.43:961][807]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.02.08-07.50.44:228][807]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.02.08-07.50.44:390][807]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000006A1B3D80
+[2018.02.08-07.52.24:269][829]LogEditorTransaction: Undo Paste clipboard contents
+[2018.02.08-07.53.10:518][842]Cmd: TRANSACTION UNDO
+[2018.02.08-07.53.10:518][842]LogEditorTransaction: Undo Edit Is Volatile
+[2018.02.08-07.53.10:802][847]Cmd: TRANSACTION UNDO
+[2018.02.08-07.53.10:802][847]LogEditorTransaction: Undo Edit Is Volatile
+[2018.02.08-07.53.25:614][156]LogWindows:Error: Windows GetLastError: Операция успешно завершена. (0)
+[2018.02.08-07.53.33:724][156]LogCrashTracker: 
+
+
+[2018.02.08-07.53.33:931][156]LogCrashTracker: 
+
+
+[2018.02.08-07.53.33:931][156]LogWindows: === Critical error: ===
+Assertion failed: IsValid() [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.9\Engine\Source\Runtime\Core\Public\Templates\SharedPointer.h] [Line: 708] 
+
+
+
+
+
+[2018.02.08-07.53.34:173][156]LogExit: Executing StaticShutdownAfterError
+[2018.02.08-07.53.35:213][156]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2018.02.08-07.53.35:213][156]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2018.02.08-07.53.35:213][156]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2018.02.08-07.53.35:213][156]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2018.02.08-07.53.35:214][156]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2018.02.08-07.53.35:214][156]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2018.02.08-07.53.35:214][156]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2018.02.08-07.53.35:214][156]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2018.02.08-07.53.35:214][156]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2018.02.08-07.53.35:215][156]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2018.02.08-07.53.35:215][156]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2018.02.08-07.53.35:215][156]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2018.02.08-07.53.35:215][156]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2018.02.08-07.53.35:215][156]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2018.02.08-07.53.35:216][156]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2018.02.08-07.53.35:216][156]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2018.02.08-07.53.35:216][156]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2018.02.08-07.53.35:216][156]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2018.02.08-07.53.35:216][156]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2018.02.08-07.53.35:216][156]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2018.02.08-07.53.35:230][156]LogWindows: FPlatformMisc::RequestExit(1)
+[2018.02.08-07.53.35:230][156]Log file closed, 02/08/18 15:53:35
