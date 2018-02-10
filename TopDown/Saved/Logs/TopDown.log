@@ -1,791 +1,123 @@
-﻿[2018.02.08-10.56.14:855][  0]Log file open, 02/08/18 18:56:14
-[2018.02.08-10.56.14:855][  0]LogInit:Display: Running engine for game: TopDown
-[2018.02.08-10.56.14:855][  0]LogInit:Display: RandInit(-1337843734) SRandInit(-1337843733).
-[2018.02.08-10.56.14:855][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
-[2018.02.08-10.56.14:855][  0]LogStats: Stats thread started at 0.063349
-[2018.02.08-10.56.14:855][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
-[2018.02.08-10.56.14:855][  0]LogInit: API Version: 2672455
-[2018.02.08-10.56.14:855][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
-[2018.02.08-10.56.14:855][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
-[2018.02.08-10.56.14:855][  0]LogInit: Build Configuration: Development
-[2018.02.08-10.56.14:855][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
-[2018.02.08-10.56.14:855][  0]LogInit: Command line:  
-[2018.02.08-10.56.14:855][  0]LogInit: Base directory: D:/UE_4.9/Engine/Binaries/Win64/
-[2018.02.08-10.56.14:855][  0]LogInit: Rocket: 1
-[2018.02.08-10.56.14:870][  0]LogInit: Using libcurl 7.41.0
-[2018.02.08-10.56.14:870][  0]LogInit:  - built for x86_64-pc-win32
-[2018.02.08-10.56.14:870][  0]LogInit:  - supports SSL with WinSSL
-[2018.02.08-10.56.14:870][  0]LogInit:  - other features:
-[2018.02.08-10.56.14:870][  0]LogInit:      CURL_VERSION_SSL
-[2018.02.08-10.56.14:870][  0]LogInit:      CURL_VERSION_IPV6
-[2018.02.08-10.56.14:870][  0]LogInit:      CURL_VERSION_ASYNCHDNS
-[2018.02.08-10.56.14:870][  0]LogInit:      CURL_VERSION_LARGEFILE
-[2018.02.08-10.56.14:870][  0]LogInit:      CURL_VERSION_IDN
-[2018.02.08-10.56.14:870][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
-[2018.02.08-10.56.14:870][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
-[2018.02.08-10.56.14:870][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
-[2018.02.08-10.56.14:870][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
-[2018.02.08-10.56.14:870][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
-[2018.02.08-10.56.14:880][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[2018.02.08-10.56.14:892][  0]LogInit: Object subsystem initialized
-[2018.02.08-10.56.14:894][  0]LogInit: Selected Device Profile: [Windows]
-[2018.02.08-10.56.14:894][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.02.08-10.56.14:904][  0]LogInit: Computer: 1-ПК
-[2018.02.08-10.56.14:904][  0]LogInit: User: 1
-[2018.02.08-10.56.14:904][  0]LogInit: CPU Page size=4096, Cores=2
-[2018.02.08-10.56.14:904][  0]LogInit: High frequency timer resolution =2.338515 MHz
-[2018.02.08-10.56.14:904][  0]LogMemory: Memory total: Physical=3.9GB (4GB approx)
-[2018.02.08-10.56.14:904][  0]LogMemory: Platform Memory Stats for Windows
-[2018.02.08-10.56.14:904][  0]LogMemory: Process Physical Memory: 59.90 MB used, 59.90 MB peak
-[2018.02.08-10.56.14:904][  0]LogMemory: Process Virtual Memory: 63.74 MB used, 63.74 MB peak
-[2018.02.08-10.56.14:904][  0]LogMemory: Physical Memory: 1404.28 MB used, 4010.14 MB total
-[2018.02.08-10.56.14:904][  0]LogMemory: Virtual Memory: 350.29 MB used, 8388608.00 MB total
-[2018.02.08-10.56.15:009][  0]LogTextLocalizationManager: No translations for ('ru-RU') exist, falling back to 'en' for localization and internationalization data.
-[2018.02.08-10.56.16:209][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce 410M (Feature Level 11_0)
-[2018.02.08-10.56.16:209][  0]LogD3D11RHI: Adapter has 979MB of dedicated video memory, 0MB of dedicated system memory, and 1749MB of shared system memory, 1 output[s]
-[2018.02.08-10.56.16:243][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA GeForce 410M (Feature Level 11_0)
-[2018.02.08-10.56.16:243][  0]LogD3D11RHI: Adapter has 979MB of dedicated video memory, 0MB of dedicated system memory, and 1749MB of shared system memory, 0 output[s]
-[2018.02.08-10.56.16:243][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
-[2018.02.08-10.56.16:252][  0]LogD3D11RHI: !Direct3DDevice
-[2018.02.08-10.56.16:252][  0]LogRHI: Texture pool is 1297 MB (70% of 1854 MB)
-[2018.02.08-10.56.16:273][  0]LogD3D11RHI: Async texture creation enabled
-[2018.02.08-10.56.16:292][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../sergey/UnrealProjects/Game_1337/TopDown/Intermediate/Shaders/WorkingDirectory/6016/).
-[2018.02.08-10.56.16:292][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../sergey/UnrealProjects/Game_1337/TopDown/Intermediate/Shaders/tmp/079F7E34400C664752C9B49ABA118701/'.
-[2018.02.08-10.56.16:292][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2018.02.08-10.56.18:194][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2018.02.08-10.56.18:203][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2018.02.08-10.56.18:211][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.02.08-10.56.18:220][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2018.02.08-10.56.18:228][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2018.02.08-10.56.18:235][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2018.02.08-10.56.18:242][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2018.02.08-10.56.18:248][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2018.02.08-10.56.18:255][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2018.02.08-10.56.18:262][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2018.02.08-10.56.18:269][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2018.02.08-10.56.18:276][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.02.08-10.56.18:278][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2018.02.08-10.56.18:300][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2018.02.08-10.56.18:306][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.02.08-10.56.18:313][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2018.02.08-10.56.18:321][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2018.02.08-10.56.18:321][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2018.02.08-10.56.18:454][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2018.02.08-10.56.18:515][  0]LogDerivedDataCache: Loaded boot cache 0.06s 41MB C:/Users/1/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
-[2018.02.08-10.56.18:515][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/1/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
-[2018.02.08-10.56.18:515][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../sergey/UnrealProjects/Game_1337/TopDown/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.02.08-10.56.18:515][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.02.08-10.56.18:515][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../sergey/UnrealProjects/Game_1337/TopDown/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.02.08-10.56.18:515][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.02.08-10.56.18:743][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.02.08-10.56.18:754][  0]LogDerivedDataCache: Using Local data cache path C:/Users/1/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.02.08-10.56.19:020][  0]LogInit: Selected Device Profile: [Windows]
-[2018.02.08-10.56.19:021][  0]LogContentStreaming: Texture pool size is 0.000000MB
-[2018.02.08-10.56.19:057][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2018.02.08-10.56.19:057][  0]LogMeshUtilities: No automatic mesh merging module available
-[2018.02.08-10.56.19:562][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2018.02.08-10.56.20:590][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.02.08-10.56.20:705][  0]LogAssetRegistry: FAssetRegistry took 0.0106 seconds to start up
-[2018.02.08-10.56.20:984][  0]SourceControl: Info Source control is disabled
-[2018.02.08-10.56.20:985][  0]SourceControl: Info Source control is disabled
-[2018.02.08-10.56.21:002][  0]SourceControl: Info Source control is disabled
-[2018.02.08-10.56.21:019][  0]SourceControl: Info Source control is disabled
-[2018.02.08-10.56.21:251][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.02.08-10.56.21:377][  0]LogObj: 28361 objects as part of root set at end of initial load.
-[2018.02.08-10.56.21:377][  0]LogUObjectAllocator: 6038864 out of 0 bytes used by permanent object pool.
-[2018.02.08-10.56.21:458][  0]LogEngine: Initializing Engine...
-[2018.02.08-10.56.21:460][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
-[2018.02.08-10.56.21:465][  0]LogHMD: SteamVR failed to initialize.  Err: 110
-[2018.02.08-10.56.21:656][  0]LogAIModule: Creating AISystem for world NewWorld
-[2018.02.08-10.56.21:671][  0]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2018.02.08-10.56.21:709][  0]LogInit: FAudioDevice initialized.
-[2018.02.08-10.56.21:736][  0]LogDerivedDataCache: Saved boot cache 0.03s 41MB C:/Users/1/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
-[2018.02.08-10.56.21:756][  0]LogInit: Texture streaming: Enabled
-[2018.02.08-10.56.21:769][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
-[2018.02.08-10.56.21:769][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
-[2018.02.08-10.56.21:769][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId fdb2de1848db1fa47a6f94acde81dca0|be1dc849c34248278283a980c6ca8968|82021297-a794-427f-b0e0-602fe21b1b06
-[2018.02.08-10.56.21:769][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
-[2018.02.08-10.56.21:814][  0]LogInit: Transaction tracking system initialized
-[2018.02.08-10.56.21:870][  0]BlueprintLog: New page: Editor Load
-[2018.02.08-10.56.22:027][  0]LocalizationService: Info Localization service is disabled
-[2018.02.08-10.56.22:140][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
-[2018.02.08-10.56.22:140][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
-[2018.02.08-10.56.22:140][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/FirstPersonBP/FirstPersonOverview.FirstPersonOverview_C'
-[2018.02.08-10.56.22:386][  0]LogConsoleResponse:Display: 
-[2018.02.08-10.56.22:572][  0]LogCook:Display: Done creating registry. It took  0.00s.
-[2018.02.08-10.56.22:682][  0]LogFileCache: Scanning file cache for directory 'D:/sergey/UnrealProjects/Game_1337/TopDown/Content/' took 0.03s
-[2018.02.08-10.56.22:682][  0]SourceControl: Info Source control is disabled
-[2018.02.08-10.56.22:682][  0]Cmd: MAP LOAD FILE="../../../../sergey/UnrealProjects/Game_1337/TopDown/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.02.08-10.56.22:683][  0]LightingResults: New page: Lighting Build
-[2018.02.08-10.56.22:686][  0]MapCheck: New page: Map Check
-[2018.02.08-10.56.22:686][  0]LightingResults: New page: Lighting Build
-[2018.02.08-10.56.22:709][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002556A160
-[2018.02.08-10.56.22:723][  0]LogLinker:Warning: Asset '../../../../sergey/UnrealProjects/Game_1337/TopDown/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.02.08-10.56.22:725][  0]LogLinker:Warning: Asset '../../../../sergey/UnrealProjects/Game_1337/TopDown/Content/Mannequin/Animations/ThirdPerson_Jump.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.02.08-10.56.22:727][  0]LogLinker:Warning: Asset '../../../../sergey/UnrealProjects/Game_1337/TopDown/Content/Mannequin/Animations/ThirdPersonJump_Loop.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.02.08-10.56.22:729][  0]LogLinker:Warning: Asset '../../../../sergey/UnrealProjects/Game_1337/TopDown/Content/Mannequin/Animations/ThirdPersonJump_Start.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.02.08-10.56.22:730][  0]LogLinker:Warning: Asset '../../../../sergey/UnrealProjects/Game_1337/TopDown/Content/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.02.08-10.56.22:731][  0]LogLinker:Warning: Asset '../../../../sergey/UnrealProjects/Game_1337/TopDown/Content/Mannequin/Animations/ThirdPersonIdle.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.02.08-10.56.22:732][  0]LogLinker:Warning: Asset '../../../../sergey/UnrealProjects/Game_1337/TopDown/Content/Mannequin/Animations/ThirdPersonRun.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.02.08-10.56.22:734][  0]LogLinker:Warning: Asset '../../../../sergey/UnrealProjects/Game_1337/TopDown/Content/Mannequin/Animations/ThirdPersonWalk.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.02.08-10.56.23:833][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/TopDownBP/Blueprints/Inventory/Chests/chest-base.chest-base_C:UserConstructionScript; removing parent information, but keeping function
-[2018.02.08-10.56.23:847][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/TopDownBP/Blueprints/Inventory/Item/Items/Base_Items/Item_aid_base.Item_aid_base_C:UserConstructionScript; removing parent information, but keeping function
-[2018.02.08-10.56.23:865][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/TopDownBP/Blueprints/Inventory/Item/Items/Base_Items/Item_Statue.Item_Statue_C:UserConstructionScript; removing parent information, but keeping function
-[2018.02.08-10.56.24:901][  0]LogAIModule: Creating AISystem for world TopDownExampleMap
-[2018.02.08-10.56.24:937][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.02.08-10.56.24:937][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.02.08-10.56.25:037][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 98.838ms to complete.
-[2018.02.08-10.56.25:037][  0]LogFileHelpers: Loading map 'TopDownExampleMap' took 2.354
-[2018.02.08-10.56.25:176][  0]LogCollectionManager: Loaded 0 collections in 0.002070 seconds
-[2018.02.08-10.56.25:219][  0]LogFileCache: Scanning file cache for directory 'D:/sergey/UnrealProjects/Game_1337/TopDown/Saved/Collections/' took 0.01s
-[2018.02.08-10.56.25:219][  0]LogFileCache: Scanning file cache for directory 'D:/sergey/UnrealProjects/Game_1337/TopDown/Content/Developers/1/Collections/' took 0.01s
-[2018.02.08-10.56.25:219][  0]LogFileCache: Scanning file cache for directory 'D:/sergey/UnrealProjects/Game_1337/TopDown/Content/Collections/' took 0.01s
-[2018.02.08-10.56.25:219][  0]LogContentBrowser: Native class hierarchy populated in 0.0104 seconds. Added 1868 classes and 335 folders.
-[2018.02.08-10.56.25:225][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
-[2018.02.08-10.56.25:233][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2018.02.08-10.56.25:305][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2018.02.08-10.56.25:346][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2018.02.08-10.56.25:351][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2018.02.08-10.56.25:378][  0]LogLoad: Full Startup: 11.20 seconds (BP compile: 0.49 seconds)
-[2018.02.08-10.56.25:397][  0]LoadErrors:Error: Error /Game/TopDownBP/Blueprints/Inventory/Item/Item : Failed import for ArrayProperty /Game/TopDownBP/Blueprints/Inventory/Char_Action_Struct.Char_Action_Struct:Inventory_16_E59A22E3453A40BB344B24AB0AE7ACDA
-[2018.02.08-10.56.25:397][  0]LoadErrors:Error: Error /Game/TopDownBP/Blueprints/Inventory/Widgets/Inv_W_button-cursor-click : Failed import for ArrayProperty /Game/TopDownBP/Blueprints/Inventory/Char_Action_Struct.Char_Action_Struct:Inventory_16_E59A22E3453A40BB344B24AB0AE7ACDA
-[2018.02.08-10.56.25:398][  0]LoadErrors:Error: Error /Game/TopDownBP/Blueprints/Inventory/Widgets/Inv_W_drop_count : Failed import for ArrayProperty /Game/TopDownBP/Blueprints/Inventory/Char_Action_Struct.Char_Action_Struct:Inventory_16_E59A22E3453A40BB344B24AB0AE7ACDA
-[2018.02.08-10.56.25:398][  0]LoadErrors:Error: Error /Game/TopDownBP/Blueprints/Inventory/Widgets/Inv_W_drop_count : Failed import for StructProperty /Game/TopDownBP/Blueprints/Inventory/Char_Action_Struct.Char_Action_Struct:Inventory_16_E59A22E3453A40BB344B24AB0AE7ACDA.Inventory_16_E59A22E3453A40BB344B24AB0AE7ACDA
-[2018.02.08-10.56.25:452][  0]LogContentStreaming: Texture pool size now 200 MB
-[2018.02.08-10.56.25:702][  0]LogRenderer: Reallocating scene render targets to support 536x352 (Frame:2).
-[2018.02.08-10.56.26:739][ 10]LogAssetRegistry: Asset discovery search completed in 6.0449 seconds
-[2018.02.08-10.56.26:739][ 10]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000002 seconds (found 0 objects)
-[2018.02.08-10.56.26:739][ 10]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000057 seconds (updated 0 objects)
-[2018.02.08-10.56.32:027][143]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 107 classes and 0 folders.
-[2018.02.08-10.56.37:825][258]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.02.08-10.58.11:475][355]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2018.02.08-10.58.14:899][443]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2018.02.08-10.58.27:670][774]LogSavePackage: Save=31.136427ms
-[2018.02.08-10.58.27:670][774]LogSavePackage: Moving '../../../../sergey/UnrealProjects/Game_1337/TopDown/Saved/Char_Action_Struct140536A1447E98FEB722E385C073CF42.tmp' to '../../../../sergey/UnrealProjects/Game_1337/TopDown/Content/TopDownBP/Blueprints/Inventory/Char_Action_Struct.uasset'
-[2018.02.08-10.58.27:671][774]LogSavePackage: Total save time: 46.042468ms
-[2018.02.08-10.58.27:671][774]LogSavePackage:Warning: Finished SavePackage ../../../../sergey/UnrealProjects/Game_1337/TopDown/Content/TopDownBP/Blueprints/Inventory/Char_Action_Struct.uasset
-[2018.02.08-10.58.31:390][858]BlueprintLog: New page: Compile Char_Intarface
-[2018.02.08-10.58.31:792][858]BlueprintEditorCompileResults: Info [0137.61] Compile of Char_Intarface successful! [in 401 ms]
-[2018.02.08-10.59.29:941][148]BlueprintLog: New page: Compile Char_Intarface
-[2018.02.08-10.59.30:287][148]BlueprintEditorCompileResults: Info [0196.11] Compile of Char_Intarface successful! [in 345 ms]
-[2018.02.08-11.00.01:382][819]BlueprintLog: New page: Compile Char_Intarface
-[2018.02.08-11.00.01:757][819]BlueprintEditorCompileResults: Info [0227.57] Compile of Char_Intarface successful! [in 374 ms]
-[2018.02.08-11.00.02:445][833]LogSavePackage: Save=19.165581ms
-[2018.02.08-11.00.02:445][833]LogSavePackage: Moving '../../../../sergey/UnrealProjects/Game_1337/TopDown/Saved/Char_Intarface25094E7C411FE1C70CC3D5A6ECB2F8EB.tmp' to '../../../../sergey/UnrealProjects/Game_1337/TopDown/Content/TopDownBP/Blueprints/Inventory/Char_Intarface.uasset'
-[2018.02.08-11.00.02:446][833]LogSavePackage: Total save time: 33.247169ms
-[2018.02.08-11.00.02:446][833]LogSavePackage:Warning: Finished SavePackage ../../../../sergey/UnrealProjects/Game_1337/TopDown/Content/TopDownBP/Blueprints/Inventory/Char_Intarface.uasset
-[2018.02.08-11.00.05:848][913]BlueprintLog: New page: Compile Inv_W_main
-[2018.02.08-11.00.06:067][913]BlueprintEditorCompileResults: Info [0231.88] Compile of Inv_W_main successful! [in 217 ms]
-[2018.02.08-11.00.06:671][924]LogSavePackage: Save=99.477234ms
-[2018.02.08-11.00.06:671][924]LogSavePackage: Moving '../../../../sergey/UnrealProjects/Game_1337/TopDown/Saved/Inv_W_mainE6B5773846A0D76AFE1DE6AC83901926.tmp' to '../../../../sergey/UnrealProjects/Game_1337/TopDown/Content/TopDownBP/Blueprints/Inventory/Widgets/Inv_W_main.uasset'
-[2018.02.08-11.00.06:672][924]LogSavePackage: Total save time: 114.784382ms
-[2018.02.08-11.00.06:672][924]LogSavePackage:Warning: Finished SavePackage ../../../../sergey/UnrealProjects/Game_1337/TopDown/Content/TopDownBP/Blueprints/Inventory/Widgets/Inv_W_main.uasset
-[2018.02.08-11.00.08:137][955]LogSavePackage: Save=111.243675ms
-[2018.02.08-11.00.08:137][955]LogSavePackage: Moving '../../../../sergey/UnrealProjects/Game_1337/TopDown/Saved/Inv_W_button-cursor-click58778F0C46AD79AF98104D80EC509B52.tmp' to '../../../../sergey/UnrealProjects/Game_1337/TopDown/Content/TopDownBP/Blueprints/Inventory/Widgets/Inv_W_button-cursor-click.uasset'
-[2018.02.08-11.00.08:139][955]LogSavePackage: Total save time: 126.047939ms
-[2018.02.08-11.00.08:139][955]LogSavePackage:Warning: Finished SavePackage ../../../../sergey/UnrealProjects/Game_1337/TopDown/Content/TopDownBP/Blueprints/Inventory/Widgets/Inv_W_button-cursor-click.uasset
-[2018.02.08-11.00.09:097][978]BlueprintLog: New page: Compile Inv_W_button-cursor-click
-[2018.02.08-11.00.09:147][978]LogBlueprint:Error: [compiler Inv_W_button-cursor-click] Error The current value of the ' Inventory ' pin is invalid: Array inputs (like 'Inventory') must have an input wired into them (try connecting a MakeArray node).
-[2018.02.08-11.00.09:365][978]LogBlueprint:Warning: [compiler Inv_W_button-cursor-click] Warning [0235.18] Compile of Inv_W_button-cursor-click failed. 1 Fatal Issue(s) 0 Warning(s) [in 267 ms]
-[2018.02.08-11.00.09:365][978]BlueprintEditorCompileResults:Error: Error The current value of the ' Inventory ' pin is invalid: Array inputs (like 'Inventory') must have an input wired into them (try connecting a MakeArray node).
-[2018.02.08-11.00.09:365][978]BlueprintEditorCompileResults:Warning: Warning [0235.18] Compile of Inv_W_button-cursor-click failed. 1 Fatal Issue(s) 0 Warning(s) [in 267 ms]
-[2018.02.08-11.00.09:928][988]LogSavePackage: Save=101.308739ms
-[2018.02.08-11.00.09:928][988]LogSavePackage: Moving '../../../../sergey/UnrealProjects/Game_1337/TopDown/Saved/Inv_W_button-cursor-click74F4A7F142F5AC6D84EF0EB924FB1FBA.tmp' to '../../../../sergey/UnrealProjects/Game_1337/TopDown/Content/TopDownBP/Blueprints/Inventory/Widgets/Inv_W_button-cursor-click.uasset'
-[2018.02.08-11.00.09:929][988]LogSavePackage: Total save time: 114.227619ms
-[2018.02.08-11.00.09:929][988]LogSavePackage:Warning: Finished SavePackage ../../../../sergey/UnrealProjects/Game_1337/TopDown/Content/TopDownBP/Blueprints/Inventory/Widgets/Inv_W_button-cursor-click.uasset
-[2018.02.08-11.00.41:812][751]BlueprintLog: New page: Compile Inv_W_button-cursor-click
-[2018.02.08-11.00.42:013][751]BlueprintEditorCompileResults: Info [0267.83] Compile of Inv_W_button-cursor-click successful! [in 200 ms]
-[2018.02.08-11.00.42:607][760]LogSavePackage: Save=108.195587ms
-[2018.02.08-11.00.42:607][760]LogSavePackage: Moving '../../../../sergey/UnrealProjects/Game_1337/TopDown/Saved/Inv_W_button-cursor-clickD20020CE495C2149DBC0EBB07AB682CF.tmp' to '../../../../sergey/UnrealProjects/Game_1337/TopDown/Content/TopDownBP/Blueprints/Inventory/Widgets/Inv_W_button-cursor-click.uasset'
-[2018.02.08-11.00.42:608][760]LogSavePackage: Total save time: 121.700738ms
-[2018.02.08-11.00.42:608][760]LogSavePackage:Warning: Finished SavePackage ../../../../sergey/UnrealProjects/Game_1337/TopDown/Content/TopDownBP/Blueprints/Inventory/Widgets/Inv_W_button-cursor-click.uasset
-[2018.02.08-11.00.44:200][796]BlueprintLog: New page: Compile Inv_W_drop_count
-[2018.02.08-11.00.44:398][796]BlueprintEditorCompileResults: Info [0270.21] Compile of Inv_W_drop_count successful! [in 198 ms]
-[2018.02.08-11.00.45:050][807]LogSavePackage: Save=110.845985ms
-[2018.02.08-11.00.45:050][807]LogSavePackage: Moving '../../../../sergey/UnrealProjects/Game_1337/TopDown/Saved/Inv_W_drop_count853FB84F4744A2A4578D20937A6199FB.tmp' to '../../../../sergey/UnrealProjects/Game_1337/TopDown/Content/TopDownBP/Blueprints/Inventory/Widgets/Inv_W_drop_count.uasset'
-[2018.02.08-11.00.45:052][807]LogSavePackage: Total save time: 125.577554ms
-[2018.02.08-11.00.45:052][807]LogSavePackage:Warning: Finished SavePackage ../../../../sergey/UnrealProjects/Game_1337/TopDown/Content/TopDownBP/Blueprints/Inventory/Widgets/Inv_W_drop_count.uasset
-[2018.02.08-11.00.46:601][839]BlueprintLog: New page: Compile TopDownCharacter
-[2018.02.08-11.00.46:738][839]LogBlueprint:Error: [compiler TopDownCharacter] Error Default value '' for  Items  is invalid: 'Array inputs (like 'Items') must have an input wired into them (try connecting a MakeArray node).'
-[2018.02.08-11.00.46:738][839]LogBlueprint:Error: [compiler TopDownCharacter] Error Default value '' for  Return Inventory  is invalid: 'Array inputs (like 'Return Inventory') must have an input wired into them (try connecting a MakeArray node).'
-[2018.02.08-11.00.47:095][839]LogBlueprint:Warning: [compiler TopDownCharacter] Warning [0272.91] Compile of TopDownCharacter failed. 2 Fatal Issue(s) 0 Warning(s) [in 492 ms]
-[2018.02.08-11.00.47:095][839]BlueprintEditorCompileResults:Error: Error Default value '' for  Items  is invalid: 'Array inputs (like 'Items') must have an input wired into them (try connecting a MakeArray node).'
-[2018.02.08-11.00.47:095][839]BlueprintEditorCompileResults:Error: Error Default value '' for  Return Inventory  is invalid: 'Array inputs (like 'Return Inventory') must have an input wired into them (try connecting a MakeArray node).'
-[2018.02.08-11.00.47:095][839]BlueprintEditorCompileResults:Warning: Warning [0272.91] Compile of TopDownCharacter failed. 2 Fatal Issue(s) 0 Warning(s) [in 492 ms]
-[2018.02.08-11.00.48:039][855]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/TopDownCharacter" FILE="../../../../sergey/UnrealProjects/Game_1337/TopDown/Content/TopDownBP/Blueprints/TopDownCharacter.uasset" SILENT=true
-[2018.02.08-11.00.48:601][855]LogSavePackage: Save=546.186340ms
-[2018.02.08-11.00.48:601][855]LogSavePackage: Moving '../../../../sergey/UnrealProjects/Game_1337/TopDown/Saved/TopDownCharacterD81C567E437A14DDFC21DF99D7B7F8C7.tmp' to '../../../../sergey/UnrealProjects/Game_1337/TopDown/Content/TopDownBP/Blueprints/TopDownCharacter.uasset'
-[2018.02.08-11.00.48:603][855]LogSavePackage: Total save time: 562.564276ms
-[2018.02.08-11.00.48:603][855]LogSavePackage:Warning: Finished SavePackage ../../../../sergey/UnrealProjects/Game_1337/TopDown/Content/TopDownBP/Blueprints/TopDownCharacter.uasset
-[2018.02.08-11.00.55:729][ 52]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'TopDownCharacter', cached variable property's owner is '/Game/TopDownBP/Blueprints/TopDownCharacter.SKEL_TopDownCharacter_C'
-[2018.02.08-11.01.58:326][599]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2018.02.08-11.02.24:555][218]BlueprintLog: New page: Compile TopDownCharacter
-[2018.02.08-11.02.24:666][218]LogBlueprint:Warning: [compiler TopDownCharacter] Warning ReturnNode Exec pin has no connections on  EdGraphPin_50055 
-[2018.02.08-11.02.24:693][218]LogBlueprint:Error: [compiler TopDownCharacter] Error Default value '' for  Items  is invalid: 'Array inputs (like 'Items') must have an input wired into them (try connecting a MakeArray node).'
-[2018.02.08-11.02.24:693][218]LogBlueprint:Error: [compiler TopDownCharacter] Error Default value '' for  Return Inventory  is invalid: 'Array inputs (like 'Return Inventory') must have an input wired into them (try connecting a MakeArray node).'
-[2018.02.08-11.02.24:973][218]LogBlueprint:Warning: [compiler TopDownCharacter] Warning [0370.79] Compile of TopDownCharacter failed. 2 Fatal Issue(s) 1 Warning(s) [in 417 ms]
-[2018.02.08-11.02.24:973][218]BlueprintEditorCompileResults:Warning: Warning ReturnNode Exec pin has no connections on  EdGraphPin_50055 
-[2018.02.08-11.02.24:973][218]BlueprintEditorCompileResults:Error: Error Default value '' for  Items  is invalid: 'Array inputs (like 'Items') must have an input wired into them (try connecting a MakeArray node).'
-[2018.02.08-11.02.24:973][218]BlueprintEditorCompileResults:Error: Error Default value '' for  Return Inventory  is invalid: 'Array inputs (like 'Return Inventory') must have an input wired into them (try connecting a MakeArray node).'
-[2018.02.08-11.02.24:973][218]BlueprintEditorCompileResults:Warning: Warning [0370.79] Compile of TopDownCharacter failed. 2 Fatal Issue(s) 1 Warning(s) [in 417 ms]
-[2018.02.08-11.03.15:784][427]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'TopDownCharacter', cached variable property's owner is '/Game/TopDownBP/Blueprints/TopDownCharacter.SKEL_TopDownCharacter_C'
-[2018.02.08-11.03.16:932][461]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'TopDownCharacter', cached variable property's owner is '/Game/TopDownBP/Blueprints/TopDownCharacter.SKEL_TopDownCharacter_C'
-[2018.02.08-11.03.36:103][969]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'TopDownCharacter', cached variable property's owner is '/Game/TopDownBP/Blueprints/TopDownCharacter.SKEL_TopDownCharacter_C'
-[2018.02.08-11.03.38:463][ 33]BlueprintLog: New page: Compile TopDownCharacter
-[2018.02.08-11.03.38:606][ 33]LogBlueprint:Error: [compiler TopDownCharacter] Error Default value '' for  Items  is invalid: 'Array inputs (like 'Items') must have an input wired into them (try connecting a MakeArray node).'
-[2018.02.08-11.03.38:607][ 33]LogBlueprint:Error: [compiler TopDownCharacter] Error Default value '' for  Return Inventory  is invalid: 'Array inputs (like 'Return Inventory') must have an input wired into them (try connecting a MakeArray node).'
-[2018.02.08-11.03.38:891][ 33]LogBlueprint:Warning: [compiler TopDownCharacter] Warning [0444.70] Compile of TopDownCharacter failed. 2 Fatal Issue(s) 0 Warning(s) [in 427 ms]
-[2018.02.08-11.03.38:891][ 33]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  EdGraphPin_44702 
-[2018.02.08-11.03.38:891][ 33]BlueprintEditorCompileResults:Error: Error Default value '' for  Items  is invalid: 'Array inputs (like 'Items') must have an input wired into them (try connecting a MakeArray node).'
-[2018.02.08-11.03.38:891][ 33]BlueprintEditorCompileResults:Error: Error Default value '' for  Return Inventory  is invalid: 'Array inputs (like 'Return Inventory') must have an input wired into them (try connecting a MakeArray node).'
-[2018.02.08-11.03.38:891][ 33]BlueprintEditorCompileResults:Warning: Warning [0444.70] Compile of TopDownCharacter failed. 2 Fatal Issue(s) 0 Warning(s) [in 427 ms]
-[2018.02.08-11.03.41:655][ 93]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'TopDownCharacter', cached variable property's owner is '/Game/TopDownBP/Blueprints/TopDownCharacter.SKEL_TopDownCharacter_C'
-[2018.02.08-11.03.48:830][310]BlueprintLog: New page: Compile TopDownCharacter
-[2018.02.08-11.03.48:967][310]LogBlueprint:Error: [compiler TopDownCharacter] Error Default value '' for  Items  is invalid: 'Array inputs (like 'Items') must have an input wired into them (try connecting a MakeArray node).'
-[2018.02.08-11.03.48:967][310]LogBlueprint:Error: [compiler TopDownCharacter] Error Default value '' for  Return Inventory  is invalid: 'Array inputs (like 'Return Inventory') must have an input wired into them (try connecting a MakeArray node).'
-[2018.02.08-11.03.49:254][310]LogBlueprint:Warning: [compiler TopDownCharacter] Warning [0455.06] Compile of TopDownCharacter failed. 2 Fatal Issue(s) 0 Warning(s) [in 423 ms]
-[2018.02.08-11.03.49:254][310]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  EdGraphPin_44702 
-[2018.02.08-11.03.49:254][310]BlueprintEditorCompileResults:Error: Error Default value '' for  Items  is invalid: 'Array inputs (like 'Items') must have an input wired into them (try connecting a MakeArray node).'
-[2018.02.08-11.03.49:254][310]BlueprintEditorCompileResults:Error: Error Default value '' for  Return Inventory  is invalid: 'Array inputs (like 'Return Inventory') must have an input wired into them (try connecting a MakeArray node).'
-[2018.02.08-11.03.49:254][310]BlueprintEditorCompileResults:Warning: Warning [0455.06] Compile of TopDownCharacter failed. 2 Fatal Issue(s) 0 Warning(s) [in 423 ms]
-[2018.02.08-11.04.48:835][ 38]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2018.02.08-11.04.52:656][116]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'TopDownCharacter', cached variable property's owner is '/Game/TopDownBP/Blueprints/TopDownCharacter.SKEL_TopDownCharacter_C'
-[2018.02.08-11.04.53:379][137]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'TopDownCharacter', cached variable property's owner is '/Game/TopDownBP/Blueprints/TopDownCharacter.SKEL_TopDownCharacter_C'
-[2018.02.08-11.04.56:459][218]BlueprintLog: New page: Compile TopDownCharacter
-[2018.02.08-11.04.56:601][218]LogBlueprint:Error: [compiler TopDownCharacter] Error Default value '' for  Items  is invalid: 'Array inputs (like 'Items') must have an input wired into them (try connecting a MakeArray node).'
-[2018.02.08-11.04.56:601][218]LogBlueprint:Error: [compiler TopDownCharacter] Error Default value '' for  Return Inventory  is invalid: 'Array inputs (like 'Return Inventory') must have an input wired into them (try connecting a MakeArray node).'
-[2018.02.08-11.04.56:788][218]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
-[2018.02.08-11.04.56:880][218]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'TopDownCharacter', cached variable property's owner is '/Game/TopDownBP/Blueprints/TopDownCharacter.SKEL_TopDownCharacter_C'
-[2018.02.08-11.04.56:886][218]LogBlueprint:Warning: [compiler TopDownCharacter] Warning [0522.69] Compile of TopDownCharacter failed. 2 Fatal Issue(s) 0 Warning(s) [in 426 ms]
-[2018.02.08-11.04.56:886][218]BlueprintEditorCompileResults:Error: Error Default value '' for  Items  is invalid: 'Array inputs (like 'Items') must have an input wired into them (try connecting a MakeArray node).'
-[2018.02.08-11.04.56:886][218]BlueprintEditorCompileResults:Error: Error Default value '' for  Return Inventory  is invalid: 'Array inputs (like 'Return Inventory') must have an input wired into them (try connecting a MakeArray node).'
-[2018.02.08-11.04.56:886][218]BlueprintEditorCompileResults:Warning: Warning [0522.69] Compile of TopDownCharacter failed. 2 Fatal Issue(s) 0 Warning(s) [in 426 ms]
-[2018.02.08-11.04.56:919][218]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'TopDownCharacter', cached variable property's owner is '/Game/TopDownBP/Blueprints/TopDownCharacter.SKEL_TopDownCharacter_C'
-[2018.02.08-11.05.00:804][313]BlueprintLog: New page: Compile TopDownCharacter
-[2018.02.08-11.05.00:940][313]LogBlueprint:Error: [compiler TopDownCharacter] Error Default value '' for  Items  is invalid: 'Array inputs (like 'Items') must have an input wired into them (try connecting a MakeArray node).'
-[2018.02.08-11.05.00:941][313]LogBlueprint:Error: [compiler TopDownCharacter] Error Default value '' for  Return Inventory  is invalid: 'Array inputs (like 'Return Inventory') must have an input wired into them (try connecting a MakeArray node).'
-[2018.02.08-11.05.01:127][313]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2018.02.08-11.05.01:219][313]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'TopDownCharacter', cached variable property's owner is '/Game/TopDownBP/Blueprints/TopDownCharacter.SKEL_TopDownCharacter_C'
-[2018.02.08-11.05.01:224][313]LogBlueprint:Warning: [compiler TopDownCharacter] Warning [0527.03] Compile of TopDownCharacter failed. 2 Fatal Issue(s) 0 Warning(s) [in 420 ms]
-[2018.02.08-11.05.01:224][313]BlueprintEditorCompileResults:Error: Error Default value '' for  Items  is invalid: 'Array inputs (like 'Items') must have an input wired into them (try connecting a MakeArray node).'
-[2018.02.08-11.05.01:225][313]BlueprintEditorCompileResults:Error: Error Default value '' for  Return Inventory  is invalid: 'Array inputs (like 'Return Inventory') must have an input wired into them (try connecting a MakeArray node).'
-[2018.02.08-11.05.01:225][313]BlueprintEditorCompileResults:Warning: Warning [0527.03] Compile of TopDownCharacter failed. 2 Fatal Issue(s) 0 Warning(s) [in 420 ms]
-[2018.02.08-11.05.01:257][313]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'TopDownCharacter', cached variable property's owner is '/Game/TopDownBP/Blueprints/TopDownCharacter.SKEL_TopDownCharacter_C'
-[2018.02.08-11.05.09:995][504]BlueprintLog: New page: Compile TopDownCharacter
-[2018.02.08-11.05.10:136][504]LogBlueprint:Error: [compiler TopDownCharacter] Error Default value '' for  Return Inventory  is invalid: 'Array inputs (like 'Return Inventory') must have an input wired into them (try connecting a MakeArray node).'
-[2018.02.08-11.05.10:321][504]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2018.02.08-11.05.10:417][504]LogBlueprint:Warning: [compiler TopDownCharacter] Warning [0536.22] Compile of TopDownCharacter failed. 1 Fatal Issue(s) 0 Warning(s) [in 421 ms]
-[2018.02.08-11.05.10:417][504]BlueprintEditorCompileResults:Error: Error Default value '' for  Return Inventory  is invalid: 'Array inputs (like 'Return Inventory') must have an input wired into them (try connecting a MakeArray node).'
-[2018.02.08-11.05.10:417][504]BlueprintEditorCompileResults:Warning: Warning [0536.22] Compile of TopDownCharacter failed. 1 Fatal Issue(s) 0 Warning(s) [in 421 ms]
-[2018.02.08-11.06.26:175][306]BlueprintLog: New page: Compile TopDownCharacter
-[2018.02.08-11.06.26:316][306]LogBlueprint:Error: [compiler TopDownCharacter] Error Could not find a pin for the parameter ReturnInv of Place_item on  Place Item 
-[2018.02.08-11.06.26:506][306]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2018.02.08-11.06.26:601][306]LogBlueprint:Warning: [compiler TopDownCharacter] Warning [0612.41] Compile of TopDownCharacter failed. 1 Fatal Issue(s) 0 Warning(s) [in 425 ms]
-[2018.02.08-11.06.26:601][306]BlueprintEditorCompileResults:Error: Error Could not find a pin for the parameter ReturnInv of Place_item on  Place Item 
-[2018.02.08-11.06.26:601][306]BlueprintEditorCompileResults:Warning: Warning [0612.41] Compile of TopDownCharacter failed. 1 Fatal Issue(s) 0 Warning(s) [in 425 ms]
-[2018.02.08-11.06.52:864][946]BlueprintLog: New page: Compile TopDownCharacter
-[2018.02.08-11.06.52:998][946]LogBlueprint:Error: [compiler TopDownCharacter] Error Could not find a pin for the parameter ReturnInv of Place_item on  Place Item 
-[2018.02.08-11.06.53:187][946]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2018.02.08-11.06.53:283][946]LogBlueprint:Warning: [compiler TopDownCharacter] Warning [0639.09] Compile of TopDownCharacter failed. 1 Fatal Issue(s) 0 Warning(s) [in 419 ms]
-[2018.02.08-11.06.53:284][946]BlueprintEditorCompileResults:Error: Error Could not find a pin for the parameter ReturnInv of Place_item on  Place Item 
-[2018.02.08-11.06.53:284][946]BlueprintEditorCompileResults:Warning: Warning [0639.09] Compile of TopDownCharacter failed. 1 Fatal Issue(s) 0 Warning(s) [in 419 ms]
-[2018.02.08-11.07.22:616][652]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'TopDownCharacter', cached variable property's owner is '/Game/TopDownBP/Blueprints/TopDownCharacter.SKEL_TopDownCharacter_C'
-[2018.02.08-11.07.28:061][788]BlueprintLog: New page: Compile TopDownCharacter
-[2018.02.08-11.07.28:280][788]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2018.02.08-11.07.28:370][788]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'TopDownCharacter', cached variable property's owner is '/Game/TopDownBP/Blueprints/TopDownCharacter.SKEL_TopDownCharacter_C'
-[2018.02.08-11.07.28:375][788]BlueprintEditorCompileResults: Info [0674.18] Compile of TopDownCharacter successful! [in 313 ms]
-[2018.02.08-11.07.28:403][788]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'TopDownCharacter', cached variable property's owner is '/Game/TopDownBP/Blueprints/TopDownCharacter.SKEL_TopDownCharacter_C'
-[2018.02.08-11.07.30:917][849]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
-[2018.02.08-11.07.30:917][849]BlueprintLog: New page: Pre-Play auto-recompile
-[2018.02.08-11.07.30:923][849]LogPlayLevel: [PlayLevel] Compiling Item before play...
-[2018.02.08-11.07.30:949][849]LogBlueprint:Error: [compiler Item] Error The current value of the ' Inventory ' pin is invalid: Array inputs (like 'Inventory') must have an input wired into them (try connecting a MakeArray node).
-[2018.02.08-11.07.30:960][849]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2018.02.08-11.07.31:395][849]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'TopDownCharacter', cached variable property's owner is '/Game/TopDownBP/Blueprints/TopDownCharacter.SKEL_TopDownCharacter_C'
-[2018.02.08-11.07.31:423][849]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'TopDownCharacter', cached variable property's owner is '/Game/TopDownBP/Blueprints/TopDownCharacter.SKEL_TopDownCharacter_C'
-[2018.02.08-11.07.31:827][849]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'TopDownCharacter', cached variable property's owner is '/Game/TopDownBP/Blueprints/TopDownCharacter.SKEL_TopDownCharacter_C'
-[2018.02.08-11.07.31:833][849]LogBlueprint:Warning: [compiler Item] Warning [0677.64] Compile of Item failed. 1 Fatal Issue(s) 0 Warning(s) [in 900 ms]
-[2018.02.08-11.07.31:834][849]LogBlueprint:Warning: [compiler Item] Warning [0677.64] Compile of Item failed. 1 Fatal Issue(s) 1 Warning(s) [in 1 ms]
-[2018.02.08-11.07.31:834][849]LogBlueprint:Warning: [compiler Item] Warning [0677.64] Compile of Item failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms]
-[2018.02.08-11.07.31:835][849]LogBlueprint:Warning: [compiler Item] Warning [0677.64] Compile of Item failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms]
-[2018.02.08-11.07.31:840][849]LogBlueprint:Warning: [compiler Item] Warning [0677.64] Compile of Item failed. 1 Fatal Issue(s) 4 Warning(s) [in 5 ms]
-[2018.02.08-11.07.31:840][849]LogBlueprint:Warning: [compiler Item] Warning [0677.64] Compile of Item failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms]
-[2018.02.08-11.07.31:840][849]LogPlayLevel: PlayLevel: Blueprint regeneration took 923 ms (7 blueprints)
-[2018.02.08-11.07.31:842][849]LogPlayLevel: [PlayLevel] Compiling chest before play...
-[2018.02.08-11.07.32:105][849]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'TopDownCharacter', cached variable property's owner is '/Game/TopDownBP/Blueprints/TopDownCharacter.SKEL_TopDownCharacter_C'
-[2018.02.08-11.07.32:113][849]LogPlayLevel: PlayLevel: Blueprint regeneration took 1196 ms (8 blueprints)
-[2018.02.08-11.07.32:115][849]LogPlayLevel: [PlayLevel] Compiling Inv_W_button before play...
-[2018.02.08-11.07.32:229][849]LogPlayLevel: PlayLevel: Blueprint regeneration took 1312 ms (9 blueprints)
-[2018.02.08-11.07.32:230][849]LogPlayLevel: [PlayLevel] Compiling Chest-widget-main before play...
-[2018.02.08-11.07.32:314][849]LogPlayLevel: PlayLevel: Blueprint regeneration took 1397 ms (9 blueprints)
-[2018.02.08-11.07.32:323][849]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'TopDownCharacter', cached variable property's owner is '/Game/TopDownBP/Blueprints/TopDownCharacter.SKEL_TopDownCharacter_C'
-[2018.02.08-11.07.32:328][849]LogPlayLevel: [PlayLevel] Compiling TopDownCharacter before play...
-[2018.02.08-11.07.32:550][849]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'TopDownCharacter', cached variable property's owner is '/Game/TopDownBP/Blueprints/TopDownCharacter.SKEL_TopDownCharacter_C'
-[2018.02.08-11.07.32:556][849]LogPlayLevel: PlayLevel: Blueprint regeneration took 1638 ms (9 blueprints)
-[2018.02.08-11.07.32:556][849]LogPlayLevel: [PlayLevel] Compiling Item_aid_base before play...
-[2018.02.08-11.07.32:635][849]LogPlayLevel: PlayLevel: Blueprint regeneration took 1718 ms (9 blueprints)
-[2018.02.08-11.07.32:636][849]LogPlayLevel: [PlayLevel] Compiling Item_Statue before play...
-[2018.02.08-11.07.32:716][849]LogPlayLevel: PlayLevel: Blueprint regeneration took 1799 ms (9 blueprints)
-[2018.02.08-11.07.32:717][849]LogPlayLevel: [PlayLevel] Compiling chest-base before play...
-[2018.02.08-11.07.32:799][849]LogPlayLevel: PlayLevel: Blueprint regeneration took 1882 ms (9 blueprints)
-[2018.02.08-11.07.32:807][849]LogPlayLevel: [PlayLevel] Compiling Inv_W_main before play...
-[2018.02.08-11.07.32:921][849]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'TopDownCharacter', cached variable property's owner is '/Game/TopDownBP/Blueprints/TopDownCharacter.SKEL_TopDownCharacter_C'
-[2018.02.08-11.07.32:935][849]LogPlayLevel: PlayLevel: Blueprint regeneration took 2018 ms (9 blueprints)
-[2018.02.08-11.07.33:021][849]BlueprintLog: Info Blueprint Item failed to compile
-[2018.02.08-11.07.35:805][869]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'TopDownCharacter', cached variable property's owner is '/Game/TopDownBP/Blueprints/TopDownCharacter.SKEL_TopDownCharacter_C'
-[2018.02.08-11.07.47:930][154]BlueprintLog: New page: Compile Item
-[2018.02.08-11.07.47:969][154]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2018.02.08-11.07.48:424][154]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'TopDownCharacter', cached variable property's owner is '/Game/TopDownBP/Blueprints/TopDownCharacter.SKEL_TopDownCharacter_C'
-[2018.02.08-11.07.48:442][154]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'TopDownCharacter', cached variable property's owner is '/Game/TopDownBP/Blueprints/TopDownCharacter.SKEL_TopDownCharacter_C'
-[2018.02.08-11.07.48:531][154]BlueprintEditorCompileResults: Info [0694.33] Compile of Item successful! [in 600 ms]
-[2018.02.08-11.07.52:578][245]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'TopDownCharacter', cached variable property's owner is '/Game/TopDownBP/Blueprints/TopDownCharacter.SKEL_TopDownCharacter_C'
-[2018.02.08-11.07.55:053][306]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
-[2018.02.08-11.07.55:053][306]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.02.08-11.07.55:054][306]PIE: New page: PIE session: TopDownExampleMap (Feb 9, 2018, 3:07:55 AM)
-[2018.02.08-11.07.55:054][306]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
-[2018.02.08-11.07.55:106][306]LogPlayLevel: PIE: StaticDuplicateObject took: (0.052521s)
-[2018.02.08-11.07.55:108][306]LogAIModule: Creating AISystem for world TopDownExampleMap
-[2018.02.08-11.07.55:109][306]LogPlayLevel: PIE: World Init took: (0.002287s)
-[2018.02.08-11.07.55:109][306]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.055141s)
-[2018.02.08-11.07.55:110][306]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2018.02.08-11.07.55:192][306]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2018.02.08-11.07.55:231][306]LogInit: FAudioDevice initialized.
-[2018.02.08-11.07.55:287][306]LogWorld: Game class is 'TopDownGameMode_C'
-[2018.02.08-11.07.55:302][306]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
-[2018.02.08-11.07.55:302][306]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2018.02.08-19.07.55
-[2018.02.08-11.07.55:302][306]LogActor:Warning: GameSession /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2018.02.08-11.07.55:302][306]LogActor:Warning: GameNetworkManager /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2018.02.08-11.07.55:303][306]LogWorld: Bringing up level for play took: 0.015136
-[2018.02.08-11.07.55:350][306]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 0.749
-[2018.02.08-11.07.55:350][306]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
-[2018.02.08-11.07.55:397][307]LogRenderer: Reallocating scene render targets to support 640x360 (Frame:10248).
-[2018.02.08-11.07.56:621][331]LogBlueprintUserMessages: [Item_aid_base_C_7] use
-[2018.02.08-11.07.57:088][343]LogBlueprintUserMessages: [Item_aid_base_C_9] use
-[2018.02.08-11.07.57:783][361]LogBlueprintUserMessages: [Item_aid_base_C_6] long distance for picked up
-[2018.02.08-11.07.58:413][377]LogBlueprintUserMessages: [Item_aid_base_C_6] long distance for picked up
-[2018.02.08-11.07.59:149][396]LogBlueprintUserMessages: [Item_aid_base_C_6] long distance for picked up
-[2018.02.08-11.07.59:456][404]LogBlueprintUserMessages: [Item_aid_base_C_6] use
-[2018.02.08-11.08.00:575][433]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
-[2018.02.08-11.08.00:599][433]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'TopDownCharacter', cached variable property's owner is '/Game/TopDownBP/Blueprints/TopDownCharacter.SKEL_TopDownCharacter_C'
-[2018.02.08-11.08.00:630][433]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
-[2018.02.08-11.08.00:710][433]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000006F8ED9E0
-[2018.02.08-11.08.22:536][969]BlueprintLog: New page: Compile Char_Intarface
-[2018.02.08-11.08.22:620][969]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2018.02.08-11.08.22:762][969]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'TopDownCharacter', cached variable property's owner is '/Game/TopDownBP/Blueprints/TopDownCharacter.SKEL_TopDownCharacter_C'
-[2018.02.08-11.08.22:885][969]BlueprintEditorCompileResults: Info [0728.69] Compile of Char_Intarface successful! [in 349 ms]
-[2018.02.08-11.08.28:281][ 80]BlueprintLog: New page: Compile Item
-[2018.02.08-11.08.28:320][ 80]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2018.02.08-11.08.28:577][ 80]LogBlueprint:Error: [compiler TopDownCharacter] Error Graph named 'Inventory_Action' already exists in 'TopDownCharacter'. Another one cannot be generated from  (none) 
-[2018.02.08-11.08.29:118][ 80]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'TopDownCharacter', cached variable property's owner is '/Game/TopDownBP/Blueprints/TopDownCharacter.SKEL_TopDownCharacter_C'
-[2018.02.08-11.08.29:205][ 80]BlueprintEditorCompileResults: Info [0735.01] Compile of Item successful! [in 924 ms]
-[2018.02.08-11.08.34:288][211]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
-[2018.02.08-11.08.34:289][211]BlueprintLog: New page: Pre-Play auto-recompile
-[2018.02.08-11.08.34:290][211]LogPlayLevel: [PlayLevel] Compiling chest before play...
-[2018.02.08-11.08.34:322][211]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2018.02.08-11.08.34:545][211]LogPlayLevel: PlayLevel: Blueprint regeneration took 256 ms (7 blueprints)
-[2018.02.08-11.08.34:551][211]LogPlayLevel: [PlayLevel] Compiling Inv_W_drop_count before play...
-[2018.02.08-11.08.34:663][211]LogPlayLevel: PlayLevel: Blueprint regeneration took 374 ms (7 blueprints)
-[2018.02.08-11.08.34:670][211]LogPlayLevel: [PlayLevel] Compiling Inv_W_button-cursor-click before play...
-[2018.02.08-11.08.34:789][211]LogPlayLevel: PlayLevel: Blueprint regeneration took 500 ms (7 blueprints)
-[2018.02.08-11.08.34:791][211]LogPlayLevel: [PlayLevel] Compiling Inv_W_button before play...
-[2018.02.08-11.08.34:907][211]LogPlayLevel: PlayLevel: Blueprint regeneration took 618 ms (7 blueprints)
-[2018.02.08-11.08.34:915][211]LogPlayLevel: [PlayLevel] Compiling Inv_W_main before play...
-[2018.02.08-11.08.35:030][211]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'TopDownCharacter', cached variable property's owner is '/Game/TopDownBP/Blueprints/TopDownCharacter.SKEL_TopDownCharacter_C'
-[2018.02.08-11.08.35:044][211]LogPlayLevel: PlayLevel: Blueprint regeneration took 755 ms (8 blueprints)
-[2018.02.08-11.08.35:045][211]LogPlayLevel: [PlayLevel] Compiling Chest-widget-main before play...
-[2018.02.08-11.08.35:133][211]LogPlayLevel: PlayLevel: Blueprint regeneration took 844 ms (8 blueprints)
-[2018.02.08-11.08.35:133][211]LogPlayLevel: [PlayLevel] Compiling chest-base before play...
-[2018.02.08-11.08.35:214][211]LogPlayLevel: PlayLevel: Blueprint regeneration took 925 ms (8 blueprints)
-[2018.02.08-11.08.35:221][211]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'TopDownCharacter', cached variable property's owner is '/Game/TopDownBP/Blueprints/TopDownCharacter.SKEL_TopDownCharacter_C'
-[2018.02.08-11.08.35:226][211]LogPlayLevel: [PlayLevel] Compiling TopDownCharacter before play...
-[2018.02.08-11.08.35:322][211]LogBlueprint:Error: [compiler TopDownCharacter] Error Graph named 'Inventory_Action' already exists in 'TopDownCharacter'. Another one cannot be generated from  (none) 
-[2018.02.08-11.08.35:552][211]LogBlueprint:Warning: [compiler TopDownCharacter] Warning [0741.35] Compile of TopDownCharacter failed. 1 Fatal Issue(s) 0 Warning(s) [in 269 ms]
-[2018.02.08-11.08.35:552][211]LogBlueprint:Warning: [compiler TopDownCharacter] Warning [0741.35] Compile of TopDownCharacter failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms]
-[2018.02.08-11.08.35:552][211]LogBlueprint:Warning: [compiler TopDownCharacter] Warning [0741.35] Compile of TopDownCharacter failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms]
-[2018.02.08-11.08.35:552][211]LogBlueprint:Warning: [compiler TopDownCharacter] Warning [0741.35] Compile of TopDownCharacter failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms]
-[2018.02.08-11.08.35:560][211]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'TopDownCharacter', cached variable property's owner is '/Game/TopDownBP/Blueprints/TopDownCharacter.SKEL_TopDownCharacter_C'
-[2018.02.08-11.08.35:565][211]LogBlueprint:Warning: [compiler TopDownCharacter] Warning [0741.37] Compile of TopDownCharacter failed. 1 Fatal Issue(s) 4 Warning(s) [in 12 ms]
-[2018.02.08-11.08.35:565][211]LogBlueprint:Warning: [compiler TopDownCharacter] Warning [0741.37] Compile of TopDownCharacter failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms]
-[2018.02.08-11.08.35:566][211]LogPlayLevel: PlayLevel: Blueprint regeneration took 1277 ms (8 blueprints)
-[2018.02.08-11.08.40:032][264]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'TopDownCharacter', cached variable property's owner is '/Game/TopDownBP/Blueprints/TopDownCharacter.SKEL_TopDownCharacter_C'
-[2018.02.08-11.08.48:241][485]BlueprintLog: New page: Compile TopDownCharacter
-[2018.02.08-11.08.48:346][485]LogBlueprint:Error: [compiler TopDownCharacter] Error Graph named 'Inventory_Action' already exists in 'TopDownCharacter'. Another one cannot be generated from  (none) 
-[2018.02.08-11.08.48:570][485]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2018.02.08-11.08.48:662][485]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'TopDownCharacter', cached variable property's owner is '/Game/TopDownBP/Blueprints/TopDownCharacter.SKEL_TopDownCharacter_C'
-[2018.02.08-11.08.48:668][485]LogBlueprint:Warning: [compiler TopDownCharacter] Warning [0754.47] Compile of TopDownCharacter failed. 1 Fatal Issue(s) 0 Warning(s) [in 427 ms]
-[2018.02.08-11.08.48:668][485]BlueprintEditorCompileResults:Error: Error Graph named 'Inventory_Action' already exists in 'TopDownCharacter'. Another one cannot be generated from  (none) 
-[2018.02.08-11.08.48:668][485]BlueprintEditorCompileResults:Warning: Warning [0754.47] Compile of TopDownCharacter failed. 1 Fatal Issue(s) 0 Warning(s) [in 427 ms]
-[2018.02.08-11.08.48:698][485]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'TopDownCharacter', cached variable property's owner is '/Game/TopDownBP/Blueprints/TopDownCharacter.SKEL_TopDownCharacter_C'
-[2018.02.08-11.09.00:429][784]BlueprintLog: New page: Compile TopDownCharacter
-[2018.02.08-11.09.00:526][784]LogBlueprint:Error: [compiler TopDownCharacter] Error Graph named 'Inventory_Action' already exists in 'TopDownCharacter'. Another one cannot be generated from  (none) 
-[2018.02.08-11.09.00:749][784]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2018.02.08-11.09.00:842][784]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'TopDownCharacter', cached variable property's owner is '/Game/TopDownBP/Blueprints/TopDownCharacter.SKEL_TopDownCharacter_C'
-[2018.02.08-11.09.00:848][784]LogBlueprint:Warning: [compiler TopDownCharacter] Warning [0766.65] Compile of TopDownCharacter failed. 1 Fatal Issue(s) 0 Warning(s) [in 418 ms]
-[2018.02.08-11.09.00:848][784]BlueprintEditorCompileResults:Error: Error Graph named 'Inventory_Action' already exists in 'TopDownCharacter'. Another one cannot be generated from  (none) 
-[2018.02.08-11.09.00:848][784]BlueprintEditorCompileResults:Warning: Warning [0766.65] Compile of TopDownCharacter failed. 1 Fatal Issue(s) 0 Warning(s) [in 418 ms]
-[2018.02.08-11.09.00:877][784]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'TopDownCharacter', cached variable property's owner is '/Game/TopDownBP/Blueprints/TopDownCharacter.SKEL_TopDownCharacter_C'
-[2018.02.08-11.09.19:131][180]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2018.02.08-11.09.22:898][259]LogEditorTransaction: Undo Delete current selection
-[2018.02.08-11.09.23:008][259]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
-[2018.02.08-11.09.30:087][417]BlueprintLog: New page: Compile TopDownCharacter
-[2018.02.08-11.09.30:196][417]LogBlueprint:Error: [compiler TopDownCharacter] Error Graph named 'Inventory_Action' already exists in 'TopDownCharacter'. Another one cannot be generated from  (none) 
-[2018.02.08-11.09.30:428][417]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
-[2018.02.08-11.09.30:532][417]LogBlueprint:Warning: [compiler TopDownCharacter] Warning [0796.33] Compile of TopDownCharacter failed. 1 Fatal Issue(s) 0 Warning(s) [in 445 ms]
-[2018.02.08-11.09.30:532][417]BlueprintEditorCompileResults:Error: Error Graph named 'Inventory_Action' already exists in 'TopDownCharacter'. Another one cannot be generated from  (none) 
-[2018.02.08-11.09.30:532][417]BlueprintEditorCompileResults:Warning: Warning [0796.33] Compile of TopDownCharacter failed. 1 Fatal Issue(s) 0 Warning(s) [in 445 ms]
-[2018.02.08-11.09.33:553][486]BlueprintLog: New page: Compile TopDownCharacter
-[2018.02.08-11.09.33:655][486]LogBlueprint:Error: [compiler TopDownCharacter] Error Graph named 'Inventory_Action' already exists in 'TopDownCharacter'. Another one cannot be generated from  (none) 
-[2018.02.08-11.09.33:880][486]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2018.02.08-11.09.33:979][486]LogBlueprint:Warning: [compiler TopDownCharacter] Warning [0799.78] Compile of TopDownCharacter failed. 1 Fatal Issue(s) 0 Warning(s) [in 425 ms]
-[2018.02.08-11.09.33:979][486]BlueprintEditorCompileResults:Error: Error Graph named 'Inventory_Action' already exists in 'TopDownCharacter'. Another one cannot be generated from  (none) 
-[2018.02.08-11.09.33:979][486]BlueprintEditorCompileResults:Warning: Warning [0799.78] Compile of TopDownCharacter failed. 1 Fatal Issue(s) 0 Warning(s) [in 425 ms]
-[2018.02.08-11.09.45:813][744]BlueprintLog: New page: Compile TopDownCharacter
-[2018.02.08-11.09.45:915][744]LogBlueprint:Error: [compiler TopDownCharacter] Error Graph named 'Inventory_Action' already exists in 'TopDownCharacter'. Another one cannot be generated from  (none) 
-[2018.02.08-11.09.46:140][744]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2018.02.08-11.09.46:238][744]LogBlueprint:Warning: [compiler TopDownCharacter] Warning [0812.04] Compile of TopDownCharacter failed. 1 Fatal Issue(s) 0 Warning(s) [in 425 ms]
-[2018.02.08-11.09.46:238][744]BlueprintEditorCompileResults:Error: Error Graph named 'Inventory_Action' already exists in 'TopDownCharacter'. Another one cannot be generated from  (none) 
-[2018.02.08-11.09.46:238][744]BlueprintEditorCompileResults:Warning: Warning [0812.04] Compile of TopDownCharacter failed. 1 Fatal Issue(s) 0 Warning(s) [in 425 ms]
-[2018.02.08-11.09.59:083][ 19]LogSavePackage: Save=2.339947ms
-[2018.02.08-11.09.59:083][ 19]LogSavePackage: Moving '../../../../sergey/UnrealProjects/Game_1337/TopDown/Saved/Char_Action_Struct7FC1828D4808E07B267AC1836BFCAAE8.tmp' to '../../../../sergey/UnrealProjects/Game_1337/TopDown/Content/TopDownBP/Blueprints/Inventory/Char_Action_Struct.uasset'
-[2018.02.08-11.09.59:083][ 19]LogSavePackage: Total save time: 17.161746ms
-[2018.02.08-11.09.59:083][ 19]LogSavePackage:Warning: Finished SavePackage ../../../../sergey/UnrealProjects/Game_1337/TopDown/Content/TopDownBP/Blueprints/Inventory/Char_Action_Struct.uasset
-[2018.02.08-11.10.00:307][ 47]BlueprintLog: New page: Compile Char_Intarface
-[2018.02.08-11.10.00:396][ 47]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2018.02.08-11.10.00:670][ 47]BlueprintEditorCompileResults: Info [0826.47] Compile of Char_Intarface successful! [in 362 ms]
-[2018.02.08-11.10.01:053][ 54]LogSavePackage: Save=18.669968ms
-[2018.02.08-11.10.01:053][ 54]LogSavePackage: Moving '../../../../sergey/UnrealProjects/Game_1337/TopDown/Saved/Char_Intarface702B3D644CFEF9BE7E997AADA02DF1F2.tmp' to '../../../../sergey/UnrealProjects/Game_1337/TopDown/Content/TopDownBP/Blueprints/Inventory/Char_Intarface.uasset'
-[2018.02.08-11.10.01:055][ 54]LogSavePackage: Total save time: 33.311740ms
-[2018.02.08-11.10.01:055][ 54]LogSavePackage:Warning: Finished SavePackage ../../../../sergey/UnrealProjects/Game_1337/TopDown/Content/TopDownBP/Blueprints/Inventory/Char_Intarface.uasset
-[2018.02.08-11.10.03:149][102]BlueprintLog: New page: Compile Inv_W_main
-[2018.02.08-11.10.03:281][102]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2018.02.08-11.10.03:388][102]BlueprintEditorCompileResults: Info [0829.19] Compile of Inv_W_main successful! [in 239 ms]
-[2018.02.08-11.10.04:156][114]LogSavePackage: Save=193.530945ms
-[2018.02.08-11.10.04:156][114]LogSavePackage: Moving '../../../../sergey/UnrealProjects/Game_1337/TopDown/Saved/Inv_W_main638E2EC0433E533466C8F38E9819808A.tmp' to '../../../../sergey/UnrealProjects/Game_1337/TopDown/Content/TopDownBP/Blueprints/Inventory/Widgets/Inv_W_main.uasset'
-[2018.02.08-11.10.04:158][114]LogSavePackage: Total save time: 211.890452ms
-[2018.02.08-11.10.04:158][114]LogSavePackage:Warning: Finished SavePackage ../../../../sergey/UnrealProjects/Game_1337/TopDown/Content/TopDownBP/Blueprints/Inventory/Widgets/Inv_W_main.uasset
-[2018.02.08-11.10.05:423][143]BlueprintLog: New page: Compile Inv_W_button-cursor-click
-[2018.02.08-11.10.05:556][143]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2018.02.08-11.10.05:640][143]BlueprintEditorCompileResults: Info [0831.44] Compile of Inv_W_button-cursor-click successful! [in 216 ms]
-[2018.02.08-11.10.06:122][150]LogSavePackage: Save=107.418167ms
-[2018.02.08-11.10.06:122][150]LogSavePackage: Moving '../../../../sergey/UnrealProjects/Game_1337/TopDown/Saved/Inv_W_button-cursor-clickE0977ADF4F21EAF17F85B1AF3EF82F01.tmp' to '../../../../sergey/UnrealProjects/Game_1337/TopDown/Content/TopDownBP/Blueprints/Inventory/Widgets/Inv_W_button-cursor-click.uasset'
-[2018.02.08-11.10.06:124][150]LogSavePackage: Total save time: 122.696240ms
-[2018.02.08-11.10.06:124][150]LogSavePackage:Warning: Finished SavePackage ../../../../sergey/UnrealProjects/Game_1337/TopDown/Content/TopDownBP/Blueprints/Inventory/Widgets/Inv_W_button-cursor-click.uasset
-[2018.02.08-11.10.07:219][175]BlueprintLog: New page: Compile Inv_W_drop_count
-[2018.02.08-11.10.07:436][175]BlueprintEditorCompileResults: Info [0833.23] Compile of Inv_W_drop_count successful! [in 216 ms]
-[2018.02.08-11.10.08:145][189]LogSavePackage: Save=74.513100ms
-[2018.02.08-11.10.08:145][189]LogSavePackage: Moving '../../../../sergey/UnrealProjects/Game_1337/TopDown/Saved/Inv_W_drop_count32BD757F483AB9F1FD5D0B9774EEDF55.tmp' to '../../../../sergey/UnrealProjects/Game_1337/TopDown/Content/TopDownBP/Blueprints/Inventory/Widgets/Inv_W_drop_count.uasset'
-[2018.02.08-11.10.08:147][189]LogSavePackage: Total save time: 90.080243ms
-[2018.02.08-11.10.08:147][189]LogSavePackage:Warning: Finished SavePackage ../../../../sergey/UnrealProjects/Game_1337/TopDown/Content/TopDownBP/Blueprints/Inventory/Widgets/Inv_W_drop_count.uasset
-[2018.02.08-11.10.09:381][218]BlueprintLog: New page: Compile TopDownCharacter
-[2018.02.08-11.10.09:481][218]LogBlueprint:Error: [compiler TopDownCharacter] Error Graph named 'Inventory_Action' already exists in 'TopDownCharacter'. Another one cannot be generated from  (none) 
-[2018.02.08-11.10.09:800][218]LogBlueprint:Warning: [compiler TopDownCharacter] Warning [0835.60] Compile of TopDownCharacter failed. 1 Fatal Issue(s) 0 Warning(s) [in 418 ms]
-[2018.02.08-11.10.09:800][218]BlueprintEditorCompileResults:Error: Error Graph named 'Inventory_Action' already exists in 'TopDownCharacter'. Another one cannot be generated from  (none) 
-[2018.02.08-11.10.09:800][218]BlueprintEditorCompileResults:Warning: Warning [0835.60] Compile of TopDownCharacter failed. 1 Fatal Issue(s) 0 Warning(s) [in 418 ms]
-[2018.02.08-11.10.12:052][267]BlueprintLog: New page: Compile Item
-[2018.02.08-11.10.12:090][267]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2018.02.08-11.10.12:336][267]LogBlueprint:Error: [compiler TopDownCharacter] Error Graph named 'Inventory_Action' already exists in 'TopDownCharacter'. Another one cannot be generated from  (none) 
-[2018.02.08-11.10.13:019][267]BlueprintEditorCompileResults: Info [0838.82] Compile of Item successful! [in 967 ms]
-[2018.02.08-11.10.13:758][282]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/Inventory/Item/Item" FILE="../../../../sergey/UnrealProjects/Game_1337/TopDown/Content/TopDownBP/Blueprints/Inventory/Item/Item.uasset" SILENT=true
-[2018.02.08-11.10.13:854][282]LogSavePackage: Save=81.177155ms
-[2018.02.08-11.10.13:854][282]LogSavePackage: Moving '../../../../sergey/UnrealProjects/Game_1337/TopDown/Saved/Item634E5C18481C4D4DDBA9E3931E7A0CE1.tmp' to '../../../../sergey/UnrealProjects/Game_1337/TopDown/Content/TopDownBP/Blueprints/Inventory/Item/Item.uasset'
-[2018.02.08-11.10.13:856][282]LogSavePackage: Total save time: 96.226454ms
-[2018.02.08-11.10.13:856][282]LogSavePackage:Warning: Finished SavePackage ../../../../sergey/UnrealProjects/Game_1337/TopDown/Content/TopDownBP/Blueprints/Inventory/Item/Item.uasset
-[2018.02.08-11.10.15:727][326]BlueprintLog: New page: Compile TopDownCharacter
-[2018.02.08-11.10.15:824][326]LogBlueprint:Error: [compiler TopDownCharacter] Error Graph named 'Inventory_Action' already exists in 'TopDownCharacter'. Another one cannot be generated from  (none) 
-[2018.02.08-11.10.16:049][326]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2018.02.08-11.10.16:145][326]LogBlueprint:Warning: [compiler TopDownCharacter] Warning [0841.94] Compile of TopDownCharacter failed. 1 Fatal Issue(s) 0 Warning(s) [in 418 ms]
-[2018.02.08-11.10.16:145][326]BlueprintEditorCompileResults:Error: Error Graph named 'Inventory_Action' already exists in 'TopDownCharacter'. Another one cannot be generated from  (none) 
-[2018.02.08-11.10.16:145][326]BlueprintEditorCompileResults:Warning: Warning [0841.94] Compile of TopDownCharacter failed. 1 Fatal Issue(s) 0 Warning(s) [in 418 ms]
-[2018.02.08-11.10.17:386][352]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/TopDownCharacter" FILE="../../../../sergey/UnrealProjects/Game_1337/TopDown/Content/TopDownBP/Blueprints/TopDownCharacter.uasset" SILENT=true
-[2018.02.08-11.10.17:978][352]LogSavePackage: Save=574.481262ms
-[2018.02.08-11.10.17:978][352]LogSavePackage: Moving '../../../../sergey/UnrealProjects/Game_1337/TopDown/Saved/TopDownCharacter58681AFA4DB9D8BF03D31C9F546CD3CB.tmp' to '../../../../sergey/UnrealProjects/Game_1337/TopDown/Content/TopDownBP/Blueprints/TopDownCharacter.uasset'
-[2018.02.08-11.10.17:981][352]LogSavePackage: Total save time: 592.236102ms
-[2018.02.08-11.10.17:981][352]LogSavePackage:Warning: Finished SavePackage ../../../../sergey/UnrealProjects/Game_1337/TopDown/Content/TopDownBP/Blueprints/TopDownCharacter.uasset
-[2018.02.08-11.10.46:341][964]BlueprintLog: New page: Compile TopDownCharacter
-[2018.02.08-11.10.46:442][964]LogBlueprint:Error: [compiler TopDownCharacter] Error Graph named 'Inventory_Action' already exists in 'TopDownCharacter'. Another one cannot be generated from  (none) 
-[2018.02.08-11.10.46:670][964]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2018.02.08-11.10.46:781][964]LogBlueprint:Warning: [compiler TopDownCharacter] Warning [0872.58] Compile of TopDownCharacter failed. 1 Fatal Issue(s) 0 Warning(s) [in 440 ms]
-[2018.02.08-11.10.46:782][964]BlueprintEditorCompileResults:Error: Error Graph named 'Inventory_Action' already exists in 'TopDownCharacter'. Another one cannot be generated from  (none) 
-[2018.02.08-11.10.46:782][964]BlueprintEditorCompileResults:Warning: Warning [0872.58] Compile of TopDownCharacter failed. 1 Fatal Issue(s) 0 Warning(s) [in 440 ms]
-[2018.02.08-11.10.52:008][ 85]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
-[2018.02.08-11.10.52:008][ 85]BlueprintLog: New page: Pre-Play auto-recompile
-[2018.02.08-11.10.52:010][ 85]LogPlayLevel: [PlayLevel] Compiling chest before play...
-[2018.02.08-11.10.52:042][ 85]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2018.02.08-11.10.52:272][ 85]LogPlayLevel: PlayLevel: Blueprint regeneration took 263 ms (4 blueprints)
-[2018.02.08-11.10.52:274][ 85]LogPlayLevel: [PlayLevel] Compiling Inv_W_button before play...
-[2018.02.08-11.10.52:394][ 85]LogPlayLevel: PlayLevel: Blueprint regeneration took 385 ms (5 blueprints)
-[2018.02.08-11.10.52:395][ 85]LogPlayLevel: [PlayLevel] Compiling Chest-widget-main before play...
-[2018.02.08-11.10.52:482][ 85]LogPlayLevel: PlayLevel: Blueprint regeneration took 474 ms (5 blueprints)
-[2018.02.08-11.10.52:483][ 85]LogPlayLevel: [PlayLevel] Compiling chest-base before play...
-[2018.02.08-11.10.52:563][ 85]LogPlayLevel: PlayLevel: Blueprint regeneration took 554 ms (5 blueprints)
-[2018.02.08-11.10.52:571][ 85]LogPlayLevel: [PlayLevel] Compiling Inv_W_main before play...
-[2018.02.08-11.10.52:705][ 85]LogPlayLevel: PlayLevel: Blueprint regeneration took 697 ms (6 blueprints)
-[2018.02.08-11.10.52:718][ 85]LogPlayLevel: [PlayLevel] Compiling TopDownCharacter before play...
-[2018.02.08-11.10.52:812][ 85]LogBlueprint:Error: [compiler TopDownCharacter] Error Graph named 'Inventory_Action' already exists in 'TopDownCharacter'. Another one cannot be generated from  (none) 
-[2018.02.08-11.10.53:049][ 85]LogBlueprint:Warning: [compiler TopDownCharacter] Warning [0878.84] Compile of TopDownCharacter failed. 1 Fatal Issue(s) 0 Warning(s) [in 277 ms]
-[2018.02.08-11.10.53:049][ 85]LogBlueprint:Warning: [compiler TopDownCharacter] Warning [0878.84] Compile of TopDownCharacter failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms]
-[2018.02.08-11.10.53:049][ 85]LogBlueprint:Warning: [compiler TopDownCharacter] Warning [0878.85] Compile of TopDownCharacter failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms]
-[2018.02.08-11.10.53:050][ 85]LogBlueprint:Warning: [compiler TopDownCharacter] Warning [0878.85] Compile of TopDownCharacter failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms]
-[2018.02.08-11.10.53:062][ 85]LogBlueprint:Warning: [compiler TopDownCharacter] Warning [0878.86] Compile of TopDownCharacter failed. 1 Fatal Issue(s) 4 Warning(s) [in 12 ms]
-[2018.02.08-11.10.53:062][ 85]LogBlueprint:Warning: [compiler TopDownCharacter] Warning [0878.86] Compile of TopDownCharacter failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms]
-[2018.02.08-11.10.53:063][ 85]LogPlayLevel: PlayLevel: Blueprint regeneration took 1053 ms (6 blueprints)
-[2018.02.08-11.10.54:112][ 85]PIE: New page: PIE session: TopDownExampleMap (Feb 9, 2018, 3:10:54 AM)
-[2018.02.08-11.10.54:113][ 85]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
-[2018.02.08-11.10.54:188][ 85]LogPlayLevel: PIE: StaticDuplicateObject took: (0.075154s)
-[2018.02.08-11.10.54:189][ 85]LogAIModule: Creating AISystem for world TopDownExampleMap
-[2018.02.08-11.10.54:189][ 85]LogPlayLevel: PIE: World Init took: (0.001519s)
-[2018.02.08-11.10.54:190][ 85]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.077113s)
-[2018.02.08-11.10.54:273][ 85]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2018.02.08-11.10.54:282][ 85]LogInit: FAudioDevice initialized.
-[2018.02.08-11.10.54:322][ 85]LogWorld: Game class is 'TopDownGameMode_C'
-[2018.02.08-11.10.54:336][ 85]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
-[2018.02.08-11.10.54:336][ 85]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2018.02.08-19.10.54
-[2018.02.08-11.10.54:336][ 85]LogActor:Warning: GameSession /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2018.02.08-11.10.54:336][ 85]LogActor:Warning: GameNetworkManager /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2018.02.08-11.10.54:337][ 85]LogWorld: Bringing up level for play took: 0.014093
-[2018.02.08-11.10.54:372][ 85]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 1.764
-[2018.02.08-11.10.54:372][ 85]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
-[2018.02.08-11.10.56:601][136]LogBlueprintUserMessages: [Item_aid_base_C_7] long distance for picked up
-[2018.02.08-11.10.56:989][146]LogBlueprintUserMessages: [Item_aid_base_C_7] long distance for picked up
-[2018.02.08-11.10.58:083][174]LogBlueprintUserMessages: [Item_aid_base_C_7] long distance for picked up
-[2018.02.08-11.10.58:535][186]LogBlueprintUserMessages: [Item_aid_base_C_7] long distance for picked up
-[2018.02.08-11.10.59:125][201]LogBlueprintUserMessages: [Item_aid_base_C_7] long distance for picked up
-[2018.02.08-11.11.01:453][262]LogBlueprintUserMessages: [Item_aid_base_C_9] long distance for picked up
-[2018.02.08-11.11.02:105][279]LogBlueprintUserMessages: [Item_aid_base_C_9] long distance for picked up
-[2018.02.08-11.11.02:247][283]LogBlueprintUserMessages: [Item_aid_base_C_9] long distance for picked up
-[2018.02.08-11.11.02:489][289]LogBlueprintUserMessages: [Item_aid_base_C_7] long distance for picked up
-[2018.02.08-11.11.02:682][294]LogBlueprintUserMessages: [Item_aid_base_C_7] long distance for picked up
-[2018.02.08-11.11.08:880][457]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
-[2018.02.08-11.11.08:934][457]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
-[2018.02.08-11.11.08:936][457]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2018.02.08-11.11.09:048][458]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000013F33420
-[2018.02.08-11.11.20:377][785]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'TopDownCharacter', cached variable property's owner is '/Game/TopDownBP/Blueprints/TopDownCharacter.SKEL_TopDownCharacter_C'
-[2018.02.08-11.11.51:433][569]BlueprintLog: New page: Compile TopDownCharacter
-[2018.02.08-11.11.51:533][569]LogBlueprint:Error: [compiler TopDownCharacter] Error Graph named 'Inventory_Action' already exists in 'TopDownCharacter'. Another one cannot be generated from  (none) 
-[2018.02.08-11.11.51:760][569]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2018.02.08-11.11.51:857][569]LogBlueprint:Warning: [compiler TopDownCharacter] Warning [0937.65] Compile of TopDownCharacter failed. 1 Fatal Issue(s) 0 Warning(s) [in 423 ms]
-[2018.02.08-11.11.51:857][569]BlueprintEditorCompileResults:Error: Error Graph named 'Inventory_Action' already exists in 'TopDownCharacter'. Another one cannot be generated from  (none) 
-[2018.02.08-11.11.51:857][569]BlueprintEditorCompileResults:Warning: Warning [0937.65] Compile of TopDownCharacter failed. 1 Fatal Issue(s) 0 Warning(s) [in 423 ms]
-[2018.02.08-11.11.55:174][633]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2018.02.08-11.11.56:067][662]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2018.02.08-11.11.56:133][662]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002D6A0540
-[2018.02.08-11.11.56:135][662]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002DC15C60
-[2018.02.08-11.11.56:136][662]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002DC14FE0
-[2018.02.08-11.11.56:138][662]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000005C9413A0
-[2018.02.08-11.11.56:139][662]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000064C51080
-[2018.02.08-11.11.57:551][663]Cmd: QUIT_EDITOR
-[2018.02.08-11.11.57:949][663]LogExit: Preparing to exit.
-[2018.02.08-11.11.58:839][663]LogExit: Editor shut down
-[2018.02.08-11.11.58:839][663]LogExit: Transaction tracking system shut down
-[2018.02.08-11.11.58:844][663]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002D7B1800
-[2018.02.08-11.11.58:844][663]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000033F6CF40
-[2018.02.08-11.11.58:845][663]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003411C360
-[2018.02.08-11.11.58:846][663]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003552ED40
-[2018.02.08-11.11.58:846][663]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003552F060
-[2018.02.08-11.11.58:849][663]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000005C940EA0
-[2018.02.08-11.11.58:850][663]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000064C50B80
-[2018.02.08-11.11.58:851][663]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000006DFAD580
-[2018.02.08-11.11.58:852][663]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000764A5440
-[2018.02.08-11.11.59:116][663]LogExit: Object subsystem successfully closed.
-[2018.02.08-11.11.59:137][663]LogD3D11RHI: Shutdown
-[2018.02.08-11.11.59:137][663]LogD3D11RHI: CleanupD3DDevice
-[2018.02.08-11.11.59:410][663]LogD3D11RHI: ~FD3D11DynamicRHI
-[2018.02.08-11.11.59:433][663]LogModuleManager: Shutting down and abandoning module SequencerWidgets (199)
-[2018.02.08-11.11.59:433][663]LogModuleManager: Shutting down and abandoning module BlueprintGraph (198)
-[2018.02.08-11.11.59:433][663]LogModuleManager: Shutting down and abandoning module CrashTracker (197)
-[2018.02.08-11.11.59:433][663]LogModuleManager: Shutting down and abandoning module SuperSearch (196)
-[2018.02.08-11.11.59:433][663]LogModuleManager: Shutting down and abandoning module WidgetCarousel (195)
-[2018.02.08-11.11.59:433][663]LogModuleManager: Shutting down and abandoning module AddContentDialog (194)
-[2018.02.08-11.11.59:435][663]LogModuleManager: Shutting down and abandoning module EditorWidgets (193)
-[2018.02.08-11.11.59:435][663]LogModuleManager: Shutting down and abandoning module CollectionManager (192)
-[2018.02.08-11.11.59:435][663]LogModuleManager: Shutting down and abandoning module SceneOutliner (191)
-[2018.02.08-11.11.59:435][663]LogModuleManager: Shutting down and abandoning module StatsViewer (190)
-[2018.02.08-11.11.59:435][663]LogModuleManager: Shutting down and abandoning module FoliageEdit (189)
-[2018.02.08-11.11.59:435][663]LogModuleManager: Shutting down and abandoning module LandscapeEditor (188)
-[2018.02.08-11.11.59:435][663]LogModuleManager: Shutting down and abandoning module ActorPickerMode (187)
-[2018.02.08-11.11.59:436][663]LogModuleManager: Shutting down and abandoning module GeometryMode (186)
-[2018.02.08-11.11.59:436][663]LogModuleManager: Shutting down and abandoning module TextureAlignMode (185)
-[2018.02.08-11.11.59:436][663]LogModuleManager: Shutting down and abandoning module BspMode (184)
-[2018.02.08-11.11.59:436][663]LogModuleManager: Shutting down and abandoning module PlacementMode (183)
-[2018.02.08-11.11.59:436][663]LogModuleManager: Shutting down and abandoning module AutomationWorker (182)
-[2018.02.08-11.11.59:436][663]LogModuleManager: Shutting down and abandoning module CharacterAI (181)
-[2018.02.08-11.11.59:436][663]LogModuleManager: Shutting down and abandoning module SmartSnapping (180)
-[2018.02.08-11.11.59:436][663]LogModuleManager: Shutting down and abandoning module ViewportSnapping (179)
-[2018.02.08-11.11.59:436][663]LogModuleManager: Shutting down and abandoning module LogVisualizer (178)
-[2018.02.08-11.11.59:436][663]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (177)
-[2018.02.08-11.11.59:436][663]LogModuleManager: Shutting down and abandoning module IntroTutorials (176)
-[2018.02.08-11.11.59:436][663]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (175)
-[2018.02.08-11.11.59:436][663]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (174)
-[2018.02.08-11.11.59:436][663]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (173)
-[2018.02.08-11.11.59:436][663]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (172)
-[2018.02.08-11.12.00:270][663]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (171)
-[2018.02.08-11.12.00:270][663]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (170)
-[2018.02.08-11.12.00:270][663]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (169)
-[2018.02.08-11.12.00:270][663]LogModuleManager: Shutting down and abandoning module MergeActors (168)
-[2018.02.08-11.12.00:270][663]LogModuleManager: Shutting down and abandoning module SizeMap (167)
-[2018.02.08-11.12.00:270][663]LogModuleManager: Shutting down and abandoning module TreeMap (166)
-[2018.02.08-11.12.00:270][663]LogModuleManager: Shutting down and abandoning module ReferenceViewer (165)
-[2018.02.08-11.12.00:270][663]LogModuleManager: Shutting down and abandoning module LocalizationService (164)
-[2018.02.08-11.12.00:270][663]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (163)
-[2018.02.08-11.12.00:270][663]LogModuleManager: Shutting down and abandoning module HardwareTargeting (162)
-[2018.02.08-11.12.00:270][663]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (161)
-[2018.02.08-11.12.00:270][663]LogModuleManager: Shutting down and abandoning module UndoHistory (160)
-[2018.02.08-11.12.00:270][663]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (159)
-[2018.02.08-11.12.00:270][663]LogModuleManager: Shutting down and abandoning module UserFeedback (158)
-[2018.02.08-11.12.00:270][663]LogModuleManager: Shutting down and abandoning module XmlParser (157)
-[2018.02.08-11.12.00:270][663]LogModuleManager: Shutting down and abandoning module Blutility (156)
-[2018.02.08-11.12.00:270][663]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (155)
-[2018.02.08-11.12.00:270][663]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (154)
-[2018.02.08-11.12.00:271][663]LogModuleManager: Shutting down and abandoning module InputBindingEditor (153)
-[2018.02.08-11.12.00:271][663]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (152)
-[2018.02.08-11.12.00:271][663]LogModuleManager: Shutting down and abandoning module SettingsEditor (151)
-[2018.02.08-11.12.00:271][663]LogModuleManager: Shutting down and abandoning module ProjectLauncher (150)
-[2018.02.08-11.12.00:271][663]LogModuleManager: Shutting down and abandoning module SessionFrontend (149)
-[2018.02.08-11.12.00:271][663]LogModuleManager: Shutting down and abandoning module ProfilerClient (148)
-[2018.02.08-11.12.00:271][663]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (147)
-[2018.02.08-11.12.00:271][663]LogModuleManager: Shutting down and abandoning module DeviceManager (146)
-[2018.02.08-11.12.00:271][663]LogModuleManager: Shutting down and abandoning module AutomationController (145)
-[2018.02.08-11.12.00:271][663]LogModuleManager: Shutting down and abandoning module AutomationWindow (144)
-[2018.02.08-11.12.00:271][663]LogModuleManager: Shutting down and abandoning module Layers (143)
-[2018.02.08-11.12.00:271][663]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (142)
-[2018.02.08-11.12.00:271][663]LogModuleManager: Shutting down and abandoning module DetailCustomizations (141)
-[2018.02.08-11.12.00:271][663]LogModuleManager: Shutting down and abandoning module PackagesDialog (140)
-[2018.02.08-11.12.00:272][663]LogModuleManager: Shutting down and abandoning module Persona (139)
-[2018.02.08-11.12.00:272][663]LogModuleManager: Shutting down and abandoning module Kismet (138)
-[2018.02.08-11.12.00:272][663]LogModuleManager: Shutting down and abandoning module GraphEditor (137)
-[2018.02.08-11.12.00:272][663]LogModuleManager: Shutting down and abandoning module ClassViewer (136)
-[2018.02.08-11.12.00:272][663]LogModuleManager: Shutting down and abandoning module Toolbox (135)
-[2018.02.08-11.12.00:272][663]LogModuleManager: Shutting down and abandoning module ModuleUI (134)
-[2018.02.08-11.12.00:272][663]LogModuleManager: Shutting down and abandoning module MovieSceneTools (133)
-[2018.02.08-11.12.00:272][663]LogModuleManager: Shutting down and abandoning module OutputLog (132)
-[2018.02.08-11.12.00:272][663]LogModuleManager: Shutting down and abandoning module GammaUI (131)
-[2018.02.08-11.12.00:272][663]LogModuleManager: Shutting down and abandoning module Documentation (130)
-[2018.02.08-11.12.00:272][663]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (129)
-[2018.02.08-11.12.00:272][663]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (128)
-[2018.02.08-11.12.00:272][663]LogModuleManager: Shutting down and abandoning module AnalyticsET (127)
-[2018.02.08-11.12.00:272][663]LogModuleManager: Shutting down and abandoning module Analytics (126)
-[2018.02.08-11.12.00:272][663]LogModuleManager: Shutting down and abandoning module AITestSuite (125)
-[2018.02.08-11.12.00:272][663]LogModuleManager: Shutting down and abandoning module GameplayDebugger (124)
-[2018.02.08-11.12.00:272][663]LogModuleManager: Shutting down and abandoning module AIModule (123)
-[2018.02.08-11.12.00:272][663]LogModuleManager: Shutting down and abandoning module ProfilerService (122)
-[2018.02.08-11.12.00:494][663]LogModuleManager: Shutting down and abandoning module TaskGraph (121)
-[2018.02.08-11.12.00:494][663]LogModuleManager: Shutting down and abandoning module SlateRemote (120)
-[2018.02.08-11.12.00:494][663]LogModuleManager: Shutting down and abandoning module SteamVRController (119)
-[2018.02.08-11.12.00:494][663]LogModuleManager: Shutting down and abandoning module SteamVR (118)
-[2018.02.08-11.12.00:494][663]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (117)
-[2018.02.08-11.12.00:494][663]LogModuleManager: Shutting down and abandoning module OculusRift (116)
-[2018.02.08-11.12.00:494][663]LogModuleManager: Shutting down and abandoning module OculusLibrary (115)
-[2018.02.08-11.12.00:494][663]LogModuleManager: Shutting down and abandoning module LeapMotionController (114)
-[2018.02.08-11.12.00:502][663]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (113)
-[2018.02.08-11.12.00:502][663]LogModuleManager: Shutting down and abandoning module CableComponent (112)
-[2018.02.08-11.12.00:502][663]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (111)
-[2018.02.08-11.12.00:502][663]LogModuleManager: Shutting down and abandoning module MessagingDebugger (110)
-[2018.02.08-11.12.00:502][663]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (109)
-[2018.02.08-11.12.00:502][663]LogModuleManager: Shutting down and abandoning module HTML5Networking (108)
-[2018.02.08-11.12.00:502][663]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (107)
-[2018.02.08-11.12.00:502][663]LogModuleManager: Shutting down and abandoning module PluginBrowser (106)
-[2018.02.08-11.12.00:503][663]LogModuleManager: Shutting down and abandoning module EpicSurvey (105)
-[2018.02.08-11.12.00:503][663]LogModuleManager: Shutting down and abandoning module DesktopPlatform (104)
-[2018.02.08-11.12.00:503][663]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (103)
-[2018.02.08-11.12.00:503][663]LogModuleManager: Shutting down and abandoning module UObjectPlugin (102)
-[2018.02.08-11.12.00:503][663]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (101)
-[2018.02.08-11.12.00:503][663]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (100)
-[2018.02.08-11.12.00:503][663]LogModuleManager: Shutting down and abandoning module SourceControl (99)
-[2018.02.08-11.12.00:503][663]LogModuleManager: Shutting down and abandoning module GitSourceControl (98)
-[2018.02.08-11.12.00:503][663]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (97)
-[2018.02.08-11.12.00:503][663]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (96)
-[2018.02.08-11.12.00:503][663]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (95)
-[2018.02.08-11.12.00:503][663]LogModuleManager: Shutting down and abandoning module MeshPaint (94)
-[2018.02.08-11.12.00:503][663]LogModuleManager: Shutting down and abandoning module SlateReflector (93)
-[2018.02.08-11.12.00:503][663]LogModuleManager: Shutting down and abandoning module HotReload (92)
-[2018.02.08-11.12.00:503][663]LogModuleManager: Shutting down and abandoning module MainFrame (91)
-[2018.02.08-11.12.00:503][663]LogModuleManager: Shutting down and abandoning module LevelEditor (90)
-[2018.02.08-11.12.00:504][663]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (89)
-[2018.02.08-11.12.00:506][663]LogModuleManager: Shutting down and abandoning module AssetRegistry (88)
-[2018.02.08-11.12.00:692][663]LogModuleManager: Shutting down and abandoning module ContentBrowser (87)
-[2018.02.08-11.12.00:693][663]LogModuleManager: Shutting down and abandoning module Paper2DEditor (86)
-[2018.02.08-11.12.00:693][663]LogModuleManager: Shutting down and abandoning module UdpMessaging (85)
-[2018.02.08-11.12.00:793][663]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
-[2018.02.08-11.12.00:793][663]LogModuleManager: Shutting down and abandoning module Paper2D (83)
-[2018.02.08-11.12.00:793][663]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
-[2018.02.08-11.12.00:798][663]LogModuleManager: Shutting down and abandoning module Media (81)
-[2018.02.08-11.12.00:798][663]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
-[2018.02.08-11.12.00:800][663]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
-[2018.02.08-11.12.00:800][663]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
-[2018.02.08-11.12.00:800][663]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
-[2018.02.08-11.12.00:800][663]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
-[2018.02.08-11.12.00:800][663]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
-[2018.02.08-11.12.00:800][663]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
-[2018.02.08-11.12.00:800][663]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
-[2018.02.08-11.12.00:800][663]LogModuleManager: Shutting down and abandoning module MessageLog (72)
-[2018.02.08-11.12.00:800][663]LogModuleManager: Shutting down and abandoning module Sequencer (71)
-[2018.02.08-11.12.00:800][663]LogModuleManager: Shutting down and abandoning module AssetTools (70)
-[2018.02.08-11.12.00:800][663]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
-[2018.02.08-11.12.00:800][663]LogModuleManager: Shutting down and abandoning module UMG (68)
-[2018.02.08-11.12.00:800][663]LogModuleManager: Shutting down and abandoning module Slate (67)
-[2018.02.08-11.12.00:800][663]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
-[2018.02.08-11.12.00:802][663]LogModuleManager: Shutting down and abandoning module SessionServices (65)
-[2018.02.08-11.12.00:802][663]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
-[2018.02.08-11.12.00:803][663]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
-[2018.02.08-11.12.00:803][663]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
-[2018.02.08-11.12.00:803][663]LogModuleManager: Shutting down and abandoning module Networking (60)
-[2018.02.08-11.12.00:803][663]LogModuleManager: Shutting down and abandoning module Core (59)
-[2018.02.08-11.12.00:803][663]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
-[2018.02.08-11.12.00:803][663]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
-[2018.02.08-11.12.00:803][663]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
-[2018.02.08-11.12.00:803][663]LogModuleManager: Shutting down and abandoning module CookingStats (55)
-[2018.02.08-11.12.00:804][663]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
-[2018.02.08-11.12.00:812][663]LogDerivedDataCache: Shutdown
-[2018.02.08-11.12.00:812][663]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
-[2018.02.08-11.12.00:812][663]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
-[2018.02.08-11.12.00:812][663]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
-[2018.02.08-11.12.00:812][663]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
-[2018.02.08-11.12.00:812][663]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
-[2018.02.08-11.12.00:812][663]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
-[2018.02.08-11.12.00:812][663]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
-[2018.02.08-11.12.00:812][663]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
-[2018.02.08-11.12.00:812][663]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
-[2018.02.08-11.12.00:812][663]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
-[2018.02.08-11.12.00:812][663]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
-[2018.02.08-11.12.00:812][663]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
-[2018.02.08-11.12.00:812][663]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
-[2018.02.08-11.12.00:812][663]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
-[2018.02.08-11.12.00:812][663]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
-[2018.02.08-11.12.00:812][663]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
-[2018.02.08-11.12.00:812][663]LogModuleManager: Shutting down and abandoning module Messaging (37)
-[2018.02.08-11.12.00:812][663]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
-[2018.02.08-11.12.00:812][663]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
-[2018.02.08-11.12.00:812][663]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
-[2018.02.08-11.12.00:812][663]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
-[2018.02.08-11.12.00:812][663]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
-[2018.02.08-11.12.00:812][663]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
-[2018.02.08-11.12.00:812][663]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
-[2018.02.08-11.12.00:812][663]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
-[2018.02.08-11.12.00:813][663]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
-[2018.02.08-11.12.00:813][663]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
-[2018.02.08-11.12.00:813][663]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
-[2018.02.08-11.12.00:813][663]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
-[2018.02.08-11.12.00:813][663]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
-[2018.02.08-11.12.00:813][663]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
-[2018.02.08-11.12.00:813][663]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
-[2018.02.08-11.12.00:813][663]LogModuleManager: Shutting down and abandoning module InputCore (21)
-[2018.02.08-11.12.00:813][663]LogModuleManager: Shutting down and abandoning module Settings (20)
-[2018.02.08-11.12.00:813][663]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
-[2018.02.08-11.12.00:813][663]LogModuleManager: Shutting down and abandoning module HTTP (17)
-[2018.02.08-11.13.03:363][663]LogModuleManager: Shutting down and abandoning module XMPP (16)
-[2018.02.08-11.13.03:363][663]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
-[2018.02.08-11.13.03:363][663]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
-[2018.02.08-11.13.03:364][663]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
-[2018.02.08-11.13.03:364][663]LogModuleManager: Shutting down and abandoning module Landscape (12)
-[2018.02.08-11.13.03:364][663]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
-[2018.02.08-11.13.03:368][663]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
-[2018.02.08-11.13.03:368][663]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
-[2018.02.08-11.13.03:368][663]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
-[2018.02.08-11.13.03:368][663]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2018.02.08-11.13.03:368][663]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2018.02.08-11.13.03:368][663]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2018.02.08-11.13.03:368][663]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2018.02.08-11.13.03:368][663]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2018.02.08-11.13.03:368][663]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2018.02.08-11.13.03:368][663]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2018.02.08-11.13.03:369][663]LogExit: Exiting.
-[2018.02.08-11.13.03:371][663]Log file closed, 02/08/18 19:13:03
+﻿[2018.02.10-07.52.05:335][  0]Log file open, 02/10/18 15:52:05
+[2018.02.10-07.52.05:335][  0]LogInit:Display: Running engine for game: TopDown
+[2018.02.10-07.52.05:335][  0]LogInit:Display: RandInit(-1908510159) SRandInit(-1908510159).
+[2018.02.10-07.52.05:335][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2018.02.10-07.52.05:335][  0]LogStats: Stats thread started at 4.988746
+[2018.02.10-07.52.05:335][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2018.02.10-07.52.05:335][  0]LogInit: API Version: 2672455
+[2018.02.10-07.52.05:335][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2018.02.10-07.52.05:335][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2018.02.10-07.52.05:335][  0]LogInit: Build Configuration: Development
+[2018.02.10-07.52.05:335][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2018.02.10-07.52.05:335][  0]LogInit: Command line:  
+[2018.02.10-07.52.05:335][  0]LogInit: Base directory: D:/UE_4.9/Engine/Binaries/Win64/
+[2018.02.10-07.52.05:335][  0]LogInit: Rocket: 1
+[2018.02.10-07.52.05:589][  0]LogInit: Using libcurl 7.41.0
+[2018.02.10-07.52.05:589][  0]LogInit:  - built for x86_64-pc-win32
+[2018.02.10-07.52.05:589][  0]LogInit:  - supports SSL with WinSSL
+[2018.02.10-07.52.05:589][  0]LogInit:  - other features:
+[2018.02.10-07.52.05:603][  0]LogInit:      CURL_VERSION_SSL
+[2018.02.10-07.52.05:603][  0]LogInit:      CURL_VERSION_IPV6
+[2018.02.10-07.52.05:603][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2018.02.10-07.52.05:603][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2018.02.10-07.52.05:603][  0]LogInit:      CURL_VERSION_IDN
+[2018.02.10-07.52.05:603][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2018.02.10-07.52.05:603][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2018.02.10-07.52.05:603][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2018.02.10-07.52.05:604][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2018.02.10-07.52.05:604][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2018.02.10-07.52.05:838][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2018.02.10-07.52.05:963][  0]LogInit: Object subsystem initialized
+[2018.02.10-07.52.06:146][  0]LogInit: Selected Device Profile: [Windows]
+[2018.02.10-07.52.06:146][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.02.10-07.52.06:276][  0]LogInit: Computer: 1-ПК
+[2018.02.10-07.52.06:276][  0]LogInit: User: 1
+[2018.02.10-07.52.06:276][  0]LogInit: CPU Page size=4096, Cores=2
+[2018.02.10-07.52.06:276][  0]LogInit: High frequency timer resolution =2.338515 MHz
+[2018.02.10-07.52.06:289][  0]LogMemory: Memory total: Physical=3.9GB (4GB approx)
+[2018.02.10-07.52.06:289][  0]LogMemory: Platform Memory Stats for Windows
+[2018.02.10-07.52.06:289][  0]LogMemory: Process Physical Memory: 59.52 MB used, 59.52 MB peak
+[2018.02.10-07.52.06:289][  0]LogMemory: Process Virtual Memory: 63.29 MB used, 63.29 MB peak
+[2018.02.10-07.52.06:289][  0]LogMemory: Physical Memory: 1774.90 MB used, 4010.14 MB total
+[2018.02.10-07.52.06:289][  0]LogMemory: Virtual Memory: 350.73 MB used, 8388608.00 MB total
+[2018.02.10-07.52.08:522][  0]LogTextLocalizationManager: No translations for ('ru-RU') exist, falling back to 'en' for localization and internationalization data.
+[2018.02.10-07.52.11:168][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 3000 (Feature Level 10_0)
+[2018.02.10-07.52.11:169][  0]LogD3D11RHI: Adapter has 64MB of dedicated video memory, 0MB of dedicated system memory, and 1632MB of shared system memory, 1 output[s]
+[2018.02.10-07.52.12:453][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA GeForce 410M (Feature Level 11_0)
+[2018.02.10-07.52.12:453][  0]LogD3D11RHI: Adapter has 979MB of dedicated video memory, 0MB of dedicated system memory, and 1749MB of shared system memory, 0 output[s]
+[2018.02.10-07.52.12:453][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2018.02.10-07.52.12:487][  0]LogD3D11RHI: !Direct3DDevice
+[2018.02.10-07.52.12:488][  0]LogRHI: Texture pool is 616 MB (70% of 880 MB)
+[2018.02.10-07.52.12:492][  0]LogD3D11RHI: Async texture creation enabled
+[2018.02.10-07.52.12:972][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../sergey/UnrealProjects/Game_1337/TopDown/Intermediate/Shaders/WorkingDirectory/3572/).
+[2018.02.10-07.52.12:972][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../sergey/UnrealProjects/Game_1337/TopDown/Intermediate/Shaders/tmp/CA45E69B4A13C354176B2393157BA6F1/'.
+[2018.02.10-07.52.12:972][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.02.10-07.52.26:859][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.02.10-07.52.26:898][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.02.10-07.52.26:918][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.02.10-07.52.26:941][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.02.10-07.52.26:981][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.02.10-07.52.27:023][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.02.10-07.52.27:060][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.02.10-07.52.27:068][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.02.10-07.52.27:092][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.02.10-07.52.27:112][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.02.10-07.52.27:132][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.02.10-07.52.27:152][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.02.10-07.52.27:180][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.02.10-07.52.27:316][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.02.10-07.52.27:348][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.02.10-07.52.27:404][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.02.10-07.52.27:420][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.02.10-07.52.27:420][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.02.10-07.52.28:392][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.02.10-07.52.29:132][  0]LogDerivedDataCache: Loaded boot cache 0.73s 41MB C:/Users/1/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2018.02.10-07.52.29:132][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/1/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2018.02.10-07.52.29:132][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../sergey/UnrealProjects/Game_1337/TopDown/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.02.10-07.52.29:132][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.02.10-07.52.29:132][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../sergey/UnrealProjects/Game_1337/TopDown/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.02.10-07.52.29:132][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.02.10-07.52.29:449][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.02.10-07.52.29:495][  0]LogDerivedDataCache: Using Local data cache path C:/Users/1/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.02.10-07.52.39:313][  0]LogInit: Selected Device Profile: [Windows]
+[2018.02.10-07.52.39:356][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2018.02.10-07.52.39:930][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2018.02.10-07.52.39:930][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.02.10-07.52.46:299][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.02.10-07.53.21:674][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.02.10-07.53.23:068][  0]LogAssetRegistry: FAssetRegistry took 0.0153 seconds to start up
+[2018.02.10-07.53.29:680][  0]SourceControl: Info Source control is disabled
+[2018.02.10-07.53.29:705][  0]SourceControl: Info Source control is disabled
+[2018.02.10-07.53.29:778][  0]SourceControl: Info Source control is disabled
+[2018.02.10-07.53.29:915][  0]SourceControl: Info Source control is disabled
+[2018.02.10-07.53.31:224][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.02.10-07.53.31:994][  0]LogObj: 28361 objects as part of root set at end of initial load.
+[2018.02.10-07.53.31:994][  0]LogUObjectAllocator: 6038872 out of 0 bytes used by permanent object pool.
+[2018.02.10-07.53.33:748][  0]LogEngine: Initializing Engine...
+[2018.02.10-07.53.33:807][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2018.02.10-07.53.33:954][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2018.02.10-07.53.36:348][  0]LogAIModule: Creating AISystem for world NewWorld
+[2018.02.10-07.53.37:353][  0]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.02.10-07.53.37:863][  0]LogInit: FAudioDevice initialized.
+[2018.02.10-07.53.38:337][  0]LogDerivedDataCache: Saved boot cache 0.47s 57MB C:/Users/1/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2018.02.10-07.53.38:367][  0]LogInit: Texture streaming: Enabled
+[2018.02.10-07.53.38:700][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2018.02.10-07.53.38:700][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2018.02.10-07.53.38:700][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId fdb2de1848db1fa47a6f94acde81dca0|be1dc849c34248278283a980c6ca8968|82021297-a794-427f-b0e0-602fe21b1b06
+[2018.02.10-07.53.38:701][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2018.02.10-07.53.41:196][  0]LogInit: Transaction tracking system initialized
+[2018.02.10-07.53.42:163][  0]BlueprintLog: New page: Editor Load
+[2018.02.10-07.53.45:889][  0]LocalizationService: Info Localization service is disabled
+[2018.02.10-07.53.46:925][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2018.02.10-07.53.46:925][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2018.02.10-07.53.46:925][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/FirstPersonBP/FirstPersonOverview.FirstPersonOverview_C'
+[2018.02.10-07.53.47:769][  0]LogConsoleResponse:Display: 
+[2018.02.10-07.53.53:013][  0]LogFileCache: Scanning file cache for directory 'D:/sergey/UnrealProjects/Game_1337/TopDown/Content/' took 0.04s
+[2018.02.10-07.53.53:013][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2018.02.10-07.53.56:686][  0]SourceControl: Info Source control is disabled
+[2018.02.10-07.53.56:754][  0]Cmd: MAP LOAD FILE="../../../../sergey/UnrealProjects/Game_1337/TopDown/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=2
+[2018.02.10-07.53.56:811][  0]LightingResults: New page: Lighting Build
+[2018.02.10-07.53.57:092][  0]MapCheck: New page: Map Check
+[2018.02.10-07.53.57:092][  0]LightingResults: New page: Lighting Build
+[2018.02.10-07.53.58:111][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000015C442C0
+[2018.02.10-07.53.58:525][  0]LogLinker:Warning: Asset '../../../../sergey/UnrealProjects/Game_1337/TopDown/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset' has been saved with empty engine version. The asset will be loaded bu
