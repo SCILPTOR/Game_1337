@@ -1,761 +1,452 @@
-﻿[2018.04.30-09.07.03:981][  0]Log file open, 04/30/18 17:07:03
-[2018.04.30-09.07.03:981][  0]LogInit:Display: Running engine for game: TopDownProject
-[2018.04.30-09.07.03:981][  0]LogInit:Display: RandInit(-1496253512) SRandInit(-1496253511).
-[2018.04.30-09.07.03:981][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
-[2018.04.30-09.07.03:981][  0]LogStats: Stats thread started at 2.246975
-[2018.04.30-09.07.03:981][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
-[2018.04.30-09.07.03:981][  0]LogInit: API Version: 2672455
-[2018.04.30-09.07.03:981][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
-[2018.04.30-09.07.03:981][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
-[2018.04.30-09.07.03:981][  0]LogInit: Build Configuration: Development
-[2018.04.30-09.07.03:981][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
-[2018.04.30-09.07.03:981][  0]LogInit: Command line:  
-[2018.04.30-09.07.03:981][  0]LogInit: Base directory: D:/UE_4.9/Engine/Binaries/Win64/
-[2018.04.30-09.07.03:981][  0]LogInit: Rocket: 1
-[2018.04.30-09.07.04:196][  0]LogInit: Using libcurl 7.41.0
-[2018.04.30-09.07.04:196][  0]LogInit:  - built for x86_64-pc-win32
-[2018.04.30-09.07.04:196][  0]LogInit:  - supports SSL with WinSSL
-[2018.04.30-09.07.04:196][  0]LogInit:  - other features:
-[2018.04.30-09.07.04:196][  0]LogInit:      CURL_VERSION_SSL
-[2018.04.30-09.07.04:196][  0]LogInit:      CURL_VERSION_IPV6
-[2018.04.30-09.07.04:196][  0]LogInit:      CURL_VERSION_ASYNCHDNS
-[2018.04.30-09.07.04:196][  0]LogInit:      CURL_VERSION_LARGEFILE
-[2018.04.30-09.07.04:196][  0]LogInit:      CURL_VERSION_IDN
-[2018.04.30-09.07.04:196][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
-[2018.04.30-09.07.04:196][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
-[2018.04.30-09.07.04:196][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
-[2018.04.30-09.07.04:196][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
-[2018.04.30-09.07.04:196][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
-[2018.04.30-09.07.04:446][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[2018.04.30-09.07.04:457][  0]LogInit: Object subsystem initialized
-[2018.04.30-09.07.04:459][  0]LogInit: Selected Device Profile: [Windows]
-[2018.04.30-09.07.04:459][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.04.30-09.07.04:593][  0]LogInit: Computer: 1-ПК
-[2018.04.30-09.07.04:593][  0]LogInit: User: 1
-[2018.04.30-09.07.04:593][  0]LogInit: CPU Page size=4096, Cores=2
-[2018.04.30-09.07.04:593][  0]LogInit: High frequency timer resolution =2.338515 MHz
-[2018.04.30-09.07.04:593][  0]LogMemory: Memory total: Physical=3.9GB (4GB approx)
-[2018.04.30-09.07.04:593][  0]LogMemory: Platform Memory Stats for Windows
-[2018.04.30-09.07.04:593][  0]LogMemory: Process Physical Memory: 54.67 MB used, 54.67 MB peak
-[2018.04.30-09.07.04:593][  0]LogMemory: Process Virtual Memory: 56.50 MB used, 56.50 MB peak
-[2018.04.30-09.07.04:593][  0]LogMemory: Physical Memory: 2081.54 MB used, 4010.14 MB total
-[2018.04.30-09.07.04:593][  0]LogMemory: Virtual Memory: 338.01 MB used, 8388608.00 MB total
-[2018.04.30-09.07.07:593][  0]LogTextLocalizationManager: No translations for ('ru-RU') exist, falling back to 'en' for localization and internationalization data.
-[2018.04.30-09.07.19:939][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce 410M (Feature Level 11_0)
-[2018.04.30-09.07.19:939][  0]LogD3D11RHI: Adapter has 979MB of dedicated video memory, 0MB of dedicated system memory, and 1749MB of shared system memory, 1 output[s]
-[2018.04.30-09.07.19:962][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA GeForce 410M (Feature Level 11_0)
-[2018.04.30-09.07.19:962][  0]LogD3D11RHI: Adapter has 979MB of dedicated video memory, 0MB of dedicated system memory, and 1749MB of shared system memory, 0 output[s]
-[2018.04.30-09.07.19:963][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
-[2018.04.30-09.07.19:973][  0]LogD3D11RHI: !Direct3DDevice
-[2018.04.30-09.07.19:973][  0]LogRHI: Texture pool is 1297 MB (70% of 1854 MB)
-[2018.04.30-09.07.19:991][  0]LogD3D11RHI: Async texture creation enabled
-[2018.04.30-09.07.20:011][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../sergey/UnrealProjects/TopDownProject/Intermediate/Shaders/WorkingDirectory/5488/).
-[2018.04.30-09.07.20:011][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../sergey/UnrealProjects/TopDownProject/Intermediate/Shaders/tmp/3D1B76ED4787D4F01EA6688668F30AC4/'.
-[2018.04.30-09.07.20:011][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2018.04.30-09.07.56:577][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2018.04.30-09.07.57:456][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2018.04.30-09.07.57:806][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.04.30-09.07.57:965][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2018.04.30-09.07.58:243][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2018.04.30-09.07.58:389][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2018.04.30-09.07.59:240][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2018.04.30-09.07.59:590][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2018.04.30-09.08.00:169][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2018.04.30-09.08.00:468][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2018.04.30-09.08.01:010][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2018.04.30-09.08.01:630][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.04.30-09.08.02:358][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2018.04.30-09.08.04:221][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2018.04.30-09.08.04:525][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.04.30-09.08.04:638][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2018.04.30-09.08.04:744][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2018.04.30-09.08.04:744][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2018.04.30-09.08.11:287][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2018.04.30-09.08.11:359][  0]LogDerivedDataCache: Loaded boot cache 0.07s 41MB C:/Users/1/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
-[2018.04.30-09.08.11:359][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/1/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
-[2018.04.30-09.08.11:359][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../sergey/UnrealProjects/TopDownProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.04.30-09.08.11:359][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.04.30-09.08.11:359][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../sergey/UnrealProjects/TopDownProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.04.30-09.08.11:359][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.04.30-09.08.12:312][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.04.30-09.08.12:324][  0]LogDerivedDataCache: Using Local data cache path C:/Users/1/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.04.30-09.08.47:621][  0]LogInit: Selected Device Profile: [Windows]
-[2018.04.30-09.08.47:622][  0]LogContentStreaming: Texture pool size is 0.000000MB
-[2018.04.30-09.08.47:701][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2018.04.30-09.08.47:701][  0]LogMeshUtilities: No automatic mesh merging module available
-[2018.04.30-09.08.48:375][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2018.04.30-09.08.56:909][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.04.30-09.08.57:009][  0]LogAssetRegistry: FAssetRegistry took 0.0099 seconds to start up
-[2018.04.30-09.08.57:326][  0]SourceControl: Info Source control is disabled
-[2018.04.30-09.08.57:327][  0]SourceControl: Info Source control is disabled
-[2018.04.30-09.08.57:343][  0]SourceControl: Info Source control is disabled
-[2018.04.30-09.08.57:357][  0]SourceControl: Info Source control is disabled
-[2018.04.30-09.08.57:560][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.04.30-09.08.57:653][  0]LogObj: 28361 objects as part of root set at end of initial load.
-[2018.04.30-09.08.57:653][  0]LogUObjectAllocator: 6038864 out of 0 bytes used by permanent object pool.
-[2018.04.30-09.08.57:733][  0]LogEngine: Initializing Engine...
-[2018.04.30-09.08.57:736][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
-[2018.04.30-09.08.57:737][  0]LogHMD: SteamVR failed to initialize.  Err: 110
-[2018.04.30-09.08.57:965][  0]LogAIModule: Creating AISystem for world NewWorld
-[2018.04.30-09.08.57:972][  0]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2018.04.30-09.08.58:007][  0]LogInit: FAudioDevice initialized.
-[2018.04.30-09.08.58:039][  0]LogDerivedDataCache: Saved boot cache 0.03s 41MB C:/Users/1/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
-[2018.04.30-09.08.58:047][  0]LogInit: Texture streaming: Enabled
-[2018.04.30-09.08.58:053][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
-[2018.04.30-09.08.58:054][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
-[2018.04.30-09.08.58:054][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId fdb2de1848db1fa47a6f94acde81dca0|be1dc849c34248278283a980c6ca8968|82021297-a794-427f-b0e0-602fe21b1b06
-[2018.04.30-09.08.58:054][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
-[2018.04.30-09.08.58:091][  0]LogInit: Transaction tracking system initialized
-[2018.04.30-09.08.58:121][  0]BlueprintLog: New page: Editor Load
-[2018.04.30-09.08.58:210][  0]LocalizationService: Info Localization service is disabled
-[2018.04.30-09.08.58:309][  0]LogConsoleResponse:Display: 
-[2018.04.30-09.08.58:498][  0]LogCook:Display: Done creating registry. It took  0.00s.
-[2018.04.30-09.08.58:577][  0]LogFileCache: Scanning file cache for directory 'D:/sergey/UnrealProjects/TopDownProject/Content/' took 0.03s
-[2018.04.30-09.08.58:577][  0]SourceControl: Info Source control is disabled
-[2018.04.30-09.08.58:577][  0]Cmd: MAP LOAD FILE="../../../../sergey/UnrealProjects/TopDownProject/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.04.30-09.08.58:577][  0]LightingResults: New page: Lighting Build
-[2018.04.30-09.08.58:580][  0]MapCheck: New page: Map Check
-[2018.04.30-09.08.58:580][  0]LightingResults: New page: Lighting Build
-[2018.04.30-09.08.58:606][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000020A44860
-[2018.04.30-09.08.58:625][  0]LogLinker:Warning: Asset '../../../../sergey/UnrealProjects/TopDownProject/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.04.30-09.08.58:627][  0]LogLinker:Warning: Asset '../../../../sergey/UnrealProjects/TopDownProject/Content/Mannequin/Animations/ThirdPerson_Jump.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.04.30-09.08.58:630][  0]LogLinker:Warning: Asset '../../../../sergey/UnrealProjects/TopDownProject/Content/Mannequin/Animations/ThirdPersonJump_Loop.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.04.30-09.08.58:631][  0]LogLinker:Warning: Asset '../../../../sergey/UnrealProjects/TopDownProject/Content/Mannequin/Animations/ThirdPersonJump_Start.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.04.30-09.08.58:633][  0]LogLinker:Warning: Asset '../../../../sergey/UnrealProjects/TopDownProject/Content/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.04.30-09.08.58:633][  0]LogLinker:Warning: Asset '../../../../sergey/UnrealProjects/TopDownProject/Content/Mannequin/Animations/ThirdPersonIdle.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.04.30-09.08.58:635][  0]LogLinker:Warning: Asset '../../../../sergey/UnrealProjects/TopDownProject/Content/Mannequin/Animations/ThirdPersonRun.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.04.30-09.08.58:637][  0]LogLinker:Warning: Asset '../../../../sergey/UnrealProjects/TopDownProject/Content/Mannequin/Animations/ThirdPersonWalk.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.04.30-09.09.00:802][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/TopDownBP/InventorySystem/Item/Items/Box.Box_C:UserConstructionScript; removing parent information, but keeping function
-[2018.04.30-09.09.00:819][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/TopDownBP/InventorySystem/Item/Items/ItemSphere.ItemSphere_C:UserConstructionScript; removing parent information, but keeping function
-[2018.04.30-09.09.00:838][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/TopDownBP/InventorySystem/Item/Items/ItemCone.ItemCone_C:UserConstructionScript; removing parent information, but keeping function
-[2018.04.30-09.09.04:663][  0]LogAIModule: Creating AISystem for world TopDownExampleMap
-[2018.04.30-09.09.04:702][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.04.30-09.09.04:703][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.04.30-09.09.04:806][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 102.659ms to complete.
-[2018.04.30-09.09.04:806][  0]LogFileHelpers: Loading map 'TopDownExampleMap' took 6.229
-[2018.04.30-09.09.05:053][  0]LogCollectionManager: Loaded 0 collections in 0.002004 seconds
-[2018.04.30-09.09.05:097][  0]LogFileCache: Scanning file cache for directory 'D:/sergey/UnrealProjects/TopDownProject/Saved/Collections/' took 0.01s
-[2018.04.30-09.09.05:097][  0]LogFileCache: Scanning file cache for directory 'D:/sergey/UnrealProjects/TopDownProject/Content/Developers/1/Collections/' took 0.01s
-[2018.04.30-09.09.05:097][  0]LogFileCache: Scanning file cache for directory 'D:/sergey/UnrealProjects/TopDownProject/Content/Collections/' took 0.01s
-[2018.04.30-09.09.05:097][  0]LogContentBrowser: Native class hierarchy populated in 0.0117 seconds. Added 1867 classes and 333 folders.
-[2018.04.30-09.09.05:105][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
-[2018.04.30-09.09.05:115][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2018.04.30-09.09.07:177][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2018.04.30-09.09.07:203][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
-[2018.04.30-09.09.07:227][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2018.04.30-09.09.07:232][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2018.04.30-09.09.07:257][  0]LogLoad: Full Startup: 128.20 seconds (BP compile: 1.03 seconds)
-[2018.04.30-09.09.07:717][  0]LogContentStreaming: Texture pool size now 200 MB
-[2018.04.30-09.09.08:062][  0]LogRenderer: Reallocating scene render targets to support 804x408 (Frame:2).
-[2018.04.30-09.09.13:537][ 13]LogAssetRegistry: Asset discovery search completed in 16.5375 seconds
-[2018.04.30-09.09.13:537][ 13]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2018.04.30-09.09.13:537][ 13]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000032 seconds (updated 0 objects)
-[2018.04.30-09.16.41:714][ 92]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
-[2018.04.30-09.16.41:714][ 92]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.04.30-09.16.41:715][ 92]PIE: New page: PIE session: TopDownExampleMap (May 1, 2018, 1:16:41 AM)
-[2018.04.30-09.16.41:715][ 92]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
-[2018.04.30-09.16.41:811][ 92]LogPlayLevel: PIE: StaticDuplicateObject took: (0.096261s)
-[2018.04.30-09.16.41:812][ 92]LogAIModule: Creating AISystem for world TopDownExampleMap
-[2018.04.30-09.16.41:812][ 92]LogPlayLevel: PIE: World Init took: (0.001160s)
-[2018.04.30-09.16.41:812][ 92]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.097759s)
-[2018.04.30-09.16.41:833][ 92]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharGoingForAction_GEN_VARIABLE) Not registered. Aborting.
-[2018.04.30-09.16.41:833][ 92]LogActorComponent: UnregisterComponent: (/Engine/Transient.CursorOnActorText_GEN_VARIABLE) Not registered. Aborting.
-[2018.04.30-09.16.41:833][ 92]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2018.04.30-09.16.42:056][ 92]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2018.04.30-09.16.42:064][ 92]LogInit: FAudioDevice initialized.
-[2018.04.30-09.16.42:202][ 92]LogWorld: Game class is 'TopDownGameMode_C'
-[2018.04.30-09.16.42:233][ 92]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
-[2018.04.30-09.16.42:233][ 92]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2018.04.30-17.16.42
-[2018.04.30-09.16.42:233][ 92]LogActor:Warning: GameSession /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2018.04.30-09.16.42:233][ 92]LogActor:Warning: GameNetworkManager /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2018.04.30-09.16.42:274][ 92]LogWorld: Bringing up level for play took: 0.055559
-[2018.04.30-09.16.42:353][ 92]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap -0.159
-[2018.04.30-09.16.42:353][ 92]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
-[2018.04.30-09.16.54:235][622]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
-[2018.04.30-09.16.54:359][622]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
-[2018.04.30-09.16.54:404][622]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000150D25C0
-[2018.04.30-09.17.00:400][872]LogEditorViewport: Clicking on Actor (LMB): DisappearsWhenThePlayerNext_C (DisappearsWhenThePlayerNext)
-[2018.04.30-09.17.06:249][165]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
-[2018.04.30-09.17.06:250][165]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.04.30-09.17.06:250][165]PIE: New page: PIE session: TopDownExampleMap (May 1, 2018, 1:17:06 AM)
-[2018.04.30-09.17.06:250][165]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
-[2018.04.30-09.17.06:308][165]LogPlayLevel: PIE: StaticDuplicateObject took: (0.057851s)
-[2018.04.30-09.17.06:309][165]LogAIModule: Creating AISystem for world TopDownExampleMap
-[2018.04.30-09.17.06:309][165]LogPlayLevel: PIE: World Init took: (0.001508s)
-[2018.04.30-09.17.06:310][165]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.059737s)
-[2018.04.30-09.17.06:351][165]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2018.04.30-09.17.06:357][165]LogInit: FAudioDevice initialized.
-[2018.04.30-09.17.06:395][165]LogWorld: Game class is 'TopDownGameMode_C'
-[2018.04.30-09.17.06:409][165]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
-[2018.04.30-09.17.06:409][165]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2018.04.30-17.17.06
-[2018.04.30-09.17.06:410][165]LogActor:Warning: GameSession /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2018.04.30-09.17.06:410][165]LogActor:Warning: GameNetworkManager /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2018.04.30-09.17.06:411][165]LogWorld: Bringing up level for play took: 0.014924
-[2018.04.30-09.17.06:414][165]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap -0.099
-[2018.04.30-09.17.06:414][165]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
-[2018.04.30-09.17.21:360][869]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
-[2018.04.30-09.17.21:402][869]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
-[2018.04.30-09.17.21:459][869]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000127EF880
-[2018.04.30-09.17.37:903][413]LogSavePackage: Save=398.625183ms
-[2018.04.30-09.17.37:903][413]LogSavePackage: Moving '../../../../sergey/UnrealProjects/TopDownProject/Saved/TopDownExampleMap3CF776AC4210A6F9774C20A0CF0F1DBE.tmp' to '../../../../sergey/UnrealProjects/TopDownProject/Content/TopDownBP/Maps/TopDownExampleMap.umap'
-[2018.04.30-09.17.37:935][413]LogSavePackage: Total save time: 834.440235ms
-[2018.04.30-09.17.37:935][413]LogSavePackage:Warning: Finished SavePackage ../../../../sergey/UnrealProjects/TopDownProject/Content/TopDownBP/Maps/TopDownExampleMap.umap
-[2018.04.30-09.17.38:092][413]LogFileHelpers: Saving map 'TopDownExampleMap' took 1.260
-[2018.04.30-09.18.11:667][223]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.04.30-09.18.18:037][223]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 107 classes and 0 folders.
-[2018.04.30-09.22.34:645][799]BlueprintLog: New page: Compile TopDownController
-[2018.04.30-09.22.34:777][799]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2018.04.30-09.22.34:876][799]BlueprintEditorCompileResults: Info [0935.77] Compile of TopDownController successful! [in 217 ms]
-[2018.04.30-09.22.38:052][931]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
-[2018.04.30-09.22.38:053][931]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.04.30-09.22.38:053][931]PIE: New page: PIE session: TopDownExampleMap (May 1, 2018, 1:22:38 AM)
-[2018.04.30-09.22.38:053][931]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
-[2018.04.30-09.22.38:090][931]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037556s)
-[2018.04.30-09.22.38:092][931]LogAIModule: Creating AISystem for world TopDownExampleMap
-[2018.04.30-09.22.38:092][931]LogPlayLevel: PIE: World Init took: (0.001608s)
-[2018.04.30-09.22.38:092][931]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.039523s)
-[2018.04.30-09.22.38:151][931]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2018.04.30-09.22.38:165][931]LogInit: FAudioDevice initialized.
-[2018.04.30-09.22.38:205][931]LogWorld: Game class is 'TopDownGameMode_C'
-[2018.04.30-09.22.38:220][931]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
-[2018.04.30-09.22.38:220][931]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2018.04.30-17.22.38
-[2018.04.30-09.22.38:220][931]LogActor:Warning: GameSession /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2018.04.30-09.22.38:221][931]LogActor:Warning: GameNetworkManager /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2018.04.30-09.22.38:221][931]LogWorld: Bringing up level for play took: 0.015391
-[2018.04.30-09.22.38:225][931]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap -0.299
-[2018.04.30-09.22.38:225][931]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
-[2018.04.30-09.23.08:014][311]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
-[2018.04.30-09.23.08:057][311]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
-[2018.04.30-09.23.08:161][312]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000536B3A60
-[2018.04.30-09.23.09:123][364]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
-[2018.04.30-09.23.09:123][364]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.04.30-09.23.09:123][364]PIE: New page: PIE session: TopDownExampleMap (May 1, 2018, 1:23:09 AM)
-[2018.04.30-09.23.09:124][364]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
-[2018.04.30-09.23.09:179][364]LogPlayLevel: PIE: StaticDuplicateObject took: (0.055510s)
-[2018.04.30-09.23.09:180][364]LogAIModule: Creating AISystem for world TopDownExampleMap
-[2018.04.30-09.23.09:180][364]LogPlayLevel: PIE: World Init took: (0.001164s)
-[2018.04.30-09.23.09:181][364]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.057113s)
-[2018.04.30-09.23.09:258][364]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2018.04.30-09.23.09:265][364]LogInit: FAudioDevice initialized.
-[2018.04.30-09.23.09:306][364]LogWorld: Game class is 'TopDownGameMode_C'
-[2018.04.30-09.23.09:322][364]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
-[2018.04.30-09.23.09:322][364]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2018.04.30-17.23.09
-[2018.04.30-09.23.09:322][364]LogActor:Warning: GameSession /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2018.04.30-09.23.09:323][364]LogActor:Warning: GameNetworkManager /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2018.04.30-09.23.09:323][364]LogWorld: Bringing up level for play took: 0.016490
-[2018.04.30-09.23.09:327][364]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 0.803
-[2018.04.30-09.23.09:327][364]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
-[2018.04.30-09.23.17:307][723]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
-[2018.04.30-09.23.17:356][723]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
-[2018.04.30-09.23.17:424][723]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000012854720
-[2018.04.30-09.23.21:383][852]BlueprintLog: New page: Compile TopDownController
-[2018.04.30-09.23.21:483][852]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2018.04.30-09.23.21:549][852]BlueprintEditorCompileResults: Info [0982.46] Compile of TopDownController successful! [in 165 ms]
-[2018.04.30-09.23.23:874][958]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
-[2018.04.30-09.23.23:874][958]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.04.30-09.23.23:875][958]PIE: New page: PIE session: TopDownExampleMap (May 1, 2018, 1:23:23 AM)
-[2018.04.30-09.23.23:875][958]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
-[2018.04.30-09.23.23:913][958]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038090s)
-[2018.04.30-09.23.23:914][958]LogAIModule: Creating AISystem for world TopDownExampleMap
-[2018.04.30-09.23.23:914][958]LogPlayLevel: PIE: World Init took: (0.001066s)
-[2018.04.30-09.23.23:914][958]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.039428s)
-[2018.04.30-09.23.23:990][958]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2018.04.30-09.23.23:998][958]LogInit: FAudioDevice initialized.
-[2018.04.30-09.23.24:034][958]LogWorld: Game class is 'TopDownGameMode_C'
-[2018.04.30-09.23.24:050][958]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
-[2018.04.30-09.23.24:050][958]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2018.04.30-17.23.24
-[2018.04.30-09.23.24:050][958]LogActor:Warning: GameSession /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2018.04.30-09.23.24:050][958]LogActor:Warning: GameNetworkManager /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2018.04.30-09.23.24:051][958]LogWorld: Bringing up level for play took: 0.016745
-[2018.04.30-09.23.24:056][958]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap -0.469
-[2018.04.30-09.23.24:056][958]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
-[2018.04.30-09.23.30:218][228]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
-[2018.04.30-09.23.30:268][228]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
-[2018.04.30-09.23.30:357][228]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000047874E00
-[2018.04.30-09.23.37:628][455]BlueprintLog: New page: Compile TopDownController
-[2018.04.30-09.23.37:740][455]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2018.04.30-09.23.37:810][455]BlueprintEditorCompileResults: Info [0998.72] Compile of TopDownController successful! [in 181 ms]
-[2018.04.30-09.23.39:759][513]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/TopDownController" FILE="../../../../sergey/UnrealProjects/TopDownProject/Content/TopDownBP/Blueprints/TopDownController.uasset" SILENT=true
-[2018.04.30-09.23.39:931][513]LogSavePackage: Save=112.636009ms
-[2018.04.30-09.23.39:931][513]LogSavePackage: Moving '../../../../sergey/UnrealProjects/TopDownProject/Saved/TopDownController529A7A8D4AF152E847883BBE6DB6CBEC.tmp' to '../../../../sergey/UnrealProjects/TopDownProject/Content/TopDownBP/Blueprints/TopDownController.uasset'
-[2018.04.30-09.23.39:946][513]LogSavePackage: Total save time: 185.153823ms
-[2018.04.30-09.23.39:946][513]LogSavePackage:Warning: Finished SavePackage ../../../../sergey/UnrealProjects/TopDownProject/Content/TopDownBP/Blueprints/TopDownController.uasset
-[2018.04.30-09.23.42:138][605]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
-[2018.04.30-09.23.42:138][605]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.04.30-09.23.42:138][605]PIE: New page: PIE session: TopDownExampleMap (May 1, 2018, 1:23:42 AM)
-[2018.04.30-09.23.42:139][605]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
-[2018.04.30-09.23.42:181][605]LogPlayLevel: PIE: StaticDuplicateObject took: (0.042400s)
-[2018.04.30-09.23.42:182][605]LogAIModule: Creating AISystem for world TopDownExampleMap
-[2018.04.30-09.23.42:183][605]LogPlayLevel: PIE: World Init took: (0.001487s)
-[2018.04.30-09.23.42:183][605]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.044302s)
-[2018.04.30-09.23.42:259][605]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2018.04.30-09.23.42:266][605]LogInit: FAudioDevice initialized.
-[2018.04.30-09.23.42:311][605]LogWorld: Game class is 'TopDownGameMode_C'
-[2018.04.30-09.23.42:329][605]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
-[2018.04.30-09.23.42:329][605]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2018.04.30-17.23.42
-[2018.04.30-09.23.42:329][605]LogActor:Warning: GameSession /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2018.04.30-09.23.42:329][605]LogActor:Warning: GameNetworkManager /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2018.04.30-09.23.42:330][605]LogWorld: Bringing up level for play took: 0.018274
-[2018.04.30-09.23.42:333][605]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap -0.192
-[2018.04.30-09.23.42:334][605]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
-[2018.04.30-09.23.49:642][931]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
-[2018.04.30-09.23.49:688][931]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
-[2018.04.30-09.23.49:750][931]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003F8305E0
-[2018.04.30-09.24.26:117][113]LogRenderer: Reallocating scene render targets to support 804x616 (Frame:5450).
-[2018.04.30-09.24.39:795][510]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2018.04.30-09.24.42:717][607]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2018.04.30-09.24.46:831][710]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
-[2018.04.30-09.25.07:469][249]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
-[2018.04.30-09.25.11:442][349]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
-[2018.04.30-09.25.13:463][400]LogEditorTransaction: Undo Modify Component(s)
-[2018.04.30-09.25.13:530][400]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_4.CharacterMesh0) Component already registered.
-[2018.04.30-09.25.13:532][400]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_4.CharMoveComp) Component already registered.
-[2018.04.30-09.25.13:533][400]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_4.Arrow) Component already registered.
-[2018.04.30-09.25.13:590][400]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
-[2018.04.30-09.25.14:290][418]LogEditorTransaction: Undo Modify Component(s)
-[2018.04.30-09.25.14:313][418]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_4.CharacterMesh0) Component already registered.
-[2018.04.30-09.25.14:316][418]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_4.CharMoveComp) Component already registered.
-[2018.04.30-09.25.14:318][418]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_4.Arrow) Component already registered.
-[2018.04.30-09.25.14:376][418]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
-[2018.04.30-09.25.15:020][433]LogEditorTransaction: Undo Modify Component(s)
-[2018.04.30-09.25.15:067][433]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_4.Arrow) Component already registered.
-[2018.04.30-09.25.15:068][433]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_4.CharMoveComp) Component already registered.
-[2018.04.30-09.25.15:069][433]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_4.CharacterMesh0) Component already registered.
-[2018.04.30-09.25.15:132][433]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
-[2018.04.30-09.25.19:880][554]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
-[2018.04.30-09.25.22:540][622]LogEditorTransaction: Undo Modify Component(s)
-[2018.04.30-09.25.22:592][622]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_4.CharacterMesh0) Component already registered.
-[2018.04.30-09.25.22:594][622]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_4.CharMoveComp) Component already registered.
-[2018.04.30-09.25.22:595][622]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_4.Arrow) Component already registered.
-[2018.04.30-09.25.22:652][622]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
-[2018.04.30-09.26.45:553][669]LogEditorTransaction: Undo Modify Component(s)
-[2018.04.30-09.26.45:651][669]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
-[2018.04.30-09.27.19:058][222]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
-[2018.04.30-09.27.25:162][420]BlueprintLog: New page: Compile TopDownCharacter
-[2018.04.30-09.27.25:533][420]LogUObjectGlobals:Warning: Guid is in use by CapsuleComponent /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownCharacter_C_2.CollisionCylinder and CapsuleComponent /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownCharacter_C_0.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
-[2018.04.30-09.27.25:533][420]LogUObjectGlobals:Warning: Guid is in use by ArrowComponent /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownCharacter_C_2.Arrow and ArrowComponent /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownCharacter_C_0.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
-[2018.04.30-09.27.25:533][420]LogUObjectGlobals:Warning: Guid is in use by CharacterMovementComponent /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownCharacter_C_2.CharMoveComp and CharacterMovementComponent /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownCharacter_C_0.CharMoveComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
-[2018.04.30-09.27.25:533][420]LogUObjectGlobals:Warning: Guid is in use by SkeletalMeshComponent /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownCharacter_C_2.CharacterMesh0 and SkeletalMeshComponent /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownCharacter_C_0.CharacterMesh0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
-[2018.04.30-09.27.25:826][420]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_10) Not registered. Aborting.
-[2018.04.30-09.27.25:971][420]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003C311580
-[2018.04.30-09.27.26:023][420]BlueprintEditorCompileResults: Info [1226.93] Compile of TopDownCharacter successful! [in 860 ms]
-[2018.04.30-09.27.28:575][534]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
-[2018.04.30-09.27.28:575][534]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.04.30-09.27.28:575][534]PIE: New page: PIE session: TopDownExampleMap (May 1, 2018, 1:27:28 AM)
-[2018.04.30-09.27.28:575][534]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
-[2018.04.30-09.27.28:613][534]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038213s)
-[2018.04.30-09.27.28:614][534]LogAIModule: Creating AISystem for world TopDownExampleMap
-[2018.04.30-09.27.28:614][534]LogPlayLevel: PIE: World Init took: (0.001034s)
-[2018.04.30-09.27.28:615][534]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.039613s)
-[2018.04.30-09.27.28:615][534]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2018.04.30-09.27.28:699][534]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2018.04.30-09.27.28:751][534]LogInit: FAudioDevice initialized.
-[2018.04.30-09.27.28:790][534]LogWorld: Game class is 'TopDownGameMode_C'
-[2018.04.30-09.27.28:805][534]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
-[2018.04.30-09.27.28:805][534]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2018.04.30-17.27.28
-[2018.04.30-09.27.28:805][534]LogActor:Warning: GameSession /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2018.04.30-09.27.28:805][534]LogActor:Warning: GameNetworkManager /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2018.04.30-09.27.28:806][534]LogWorld: Bringing up level for play took: 0.015148
-[2018.04.30-09.27.28:810][534]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 0.277
-[2018.04.30-09.27.28:810][534]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
-[2018.04.30-09.27.34:399][778]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
-[2018.04.30-09.27.34:453][778]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
-[2018.04.30-09.27.34:514][778]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000237513A0
-[2018.04.30-09.27.37:978][902]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2018.04.30-09.28.48:582][684]LogAnimation:Warning: AnimBP ThirdPerson_AnimBP_C is incompatible with skeleton SK_Mannequin_Skeleton, removing AnimBP from actor.
-[2018.04.30-09.28.48:582][684]LogAnimation:Warning: AnimBP ThirdPerson_AnimBP_C is incompatible with skeleton SK_Mannequin_Skeleton, removing AnimBP from actor.
-[2018.04.30-09.28.48:582][684]LogAnimation:Warning: AnimBP ThirdPerson_AnimBP_C is incompatible with skeleton SK_Mannequin_Skeleton, removing AnimBP from actor.
-[2018.04.30-09.28.48:590][684]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_11) Not registered. Aborting.
-[2018.04.30-09.28.53:857][778]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_12) Not registered. Aborting.
-[2018.04.30-09.28.59:774][864]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_13) Not registered. Aborting.
-[2018.04.30-09.29.02:775][914]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_14) Not registered. Aborting.
-[2018.04.30-09.29.09:114][ 45]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_15) Not registered. Aborting.
-[2018.04.30-09.29.13:320][131]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_16) Not registered. Aborting.
-[2018.04.30-09.29.19:374][284]BlueprintLog: New page: Compile TopDownCharacter
-[2018.04.30-09.29.19:738][284]LogUObjectGlobals:Warning: Guid is in use by CapsuleComponent /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownCharacter_C_0.CollisionCylinder and CapsuleComponent /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownCharacter_C_1.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
-[2018.04.30-09.29.19:738][284]LogUObjectGlobals:Warning: Guid is in use by ArrowComponent /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownCharacter_C_0.Arrow and ArrowComponent /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownCharacter_C_1.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
-[2018.04.30-09.29.19:738][284]LogUObjectGlobals:Warning: Guid is in use by CharacterMovementComponent /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownCharacter_C_0.CharMoveComp and CharacterMovementComponent /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownCharacter_C_1.CharMoveComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
-[2018.04.30-09.29.19:739][284]LogUObjectGlobals:Warning: Guid is in use by SkeletalMeshComponent /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownCharacter_C_0.CharacterMesh0 and SkeletalMeshComponent /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownCharacter_C_1.CharacterMesh0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
-[2018.04.30-09.29.19:824][284]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_17) Not registered. Aborting.
-[2018.04.30-09.29.19:919][284]BlueprintEditorCompileResults: Info [1340.82] Compile of TopDownCharacter successful! [in 544 ms]
-[2018.04.30-09.29.22:142][378]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
-[2018.04.30-09.29.22:142][378]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.04.30-09.29.22:142][378]PIE: New page: PIE session: TopDownExampleMap (May 1, 2018, 1:29:22 AM)
-[2018.04.30-09.29.22:142][378]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
-[2018.04.30-09.29.22:189][378]LogPlayLevel: PIE: StaticDuplicateObject took: (0.046793s)
-[2018.04.30-09.29.22:190][378]LogAIModule: Creating AISystem for world TopDownExampleMap
-[2018.04.30-09.29.22:190][378]LogPlayLevel: PIE: World Init took: (0.001325s)
-[2018.04.30-09.29.22:190][378]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.048456s)
-[2018.04.30-09.29.22:190][378]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2018.04.30-09.29.22:270][378]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2018.04.30-09.29.22:277][378]LogInit: FAudioDevice initialized.
-[2018.04.30-09.29.22:314][378]LogWorld: Game class is 'TopDownGameMode_C'
-[2018.04.30-09.29.22:331][378]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
-[2018.04.30-09.29.22:331][378]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2018.04.30-17.29.22
-[2018.04.30-09.29.22:331][378]LogActor:Warning: GameSession /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2018.04.30-09.29.22:332][378]LogActor:Warning: GameNetworkManager /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2018.04.30-09.29.22:332][378]LogWorld: Bringing up level for play took: 0.017299
-[2018.04.30-09.29.22:336][378]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap -0.201
-[2018.04.30-09.29.22:336][378]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
-[2018.04.30-09.29.55:292][901]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
-[2018.04.30-09.29.55:345][901]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
-[2018.04.30-09.29.55:406][901]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000034FC87C0
-[2018.04.30-09.30.11:139][242]LogMaterial: Missing cached shader map for material M_Char_RaggedElite, compiling. 
-[2018.04.30-09.30.11:455][242]LogAnimation:Warning: AnimBP ThirdPerson_AnimBP_C is incompatible with skeleton SK_Mannequin_Skeleton, removing AnimBP from actor.
-[2018.04.30-09.30.11:455][242]LogAnimation:Warning: AnimBP ThirdPerson_AnimBP_C is incompatible with skeleton SK_Mannequin_Skeleton, removing AnimBP from actor.
-[2018.04.30-09.30.11:455][242]LogAnimation:Warning: AnimBP ThirdPerson_AnimBP_C is incompatible with skeleton SK_Mannequin_Skeleton, removing AnimBP from actor.
-[2018.04.30-09.30.11:462][242]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2018.04.30-09.30.17:459][347]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_18) Not registered. Aborting.
-[2018.04.30-09.30.18:273][359]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
-[2018.04.30-09.30.19:640][382]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_19) Not registered. Aborting.
-[2018.04.30-09.30.23:540][418]LogMaterial: Missing cached shader map for material M_CharM_Bladed, compiling. 
-[2018.04.30-09.30.23:592][418]LogAnimation:Warning: AnimBP ThirdPerson_AnimBP_C is incompatible with skeleton SK_Mannequin_Skeleton, removing AnimBP from actor.
-[2018.04.30-09.30.23:593][418]LogAnimation:Warning: AnimBP ThirdPerson_AnimBP_C is incompatible with skeleton SK_Mannequin_Skeleton, removing AnimBP from actor.
-[2018.04.30-09.30.23:593][418]LogAnimation:Warning: AnimBP ThirdPerson_AnimBP_C is incompatible with skeleton SK_Mannequin_Skeleton, removing AnimBP from actor.
-[2018.04.30-09.30.23:605][418]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_20) Not registered. Aborting.
-[2018.04.30-09.30.30:188][538]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_21) Not registered. Aborting.
-[2018.04.30-09.30.34:054][609]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_22) Not registered. Aborting.
-[2018.04.30-09.31.02:348][195]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_23) Not registered. Aborting.
-[2018.04.30-09.31.04:777][249]BlueprintLog: New page: Compile TopDownCharacter
-[2018.04.30-09.31.05:228][249]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_24) Not registered. Aborting.
-[2018.04.30-09.31.05:318][249]BlueprintEditorCompileResults: Info [1446.21] Compile of TopDownCharacter successful! [in 540 ms]
-[2018.04.30-09.31.06:422][272]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/TopDownCharacter" FILE="../../../../sergey/UnrealProjects/TopDownProject/Content/TopDownBP/Blueprints/TopDownCharacter.uasset" SILENT=true
-[2018.04.30-09.31.07:887][272]LogSavePackage: Save=1043.435669ms
-[2018.04.30-09.31.07:887][272]LogSavePackage: Moving '../../../../sergey/UnrealProjects/TopDownProject/Saved/TopDownCharacter9C2AB2E14B850CB91123A095B2EEF452.tmp' to '../../../../sergey/UnrealProjects/TopDownProject/Content/TopDownBP/Blueprints/TopDownCharacter.uasset'
-[2018.04.30-09.31.07:890][272]LogSavePackage: Total save time: 1466.879625ms
-[2018.04.30-09.31.07:890][272]LogSavePackage:Warning: Finished SavePackage ../../../../sergey/UnrealProjects/TopDownProject/Content/TopDownBP/Blueprints/TopDownCharacter.uasset
-[2018.04.30-09.32.45:060][749]LogEditorTransaction: Undo Modify Component(s)
-[2018.04.30-09.32.45:182][749]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2018.04.30-09.32.59:385][111]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_25) Not registered. Aborting.
-[2018.04.30-09.33.11:660][398]LogEditorTransaction: Undo Modify Component(s)
-[2018.04.30-09.33.11:773][398]LogActorComponent: UnregisterComponent: (/Engine/Transient.CapsuleComponent_61) Not registered. Aborting.
-[2018.04.30-09.33.11:773][398]LogActorComponent: UnregisterComponent: (/Engine/Transient.ArrowComponent_26) Not registered. Aborting.
-[2018.04.30-09.33.11:773][398]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_26) Not registered. Aborting.
-[2018.04.30-09.33.11:773][398]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_26) Not registered. Aborting.
-[2018.04.30-09.33.11:773][398]LogActorComponent: UnregisterComponent: (/Engine/Transient.SpringArmComponent_32) Not registered. Aborting.
-[2018.04.30-09.33.11:773][398]LogActorComponent: UnregisterComponent: (/Engine/Transient.CameraComponent_32) Not registered. Aborting.
-[2018.04.30-09.33.11:773][398]LogActorComponent: UnregisterComponent: (/Engine/Transient.CapsuleComponent_62) Not registered. Aborting.
-[2018.04.30-09.34.49:629][736]LogEditorTransaction: Undo Modify Component(s)
-[2018.04.30-09.34.49:697][736]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_27) Not registered. Aborting.
-[2018.04.30-09.34.50:408][750]LogEditorTransaction: Undo Modify Component(s)
-[2018.04.30-09.34.50:509][750]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_28) Not registered. Aborting.
-[2018.04.30-09.34.51:777][783]LogEditorTransaction: Undo Modify Component(s)
-[2018.04.30-09.34.51:882][783]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_29) Not registered. Aborting.
-[2018.04.30-09.34.52:323][794]LogEditorTransaction: Undo Modify Component(s)
-[2018.04.30-09.34.52:367][794]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_2.CollisionCylinder) Component already registered.
-[2018.04.30-09.34.52:423][794]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_30) Not registered. Aborting.
-[2018.04.30-09.34.52:826][804]LogEditorTransaction: Undo Modify Component(s)
-[2018.04.30-09.34.52:932][804]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_31) Not registered. Aborting.
-[2018.04.30-09.34.53:303][813]LogEditorTransaction: Undo Modify Component(s)
-[2018.04.30-09.34.53:400][813]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_32) Not registered. Aborting.
-[2018.04.30-09.34.53:774][822]LogEditorTransaction: Undo Modify Component(s)
-[2018.04.30-09.34.53:876][822]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_33) Not registered. Aborting.
-[2018.04.30-09.34.54:239][831]LogEditorTransaction: Undo Detach Component
-[2018.04.30-09.34.54:283][831]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_2.Arrow) Component already registered.
-[2018.04.30-09.34.54:284][831]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_2.CharacterMesh0) Component already registered.
-[2018.04.30-09.34.54:286][831]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_2.CharMoveComp) Component already registered.
-[2018.04.30-09.34.54:347][831]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_34) Not registered. Aborting.
-[2018.04.30-09.34.54:808][842]LogEditorTransaction: Undo Detach Component
-[2018.04.30-09.34.54:856][842]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_2.CharMoveComp) Component already registered.
-[2018.04.30-09.34.54:857][842]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_2.CharacterMesh0) Component already registered.
-[2018.04.30-09.34.54:859][842]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_2.Arrow) Component already registered.
-[2018.04.30-09.34.54:925][842]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_35) Not registered. Aborting.
-[2018.04.30-09.35.26:258][628]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_36) Not registered. Aborting.
-[2018.04.30-09.35.28:443][683]LogEditorTransaction: Undo Detach Component
-[2018.04.30-09.35.28:493][683]LogActorComponent: ~FComponentReregisterContext: (/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownCharacter_C_1.CharacterMesh0) Component already registered.
-[2018.04.30-09.35.28:499][683]LogActorComponent: ~FComponentReregisterContext: (/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownCharacter_C_1.CharMoveComp) Component already registered.
-[2018.04.30-09.35.28:500][683]LogActorComponent: ~FComponentReregisterContext: (/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownCharacter_C_1.Arrow) Component already registered.
-[2018.04.30-09.35.36:413][877]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_37) Not registered. Aborting.
-[2018.04.30-09.36.06:938][628]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_38) Not registered. Aborting.
-[2018.04.30-09.36.37:772][344]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_39) Not registered. Aborting.
-[2018.04.30-09.36.39:678][397]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_40) Not registered. Aborting.
-[2018.04.30-09.36.43:182][497]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_41) Not registered. Aborting.
-[2018.04.30-09.37.06:583][150]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_42) Not registered. Aborting.
-[2018.04.30-09.37.35:488][820]LogEditorTransaction: Undo Modify Component(s)
-[2018.04.30-09.37.35:594][820]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_43) Not registered. Aborting.
-[2018.04.30-09.37.43:857][ 35]Cmd: MODE ROTGRID=0
-[2018.04.30-09.37.54:894][294]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_44) Not registered. Aborting.
-[2018.04.30-09.37.58:085][383]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_45) Not registered. Aborting.
-[2018.04.30-09.38.04:397][560]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_46) Not registered. Aborting.
-[2018.04.30-09.38.10:976][746]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_47) Not registered. Aborting.
-[2018.04.30-09.38.15:905][884]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_48) Not registered. Aborting.
-[2018.04.30-09.39.12:813][332]BlueprintLog: New page: Compile TopDownCharacter
-[2018.04.30-09.39.13:175][332]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_49) Not registered. Aborting.
-[2018.04.30-09.39.13:415][332]BlueprintEditorCompileResults: Info [1934.29] Compile of TopDownCharacter successful! [in 601 ms]
-[2018.04.30-09.39.14:186][347]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/TopDownCharacter" FILE="../../../../sergey/UnrealProjects/TopDownProject/Content/TopDownBP/Blueprints/TopDownCharacter.uasset" SILENT=true
-[2018.04.30-09.39.15:298][347]LogSavePackage: Save=1024.182495ms
-[2018.04.30-09.39.15:298][347]LogSavePackage: Moving '../../../../sergey/UnrealProjects/TopDownProject/Saved/TopDownCharacter8A6599F140ED827E1A1D4C9DC0639546.tmp' to '../../../../sergey/UnrealProjects/TopDownProject/Content/TopDownBP/Blueprints/TopDownCharacter.uasset'
-[2018.04.30-09.39.15:302][347]LogSavePackage: Total save time: 1114.597086ms
-[2018.04.30-09.39.15:302][347]LogSavePackage:Warning: Finished SavePackage ../../../../sergey/UnrealProjects/TopDownProject/Content/TopDownBP/Blueprints/TopDownCharacter.uasset
-[2018.04.30-09.39.17:294][444]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
-[2018.04.30-09.39.17:294][444]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.04.30-09.39.17:294][444]PIE: New page: PIE session: TopDownExampleMap (May 1, 2018, 1:39:17 AM)
-[2018.04.30-09.39.17:294][444]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
-[2018.04.30-09.39.17:345][444]LogPlayLevel: PIE: StaticDuplicateObject took: (0.051118s)
-[2018.04.30-09.39.17:347][444]LogAIModule: Creating AISystem for world TopDownExampleMap
-[2018.04.30-09.39.17:347][444]LogPlayLevel: PIE: World Init took: (0.001366s)
-[2018.04.30-09.39.17:347][444]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.052883s)
-[2018.04.30-09.39.17:347][444]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2018.04.30-09.39.17:421][444]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2018.04.30-09.39.17:458][444]LogInit: FAudioDevice initialized.
-[2018.04.30-09.39.17:498][444]LogWorld: Game class is 'TopDownGameMode_C'
-[2018.04.30-09.39.17:513][444]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
-[2018.04.30-09.39.17:513][444]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2018.04.30-17.39.17
-[2018.04.30-09.39.17:513][444]LogActor:Warning: GameSession /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameSession_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2018.04.30-09.39.17:514][444]LogActor:Warning: GameNetworkManager /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameNetworkManager_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2018.04.30-09.39.17:515][444]LogWorld: Bringing up level for play took: 0.015735
-[2018.04.30-09.39.17:518][444]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 0.961
-[2018.04.30-09.39.17:518][444]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
-[2018.04.30-09.39.20:901][590]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
-[2018.04.30-09.39.20:949][590]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
-[2018.04.30-09.39.21:014][590]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000005C9A6840
-[2018.04.30-09.39.24:956][705]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2018.04.30-09.39.27:756][773]BlueprintLog: New page: Compile TopDownCharacter
-[2018.04.30-09.39.28:172][773]BlueprintEditorCompileResults: Info [1949.05] Compile of TopDownCharacter successful! [in 416 ms]
-[2018.04.30-09.39.28:641][780]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/TopDownCharacter" FILE="../../../../sergey/UnrealProjects/TopDownProject/Content/TopDownBP/Blueprints/TopDownCharacter.uasset" SILENT=true
-[2018.04.30-09.39.29:636][780]LogSavePackage: Save=987.197876ms
-[2018.04.30-09.39.29:636][780]LogSavePackage: Moving '../../../../sergey/UnrealProjects/TopDownProject/Saved/TopDownCharacterDB90A9F041D815DC6A5BCDA8CB5E1141.tmp' to '../../../../sergey/UnrealProjects/TopDownProject/Content/TopDownBP/Blueprints/TopDownCharacter.uasset'
-[2018.04.30-09.39.29:652][780]LogSavePackage: Total save time: 1009.184461ms
-[2018.04.30-09.39.29:652][780]LogSavePackage:Warning: Finished SavePackage ../../../../sergey/UnrealProjects/TopDownProject/Content/TopDownBP/Blueprints/TopDownCharacter.uasset
-[2018.04.30-09.39.49:888][340]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2018.04.30-09.39.51:346][377]LogEditorTransaction: Undo Detach Component
-[2018.04.30-09.39.51:396][377]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_2.CharacterMesh0) Component already registered.
-[2018.04.30-09.39.51:398][377]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_2.CharMoveComp) Component already registered.
-[2018.04.30-09.39.51:399][377]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_2.Arrow) Component already registered.
-[2018.04.30-09.39.51:810][383]LogEditorTransaction: Undo Attach Component
-[2018.04.30-09.39.51:833][383]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_2.Arrow) Component already registered.
-[2018.04.30-09.39.51:835][383]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_2.CharacterMesh0) Component already registered.
-[2018.04.30-09.39.51:837][383]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_2.CharMoveComp) Component already registered.
-[2018.04.30-09.39.51:900][383]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_50) Not registered. Aborting.
-[2018.04.30-09.39.52:298][392]LogEditorTransaction: Undo Attach Component
-[2018.04.30-09.39.52:346][392]LogActorComponent: ~FComponentReregisterContext: (/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownCharacter_C_1.CharacterMesh0) Component already registered.
-[2018.04.30-09.39.52:348][392]LogActorComponent: ~FComponentReregisterContext: (/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownCharacter_C_1.CharMoveComp) Component already registered.
-[2018.04.30-09.39.52:352][392]LogActorComponent: ~FComponentReregisterContext: (/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownCharacter_C_1.Arrow) Component already registered.
-[2018.04.30-09.39.52:409][392]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_51) Not registered. Aborting.
-[2018.04.30-09.39.56:894][510]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_52) Not registered. Aborting.
-[2018.04.30-09.40.23:539][185]LogEditorTransaction: Undo Modify Component(s)
-[2018.04.30-09.40.23:641][185]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_53) Not registered. Aborting.
-[2018.04.30-09.40.24:695][210]LogEditorTransaction: Undo Modify Component(s)
-[2018.04.30-09.40.24:820][210]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_54) Not registered. Aborting.
-[2018.04.30-09.40.26:094][245]LogEditorTransaction: Undo Rename Component Variable
-[2018.04.30-09.40.26:677][260]LogEditorTransaction: Undo Attach Component
-[2018.04.30-09.40.26:724][260]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_2.Arrow) Component already registered.
-[2018.04.30-09.40.26:725][260]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_2.CharacterMesh0) Component already registered.
-[2018.04.30-09.40.26:727][260]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_2.CharMoveComp) Component already registered.
-[2018.04.30-09.40.26:791][260]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_55) Not registered. Aborting.
-[2018.04.30-09.40.27:629][281]LogEditorTransaction: Undo Attach Component
-[2018.04.30-09.40.27:671][281]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_2.CharMoveComp) Component already registered.
-[2018.04.30-09.40.27:672][281]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_2.CharacterMesh0) Component already registered.
-[2018.04.30-09.40.27:674][281]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_2.Arrow) Component already registered.
-[2018.04.30-09.40.27:738][281]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_56) Not registered. Aborting.
-[2018.04.30-09.41.02:116][144]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_57) Not registered. Aborting.
-[2018.04.30-09.41.14:157][448]BlueprintLog: New page: Compile TopDownCharacter
-[2018.04.30-09.41.14:511][448]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_58) Not registered. Aborting.
-[2018.04.30-09.41.14:647][448]BlueprintEditorCompileResults: Info [2055.52] Compile of TopDownCharacter successful! [in 489 ms]
-[2018.04.30-09.41.15:272][459]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/TopDownCharacter" FILE="../../../../sergey/UnrealProjects/TopDownProject/Content/TopDownBP/Blueprints/TopDownCharacter.uasset" SILENT=true
-[2018.04.30-09.41.16:307][459]LogSavePackage: Save=1024.869141ms
-[2018.04.30-09.41.16:307][459]LogSavePackage: Moving '../../../../sergey/UnrealProjects/TopDownProject/Saved/TopDownCharacterE51EE2034BB7D0830862BF901F779962.tmp' to '../../../../sergey/UnrealProjects/TopDownProject/Content/TopDownBP/Blueprints/TopDownCharacter.uasset'
-[2018.04.30-09.41.16:312][459]LogSavePackage: Total save time: 1038.620237ms
-[2018.04.30-09.41.16:312][459]LogSavePackage:Warning: Finished SavePackage ../../../../sergey/UnrealProjects/TopDownProject/Content/TopDownBP/Blueprints/TopDownCharacter.uasset
-[2018.04.30-09.41.18:510][549]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
-[2018.04.30-09.41.18:510][549]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.04.30-09.41.18:510][549]PIE: New page: PIE session: TopDownExampleMap (May 1, 2018, 1:41:18 AM)
-[2018.04.30-09.41.18:510][549]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
-[2018.04.30-09.41.18:557][549]LogPlayLevel: PIE: StaticDuplicateObject took: (0.046961s)
-[2018.04.30-09.41.18:558][549]LogAIModule: Creating AISystem for world TopDownExampleMap
-[2018.04.30-09.41.18:558][549]LogPlayLevel: PIE: World Init took: (0.001031s)
-[2018.04.30-09.41.18:558][549]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.048269s)
-[2018.04.30-09.41.18:558][549]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2018.04.30-09.41.18:651][549]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2018.04.30-09.41.18:679][549]LogInit: FAudioDevice initialized.
-[2018.04.30-09.41.18:718][549]LogWorld: Game class is 'TopDownGameMode_C'
-[2018.04.30-09.41.18:733][549]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
-[2018.04.30-09.41.18:733][549]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2018.04.30-17.41.18
-[2018.04.30-09.41.18:734][549]LogActor:Warning: GameSession /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameSession_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2018.04.30-09.41.18:734][549]LogActor:Warning: GameNetworkManager /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameNetworkManager_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2018.04.30-09.41.18:735][549]LogWorld: Bringing up level for play took: 0.015559
-[2018.04.30-09.41.18:738][549]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 0.177
-[2018.04.30-09.41.18:738][549]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
-[2018.04.30-09.41.38:238][447]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
-[2018.04.30-09.41.38:287][447]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
-[2018.04.30-09.41.38:352][447]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000340F19E0
-[2018.04.30-09.41.44:355][612]LogEditorTransaction: Undo Modify Component(s)
-[2018.04.30-09.41.44:463][612]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2018.04.30-09.41.44:683][615]LogEditorTransaction: Undo Attach Component
-[2018.04.30-09.41.44:707][615]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_2.Arrow) Component already registered.
-[2018.04.30-09.41.44:708][615]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_2.CharacterMesh0) Component already registered.
-[2018.04.30-09.41.44:711][615]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_2.CharMoveComp) Component already registered.
-[2018.04.30-09.41.44:773][615]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_59) Not registered. Aborting.
-[2018.04.30-09.41.44:967][617]LogEditorTransaction: Undo Attach Component
-[2018.04.30-09.41.44:976][617]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_2.CharMoveComp) Component already registered.
-[2018.04.30-09.41.44:978][617]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_2.CharacterMesh0) Component already registered.
-[2018.04.30-09.41.44:980][617]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_2.Arrow) Component already registered.
-[2018.04.30-09.41.45:043][617]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_60) Not registered. Aborting.
-[2018.04.30-09.41.45:147][618]LogEditorTransaction: Undo Modify Component(s)
-[2018.04.30-09.41.45:220][618]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_61) Not registered. Aborting.
-[2018.04.30-09.41.45:387][620]LogEditorTransaction: Undo Modify Component(s)
-[2018.04.30-09.41.45:451][620]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_62) Not registered. Aborting.
-[2018.04.30-09.41.45:568][622]LogEditorTransaction: Undo Modify Component(s)
-[2018.04.30-09.41.45:669][622]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_63) Not registered. Aborting.
-[2018.04.30-09.41.45:800][625]LogEditorTransaction: Undo Modify Component(s)
-[2018.04.30-09.41.45:901][625]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_64) Not registered. Aborting.
-[2018.04.30-09.41.46:037][628]LogEditorTransaction: Undo Modify Component(s)
-[2018.04.30-09.41.46:141][628]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_65) Not registered. Aborting.
-[2018.04.30-09.41.46:286][630]LogEditorTransaction: Undo Modify Component(s)
-[2018.04.30-09.41.46:351][630]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_66) Not registered. Aborting.
-[2018.04.30-09.41.46:413][631]LogEditorTransaction: Undo Modify Component(s)
-[2018.04.30-09.41.46:515][631]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_67) Not registered. Aborting.
-[2018.04.30-09.41.46:612][633]LogEditorTransaction: Undo Modify Component(s)
-[2018.04.30-09.41.46:709][633]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_68) Not registered. Aborting.
-[2018.04.30-09.41.46:818][634]LogEditorTransaction: Undo Modify Component(s)
-[2018.04.30-09.41.46:834][634]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_2.CharacterMesh0) Component already registered.
-[2018.04.30-09.41.46:836][634]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_2.CharMoveComp) Component already registered.
-[2018.04.30-09.41.46:837][634]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_2.Arrow) Component already registered.
-[2018.04.30-09.41.46:893][634]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_69) Not registered. Aborting.
-[2018.04.30-09.41.47:204][641]LogEditorTransaction: Undo Modify Component(s)
-[2018.04.30-09.41.47:256][641]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_2.CharacterMesh0) Component already registered.
-[2018.04.30-09.41.47:258][641]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_2.CharMoveComp) Component already registered.
-[2018.04.30-09.41.47:259][641]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_2.Arrow) Component already registered.
-[2018.04.30-09.41.47:314][641]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_70) Not registered. Aborting.
-[2018.04.30-09.41.47:483][645]LogEditorTransaction: Undo Modify Component(s)
-[2018.04.30-09.41.47:536][645]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_2.CharacterMesh0) Component already registered.
-[2018.04.30-09.41.47:538][645]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_2.CharMoveComp) Component already registered.
-[2018.04.30-09.41.47:539][645]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_2.Arrow) Component already registered.
-[2018.04.30-09.41.47:596][645]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_71) Not registered. Aborting.
-[2018.04.30-09.41.47:911][653]LogEditorTransaction: Undo Modify Component(s)
-[2018.04.30-09.41.47:960][653]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_2.CharacterMesh0) Component already registered.
-[2018.04.30-09.41.47:962][653]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_2.CharMoveComp) Component already registered.
-[2018.04.30-09.41.47:963][653]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_2.Arrow) Component already registered.
-[2018.04.30-09.41.48:018][653]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_72) Not registered. Aborting.
-[2018.04.30-09.41.48:301][660]LogEditorTransaction: Undo Modify Component(s)
-[2018.04.30-09.41.48:356][660]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_2.CharacterMesh0) Component already registered.
-[2018.04.30-09.41.48:358][660]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_2.CharMoveComp) Component already registered.
-[2018.04.30-09.41.48:359][660]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_2.Arrow) Component already registered.
-[2018.04.30-09.41.48:416][660]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_73) Not registered. Aborting.
-[2018.04.30-09.41.48:603][664]LogEditorTransaction: Undo Modify Component(s)
-[2018.04.30-09.41.48:707][664]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_74) Not registered. Aborting.
-[2018.04.30-09.41.48:910][668]LogEditorTransaction: Undo Modify Component(s)
-[2018.04.30-09.41.48:975][668]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_75) Not registered. Aborting.
-[2018.04.30-09.41.49:219][673]LogEditorTransaction: Undo Modify Component(s)
-[2018.04.30-09.41.49:319][673]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_76) Not registered. Aborting.
-[2018.04.30-09.41.49:531][678]LogEditorTransaction: Undo Detach Component
-[2018.04.30-09.41.49:580][678]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_2.CharacterMesh0) Component already registered.
-[2018.04.30-09.41.49:582][678]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_2.CharMoveComp) Component already registered.
-[2018.04.30-09.41.49:583][678]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_2.Arrow) Component already registered.
-[2018.04.30-09.41.49:639][678]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_77) Not registered. Aborting.
-[2018.04.30-09.41.49:875][683]LogEditorTransaction: Undo Modify Component(s)
-[2018.04.30-09.41.49:942][683]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_78) Not registered. Aborting.
-[2018.04.30-09.41.50:183][688]LogEditorTransaction: Undo Modify Component(s)
-[2018.04.30-09.41.50:231][688]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_2.CharacterMesh0) Component already registered.
-[2018.04.30-09.41.50:233][688]LogActorComponent: ~FComponentReregisterContext: (/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownCharacter_C_1.CharacterMesh0) Component already registered.
-[2018.04.30-09.41.50:236][688]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_2.CharMoveComp) Component already registered.
-[2018.04.30-09.41.50:237][688]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_2.Arrow) Component already registered.
-[2018.04.30-09.41.50:297][688]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_79) Not registered. Aborting.
-[2018.04.30-09.41.50:514][693]LogEditorTransaction: Undo Modify Component(s)
-[2018.04.30-09.41.50:562][693]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_2.CharacterMesh0) Component already registered.
-[2018.04.30-09.41.50:564][693]LogActorComponent: ~FComponentReregisterContext: (/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownCharacter_C_1.CharacterMesh0) Component already registered.
-[2018.04.30-09.41.50:566][693]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_2.CharMoveComp) Component already registered.
-[2018.04.30-09.41.50:567][693]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_2.Arrow) Component already registered.
-[2018.04.30-09.41.50:626][693]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_80) Not registered. Aborting.
-[2018.04.30-09.41.51:266][710]LogEditorTransaction: Undo Modify Component(s)
-[2018.04.30-09.41.51:319][710]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_2.CharacterMesh0) Component already registered.
-[2018.04.30-09.41.51:321][710]LogActorComponent: ~FComponentReregisterContext: (/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownCharacter_C_1.CharacterMesh0) Component already registered.
-[2018.04.30-09.41.51:323][710]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_2.CharMoveComp) Component already registered.
-[2018.04.30-09.41.51:324][710]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_2.Arrow) Component already registered.
-[2018.04.30-09.41.51:381][710]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_81) Not registered. Aborting.
-[2018.04.30-09.41.52:715][747]LogEditorTransaction: Undo Modify Component(s)
-[2018.04.30-09.41.52:822][747]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_82) Not registered. Aborting.
-[2018.04.30-09.41.53:365][761]LogEditorTransaction: Undo Modify Component(s)
-[2018.04.30-09.41.53:473][761]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_83) Not registered. Aborting.
-[2018.04.30-09.41.53:981][774]LogEditorTransaction: Undo Reset Rotation
-[2018.04.30-09.41.54:090][774]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_84) Not registered. Aborting.
-[2018.04.30-09.41.54:499][784]LogEditorTransaction: Undo Modify Component(s)
-[2018.04.30-09.41.54:598][784]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_85) Not registered. Aborting.
-[2018.04.30-09.41.55:149][798]LogEditorTransaction: Undo Modify Component(s)
-[2018.04.30-09.41.55:253][798]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_86) Not registered. Aborting.
-[2018.04.30-09.41.55:709][810]LogEditorTransaction: Undo Rename Component Variable
-[2018.04.30-09.41.56:229][823]LogEditorTransaction: Undo Detach Component
-[2018.04.30-09.41.56:276][823]LogActorComponent: ~FComponentReregisterContext: (/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownCharacter_C_1.CharacterMesh0) Component already registered.
-[2018.04.30-09.41.56:282][823]LogActorComponent: ~FComponentReregisterContext: (/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownCharacter_C_1.CharMoveComp) Component already registered.
-[2018.04.30-09.41.56:283][823]LogActorComponent: ~FComponentReregisterContext: (/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownCharacter_C_1.Arrow) Component already registered.
-[2018.04.30-09.41.56:340][823]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_87) Not registered. Aborting.
-[2018.04.30-09.41.56:715][832]LogEditorTransaction: Undo Rename Component Variable
-[2018.04.30-09.41.57:471][852]LogEditorTransaction: Undo Modify Component(s)
-[2018.04.30-09.41.57:575][852]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_88) Not registered. Aborting.
-[2018.04.30-09.41.58:217][869]LogEditorTransaction: Undo Modify Component(s)
-[2018.04.30-09.41.58:316][869]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_89) Not registered. Aborting.
-[2018.04.30-09.41.58:771][881]LogEditorTransaction: Undo Modify Component(s)
-[2018.04.30-09.41.58:869][881]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_90) Not registered. Aborting.
-[2018.04.30-09.41.59:283][892]LogEditorTransaction: Undo Edit Skeletal Mesh
-[2018.04.30-09.41.59:330][892]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_2.Arrow) Component already registered.
-[2018.04.30-09.41.59:335][892]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_2.CharacterMesh0) Component already registered.
-[2018.04.30-09.41.59:337][892]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_2.CharMoveComp) Component already registered.
-[2018.04.30-09.41.59:395][892]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_91) Not registered. Aborting.
-[2018.04.30-09.41.59:646][897]LogEditorTransaction: Undo Edit Anim Blueprint Generated Class
-[2018.04.30-09.41.59:690][897]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_2.Arrow) Component already registered.
-[2018.04.30-09.41.59:693][897]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_2.CharacterMesh0) Component already registered.
-[2018.04.30-09.41.59:694][897]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_2.CharMoveComp) Component already registered.
-[2018.04.30-09.41.59:751][897]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_92) Not registered. Aborting.
-[2018.04.30-09.42.00:084][904]LogEditorTransaction: Undo Edit Skeletal Mesh
-[2018.04.30-09.42.00:129][904]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_2.Arrow) Component already registered.
-[2018.04.30-09.42.00:132][904]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_2.CharacterMesh0) Component already registered.
-[2018.04.30-09.42.00:133][904]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_2.CharMoveComp) Component already registered.
-[2018.04.30-09.42.00:190][904]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_93) Not registered. Aborting.
-[2018.04.30-09.42.00:438][909]LogEditorTransaction: Undo Edit Skeletal Mesh
-[2018.04.30-09.42.00:482][909]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_2.Arrow) Component already registered.
-[2018.04.30-09.42.00:485][909]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_2.CharacterMesh0) Component already registered.
-[2018.04.30-09.42.00:486][909]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_2.CharMoveComp) Component already registered.
-[2018.04.30-09.42.00:542][909]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_94) Not registered. Aborting.
-[2018.04.30-09.42.00:813][916]LogEditorTransaction: Undo Edit Anim Blueprint Generated Class
-[2018.04.30-09.42.00:856][916]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_2.Arrow) Component already registered.
-[2018.04.30-09.42.00:859][916]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_2.CharacterMesh0) Component already registered.
-[2018.04.30-09.42.00:861][916]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_2.CharMoveComp) Component already registered.
-[2018.04.30-09.42.00:917][916]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_95) Not registered. Aborting.
-[2018.04.30-09.42.01:221][923]LogEditorTransaction: Undo Edit Skeletal Mesh
-[2018.04.30-09.42.01:269][923]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_2.Arrow) Component already registered.
-[2018.04.30-09.42.01:272][923]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_2.CharacterMesh0) Component already registered.
-[2018.04.30-09.42.01:273][923]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_2.CharMoveComp) Component already registered.
-[2018.04.30-09.42.01:327][923]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_96) Not registered. Aborting.
-[2018.04.30-09.42.01:604][929]LogEditorTransaction: Undo Edit Skeletal Mesh
-[2018.04.30-09.42.01:649][929]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_2.Arrow) Component already registered.
-[2018.04.30-09.42.01:652][929]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_2.CharacterMesh0) Component already registered.
-[2018.04.30-09.42.01:653][929]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_2.CharMoveComp) Component already registered.
-[2018.04.30-09.42.01:707][929]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_97) Not registered. Aborting.
-[2018.04.30-09.42.01:946][935]LogEditorTransaction: Undo Edit Anim Blueprint Generated Class
-[2018.04.30-09.42.02:046][935]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_98) Not registered. Aborting.
-[2018.04.30-09.42.02:299][940]LogEditorTransaction: Undo Edit Skeletal Mesh
-[2018.04.30-09.42.02:347][940]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_1.Arrow) Component already registered.
-[2018.04.30-09.42.02:352][940]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_1.CharacterMesh0) Component already registered.
-[2018.04.30-09.42.02:354][940]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_1.CharMoveComp) Component already registered.
-[2018.04.30-09.42.02:412][940]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_99) Not registered. Aborting.
-[2018.04.30-09.42.02:653][945]LogEditorTransaction: Undo Edit Skeletal Mesh
-[2018.04.30-09.42.02:699][945]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_1.Arrow) Component already registered.
-[2018.04.30-09.42.02:702][945]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_1.CharacterMesh0) Component already registered.
-[2018.04.30-09.42.02:703][945]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_1.CharMoveComp) Component already registered.
-[2018.04.30-09.42.02:763][945]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_100) Not registered. Aborting.
-[2018.04.30-09.42.03:044][952]LogEditorTransaction: Undo Edit Skeletal Mesh
-[2018.04.30-09.42.03:092][952]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_1.Arrow) Component already registered.
-[2018.04.30-09.42.03:098][952]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_1.CharacterMesh0) Component already registered.
-[2018.04.30-09.42.03:100][952]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_1.CharMoveComp) Component already registered.
-[2018.04.30-09.42.03:157][952]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_101) Not registered. Aborting.
-[2018.04.30-09.42.03:367][957]LogEditorTransaction: Undo Edit Skeletal Mesh
-[2018.04.30-09.42.03:414][957]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_1.Arrow) Component already registered.
-[2018.04.30-09.42.03:417][957]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_1.CharacterMesh0) Component already registered.
-[2018.04.30-09.42.03:419][957]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_1.CharMoveComp) Component already registered.
-[2018.04.30-09.42.03:477][957]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_102) Not registered. Aborting.
-[2018.04.30-09.42.03:750][964]LogEditorTransaction: Undo Edit Skeletal Mesh
-[2018.04.30-09.42.03:795][964]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_1.Arrow) Component already registered.
-[2018.04.30-09.42.03:799][964]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_1.CharacterMesh0) Component already registered.
-[2018.04.30-09.42.03:800][964]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_1.CharMoveComp) Component already registered.
-[2018.04.30-09.42.03:854][964]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_103) Not registered. Aborting.
-[2018.04.30-09.42.04:055][969]LogEditorTransaction: Undo Modify Component(s)
-[2018.04.30-09.42.04:152][969]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_104) Not registered. Aborting.
-[2018.04.30-09.42.04:395][974]LogEditorTransaction: Undo Modify Component(s)
-[2018.04.30-09.42.04:494][974]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_105) Not registered. Aborting.
-[2018.04.30-09.42.04:740][980]LogEditorTransaction: Undo Modify Component(s)
-[2018.04.30-09.42.04:839][980]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_106) Not registered. Aborting.
-[2018.04.30-09.42.05:084][986]LogEditorTransaction: Undo Modify Component(s)
-[2018.04.30-09.42.05:182][986]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_107) Not registered. Aborting.
-[2018.04.30-09.42.05:382][991]LogEditorTransaction: Undo Modify Component(s)
-[2018.04.30-09.42.05:478][991]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_108) Not registered. Aborting.
-[201
+﻿Log file open, 05/26/18 15:57:11
+LogInit:Display: Running engine for game: TopDownProject
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1961155174) SRandInit(-1961155171).
+LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+LogStats: Stats thread started at 0.327258
+LogInit: Version: 4.11.2-2946394+++UE4+Release-4.11
+LogInit: API Version: 2927265
+LogInit: Compiled (64-bit): Apr 18 2016 02:18:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.11
+LogInit: Command line:  
+LogInit: Base directory: D:/UE_4.11/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.05.26-07.57.19:149][  0]LogInit: Selected Device Profile: [Windows]
+[2018.05.26-07.57.19:149][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.05.26-07.57.21:822][  0]LogInit: Computer: 1-ПК
+[2018.05.26-07.57.21:822][  0]LogInit: User: 1
+[2018.05.26-07.57.21:822][  0]LogInit: CPU Page size=65536, Cores=2
+[2018.05.26-07.57.21:822][  0]LogInit: High frequency timer resolution =2.338496 MHz
+[2018.05.26-07.57.21:823][  0]LogMemory: Memory total: Physical=3.9GB (4GB approx)
+[2018.05.26-07.57.21:863][  0]LogMemory: Platform Memory Stats for Windows
+[2018.05.26-07.57.21:863][  0]LogMemory: Process Physical Memory: 314.07 MB used, 314.07 MB peak
+[2018.05.26-07.57.21:863][  0]LogMemory: Process Virtual Memory: 314.56 MB used, 314.56 MB peak
+[2018.05.26-07.57.21:863][  0]LogMemory: Physical Memory: 3411.30 MB used, 4010.14 MB total
+[2018.05.26-07.57.21:863][  0]LogMemory: Virtual Memory: 621.31 MB used, 8388608.00 MB total
+[2018.05.26-07.57.32:339][  0]LogTextLocalizationManager: No translations for ('ru-RU') exist, falling back to 'en' for localization and internationalization data.
+[2018.05.26-07.57.39:490][  0]LogD3D11RHI: D3D11 adapters:
+[2018.05.26-07.57.41:306][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 3000' (Feature Level 10_0)
+[2018.05.26-07.57.41:306][  0]LogD3D11RHI:       64MB of dedicated video memory, 0MB of dedicated system memory, and 1632MB of shared system memory, 1 output[s]
+[2018.05.26-07.57.45:598][  0]LogD3D11RHI:    1. 'NVIDIA GeForce 410M' (Feature Level 11_0)
+[2018.05.26-07.57.45:598][  0]LogD3D11RHI:       979MB of dedicated video memory, 0MB of dedicated system memory, and 1749MB of shared system memory, 0 output[s]
+[2018.05.26-07.57.45:598][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.05.26-07.57.45:623][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.05.26-07.57.45:657][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 3000
+[2018.05.26-07.57.45:657][  0]LogD3D11RHI:   Driver Version: Unknown (internal Unknown)
+[2018.05.26-07.57.45:657][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.05.26-07.57.45:657][  0]LogRHI: Texture pool is 616 MB (70% of 880 MB)
+[2018.05.26-07.57.45:701][  0]LogD3D11RHI: Async texture creation enabled
+[2018.05.26-07.57.48:370][  0]LogShaderCompilers: Guid format shader working directory is -16 characters bigger than the processId version (../../../../sergey/UnrealProjects/Game_1337/TopDownProject/Intermediate/Shaders/WorkingDirectory/7072/).
+[2018.05.26-07.57.48:370][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/1/AppData/Local/Temp/UnrealShaderWorkingDir/29005E8B40125687579FECA1094370DD/'.
+[2018.05.26-07.57.48:370][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.05.26-07.58.07:966][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.05.26-07.58.07:997][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.05.26-07.58.08:053][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.05.26-07.58.08:149][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.05.26-07.58.08:216][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.05.26-07.58.08:317][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.05.26-07.58.08:377][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.05.26-07.58.08:436][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.05.26-07.58.08:500][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.05.26-07.58.08:520][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.05.26-07.58.08:730][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.05.26-07.58.09:898][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.05.26-07.58.09:898][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.05.26-07.58.11:383][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.05.26-07.58.11:910][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.05.26-07.58.11:916][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2018.05.26-07.58.12:016][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.05.26-07.58.12:093][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.05.26-07.58.12:475][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.05.26-07.58.12:475][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.05.26-07.58.17:033][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.05.26-07.58.24:766][  0]LogDerivedDataCache: Loaded boot cache 7.69s 66MB C:/Users/1/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2018.05.26-07.58.24:766][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/1/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc
+[2018.05.26-07.58.24:767][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../sergey/UnrealProjects/Game_1337/TopDownProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.05.26-07.58.24:767][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.05.26-07.58.24:767][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../sergey/UnrealProjects/Game_1337/TopDownProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.05.26-07.58.24:767][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.05.26-07.58.24:998][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.05.26-07.58.25:053][  0]LogDerivedDataCache: Using Local data cache path C:/Users/1/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.05.26-07.59.11:892][  0]LogInit: Selected Device Profile: [Windows]
+[2018.05.26-07.59.12:073][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.05.26-07.59.13:376][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.05.26-07.59.18:791][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2018.05.26-07.59.18:791][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.05.26-07.59.18:791][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2018.05.26-07.59.42:743][  0]LogUObjectArray: 27679 objects as part of root set at end of initial load.
+[2018.05.26-07.59.42:801][  0]LogUObjectAllocator: 5591600 out of 0 bytes used by permanent object pool.
+[2018.05.26-07.59.42:801][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.05.26-07.59.42:861][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.05.26-08.00.03:373][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.05.26-08.00.03:373][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.05.26-08.00.11:263][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2018.05.26-08.00.11:263][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2018.05.26-08.00.11:263][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2018.05.26-08.00.11:263][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2018.05.26-08.00.11:263][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2018.05.26-08.00.11:263][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2018.05.26-08.00.31:787][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.05.26-08.00.32:621][  0]LogAssetRegistry: FAssetRegistry took 0.0200 seconds to start up
+[2018.05.26-08.00.37:819][  0]SourceControl: Info Source control is disabled
+[2018.05.26-08.00.37:963][  0]SourceControl: Info Source control is disabled
+[2018.05.26-08.00.38:356][  0]SourceControl: Info Source control is disabled
+[2018.05.26-08.00.38:553][  0]SourceControl: Info Source control is disabled
+[2018.05.26-08.00.42:693][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.05.26-08.00.45:207][  0]LogAutomationTest:Warning: Smoke tests took > 1s to run: 1.42s
+[2018.05.26-08.00.45:229][  0]LogEngine: Initializing Engine...
+[2018.05.26-08.00.50:164][  0]LogAIModule: Creating AISystem for world NewWorld
+[2018.05.26-08.00.50:519][  0]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.05.26-08.00.50:666][  0]LogInit: FAudioDevice initialized.
+[2018.05.26-08.00.50:893][  0]LogDerivedDataCache: Saved boot cache 0.23s 66MB C:/Users/1/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2018.05.26-08.00.50:953][  0]LogInit: Texture streaming: Enabled
+[2018.05.26-08.00.51:769][  0]LogInit: Transaction tracking system initialized
+[2018.05.26-08.00.53:728][  0]BlueprintLog: New page: Editor Load
+[2018.05.26-08.00.56:138][  0]LocalizationService: Info Localization service is disabled
+[2018.05.26-08.00.57:928][  0]LogConsoleResponse:Display: 
+[2018.05.26-08.01.02:756][  0]LogFileCache: Scanning file cache for directory 'D:/sergey/UnrealProjects/Game_1337/TopDownProject/Content/' took 0.05s
+[2018.05.26-08.01.02:756][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2018.05.26-08.01.02:791][  0]LogCook:Display: Mobile HDR setting 1
+[2018.05.26-08.01.02:819][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2018.05.26-08.01.06:262][  0]SourceControl: Info Source control is disabled
+[2018.05.26-08.01.06:300][  0]Cmd: MAP LOAD FILE="../../../../sergey/UnrealProjects/Game_1337/TopDownProject/Content/TopDownBP/Maps/LowPolyMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=2
+[2018.05.26-08.01.06:305][  0]LightingResults: New page: Lighting Build
+[2018.05.26-08.01.06:402][  0]MapCheck: New page: Map Check
+[2018.05.26-08.01.06:402][  0]LightingResults: New page: Lighting Build
+[2018.05.26-08.01.07:675][  0]LogMaterial: Uniform references updated for custom material expression TemporalAA SampleID.
+[2018.05.26-08.01.07:675][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.05.26-08.01.08:800][  0]LogMaterial: Missing cached shader map for material Green_12, compiling. 
+[2018.05.26-08.01.08:973][  0]LogMaterial: Missing cached shader map for material Brown_8, compiling. 
+[2018.05.26-08.01.13:573][  0]LogMaterial: Missing cached shader map for material Low_Poly_Water, compiling. 
+[2018.05.26-08.01.14:239][  0]LogAIModule: Creating AISystem for world LowPolyMap
+[2018.05.26-08.01.14:909][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.05.26-08.01.15:248][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.05.26-08.01.15:329][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 80.046ms to complete.
+[2018.05.26-08.01.15:329][  0]LogFileHelpers: Loading map 'LowPolyMap' took 9.029
+[2018.05.26-08.01.16:359][  0]LogCollectionManager: Loaded 0 collections in 0.009027 seconds
+[2018.05.26-08.01.16:484][  0]LogFileCache: Scanning file cache for directory 'D:/sergey/UnrealProjects/Game_1337/TopDownProject/Saved/Collections/' took 0.01s
+[2018.05.26-08.01.16:484][  0]LogFileCache: Scanning file cache for directory 'D:/sergey/UnrealProjects/Game_1337/TopDownProject/Content/Developers/1/Collections/' took 0.00s
+[2018.05.26-08.01.16:484][  0]LogFileCache: Scanning file cache for directory 'D:/sergey/UnrealProjects/Game_1337/TopDownProject/Content/Collections/' took 0.00s
+[2018.05.26-08.01.16:484][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
+[2018.05.26-08.01.16:519][  0]LogContentBrowser: Native class hierarchy populated in 0.0332 seconds. Added 1979 classes and 343 folders.
+[2018.05.26-08.01.16:601][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.05.26-08.01.16:602][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.05.26-08.01.16:603][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0011 seconds. Added 12 classes and 0 folders.
+[2018.05.26-08.01.16:636][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2018.05.26-08.01.17:028][  0]LogContentBrowser: Native class hierarchy updated for 'SuperSearch' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2018.05.26-08.01.18:601][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2018.05.26-08.01.18:635][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2018.05.26-08.01.19:068][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.05.26-08.01.19:101][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2018.05.26-08.01.19:300][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2018.05.26-08.01.19:301][  0]LogLoad: Full Startup: 250.30 seconds (BP compile: 3.46 seconds)
+[2018.05.26-08.01.19:301][  0]LogExternalProfiler:Warning: No registered external profiler was matched with a command-line switch (or the DLL could not be loaded).  External profiling features will not be available.
+[2018.05.26-08.01.19:652][  0]LogOcInput: OculusInput pre-init called
+[2018.05.26-08.01.19:995][  0]LogContentStreaming: Texture pool size now 200 MB
+[2018.05.26-08.01.20:703][  0]LogRenderer: Reallocating scene render targets to support 780x392 (Frame:2).
+[2018.05.26-08.01.23:291][  4]LogAssetRegistry: Asset discovery search completed in 50.6889 seconds
+[2018.05.26-08.01.23:315][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.05.26-08.01.23:315][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.024366 seconds (updated 0 objects)
+[2018.05.26-08.08.25:912][261]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\1\Desktop\PineTree3Snowy.fbx)
+[2018.05.26-08.08.26:191][261]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2018.05.26-08.08.26:191][261]LogFbx: ItemName: Geometry, ItemCount : 1
+[2018.05.26-08.08.26:191][261]LogFbx: ItemName: Model, ItemCount : 1
+[2018.05.26-08.08.26:191][261]LogFbx: ItemName: Material, ItemCount : 1
+[2018.05.26-08.08.26:261][261]LogFbx: Loading FBX Scene from C:\Users\1\Desktop\PineTree3Snowy.fbx
+[2018.05.26-08.08.26:311][261]LogFbx: FBX Scene Loaded Succesfully
+[2018.05.26-08.08.28:730][261]LogFbx: Loading FBX Scene from C:\Users\1\Desktop\PineTree3Snowy.fbx
+[2018.05.26-08.08.28:739][261]LogFbx: FBX Scene Loaded Succesfully
+[2018.05.26-08.08.28:778][261]LogLinker:Warning: Can't find file '/Game/LowPolyModels/Evergreen'
+[2018.05.26-08.08.28:797][261]LogLinker:Warning: Can't find file '/Game/LowPolyModels/Evergreen'
+[2018.05.26-08.08.28:873][261]LogMaterial: Missing cached shader map for material Evergreen, compiling. 
+[2018.05.26-08.08.28:968][261]LogStaticMesh: Building static mesh PineTree3Snowy...
+[2018.05.26-08.08.29:063][261]LogStaticMesh: Built static mesh [0.09s] /Game/LowPolyModels/PineTree3Snowy.PineTree3Snowy
+[2018.05.26-08.08.29:101][261]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.05.26-08.08.41:924][753]LogActorFactory: Actor Factory created PineTree3Snowy
+[2018.05.26-08.08.42:492][785]LogActorFactory: Actor Factory created PineTree3Snowy
+[2018.05.26-08.09.10:260][690]Cmd: DELETE
+[2018.05.26-08.09.10:260][690]Cmd: ACTOR DELETE
+[2018.05.26-08.09.10:260][690]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.05.26-08.09.10:297][690]LogEditorActor: Deleted 1 Actors (0.037 secs)
+[2018.05.26-08.11.19:892][343]LogSavePackage: Save=110.36ms
+[2018.05.26-08.11.19:892][343]LogSavePackage: Moving '../../../../sergey/UnrealProjects/Game_1337/TopDownProject/Saved/LowPolyMap_Auto1D9FA83B544FC06269B3A338E758E64FC.tmp' to '../../../../sergey/UnrealProjects/Game_1337/TopDownProject/Saved/Autosaves/Game/TopDownBP/Maps/LowPolyMap_Auto1.umap'
+[2018.05.26-08.11.19:937][343]LogSavePackage: Total save time: 180.15ms
+[2018.05.26-08.11.19:937][343]LogSavePackage:Display: Finished SavePackage ../../../../sergey/UnrealProjects/Game_1337/TopDownProject/Saved/Autosaves/Game/TopDownBP/Maps/LowPolyMap_Auto1.umap
+[2018.05.26-08.11.19:938][343]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/LowPolyMap' took 0.319
+[2018.05.26-08.11.19:938][343]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.319
+[2018.05.26-08.18.24:553][800]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.26-08.18.24:605][800]PIE: New page: PIE session: LowPolyMap (May 27, 2018, 12:18:24 AM)
+[2018.05.26-08.18.24:605][800]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_LowPolyMap
+[2018.05.26-08.18.24:614][800]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008661s)
+[2018.05.26-08.18.24:615][800]LogAIModule: Creating AISystem for world LowPolyMap
+[2018.05.26-08.18.24:615][800]LogPlayLevel: PIE: World Init took: (0.001038s)
+[2018.05.26-08.18.24:615][800]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/LowPolyMap.LowPolyMap to /Game/TopDownBP/Maps/UEDPIE_0_LowPolyMap.LowPolyMap (0.009979s)
+[2018.05.26-08.18.24:640][800]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.05.26-08.18.24:649][800]LogInit: FAudioDevice initialized.
+[2018.05.26-08.18.24:780][800]LogLinker:Warning: Asset '../../../../sergey/UnrealProjects/Game_1337/TopDownProject/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.05.26-08.18.24:811][800]LogLinker:Warning: Asset '../../../../sergey/UnrealProjects/Game_1337/TopDownProject/Content/Mannequin/Animations/ThirdPerson_Jump.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.05.26-08.18.24:826][800]LogLinker:Warning: Asset '../../../../sergey/UnrealProjects/Game_1337/TopDownProject/Content/Mannequin/Animations/ThirdPersonJump_Loop.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.05.26-08.18.24:828][800]LogLinker:Warning: Asset '../../../../sergey/UnrealProjects/Game_1337/TopDownProject/Content/Mannequin/Animations/ThirdPersonJump_Start.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.05.26-08.18.24:829][800]LogLinker:Warning: Asset '../../../../sergey/UnrealProjects/Game_1337/TopDownProject/Content/Mannequin/Animations/ThirdPersonIdle.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.05.26-08.18.24:862][800]LogLinker:Warning: Asset '../../../../sergey/UnrealProjects/Game_1337/TopDownProject/Content/Mannequin/Animations/ThirdPersonRun.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.05.26-08.18.24:863][800]LogLinker:Warning: Asset '../../../../sergey/UnrealProjects/Game_1337/TopDownProject/Content/Mannequin/Animations/ThirdPersonWalk.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.05.26-08.18.29:869][800]LogWorld: Game class is 'TopDownGameMode_C'
+[2018.05.26-08.18.29:873][800]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_LowPolyMap.LowPolyMap up for play (max tick rate 60) at 2018.05.26-16.18.29
+[2018.05.26-08.18.29:874][800]LogWorld: Bringing up level for play took: 0.003991
+[2018.05.26-08.18.29:968][800]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 9 classes and 0 folders.
+[2018.05.26-08.18.30:056][800]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_LowPolyMap 5.091
+[2018.05.26-08.18.30:227][801]LogRenderer: Reallocating scene render targets to support 800x600 (Frame:5531).
+[2018.05.26-08.19.16:698][136]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.05.26-08.19.41:282][931]Cmd: DELETE
+[2018.05.26-08.19.41:282][931]Cmd: ACTOR DELETE
+[2018.05.26-08.19.41:283][931]LogEditorActor: Deleted Actor: Brush
+[2018.05.26-08.19.41:352][931]LogEditorActor: Deleted 1 Actors (0.069 secs)
+[2018.05.26-08.19.45:594][ 67]LogActorFactory: Actor Factory created Cube
+[2018.05.26-08.19.45:969][ 75]LogActorFactory: Actor Factory created Cube
+[2018.05.26-08.20.24:640][253]LogMaterial: Missing cached shader map for material Low_Poly_Water, compiling. 
+[2018.05.26-08.20.24:855][253]LogMaterial: Missing cached shader map for material Low_Poly_Water, compiling. 
+[2018.05.26-08.20.24:871][253]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2018.05.26-08.20.24:897][253]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.05.26-08.20.24:920][253]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2018.05.26-08.20.24:925][253]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionDepthFade_0, compiling. 
+[2018.05.26-08.20.36:735][487]MaterialEditorStats: Info Base pass shader with static lighting: 155 instructions
+[2018.05.26-08.20.36:735][487]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 135 instructions
+[2018.05.26-08.20.36:735][487]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 172 instructions
+[2018.05.26-08.20.36:735][487]MaterialEditorStats: Info Vertex shader: 66 instructions
+[2018.05.26-08.20.36:735][487]MaterialEditorStats: Info Texture samplers: 6/16
+[2018.05.26-08.20.40:950][637]Cmd: CLOSE_SLATE_MAINFRAME
+[2018.05.26-08.20.44:269][638]Cmd: QUIT_EDITOR
+[2018.05.26-08.20.44:430][638]LogExit: Preparing to exit.
+[2018.05.26-08.20.45:095][638]LogExit: Editor shut down
+[2018.05.26-08.20.45:096][638]LogExit: Transaction tracking system shut down
+[2018.05.26-08.20.45:251][638]LogObj: Freed 0b from 0 cluster array pools.
+[2018.05.26-08.20.45:251][638]LogExit: Object subsystem successfully closed.
+[2018.05.26-08.20.45:275][638]LogD3D11RHI: Shutdown
+[2018.05.26-08.20.45:275][638]LogD3D11RHI: CleanupD3DDevice
+[2018.05.26-08.20.45:348][638]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.05.26-08.20.45:365][638]LogDerivedDataCache: Shutdown
+[2018.05.26-08.20.45:366][638]LogModuleManager: Shutting down and abandoning module MaterialEditor (206)
+[2018.05.26-08.20.45:366][638]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (205)
+[2018.05.26-08.20.45:366][638]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (204)
+[2018.05.26-08.20.45:366][638]LogModuleManager: Shutting down and abandoning module CrashTracker (203)
+[2018.05.26-08.20.45:366][638]LogModuleManager: Shutting down and abandoning module SceneOutliner (202)
+[2018.05.26-08.20.45:366][638]LogModuleManager: Shutting down and abandoning module SuperSearch (201)
+[2018.05.26-08.20.45:366][638]LogModuleManager: Shutting down and abandoning module WidgetCarousel (200)
+[2018.05.26-08.20.45:366][638]LogModuleManager: Shutting down and abandoning module AddContentDialog (199)
+[2018.05.26-08.20.45:368][638]LogModuleManager: Shutting down and abandoning module GameplayTags (198)
+[2018.05.26-08.20.45:368][638]LogModuleManager: Shutting down and abandoning module EditorWidgets (197)
+[2018.05.26-08.20.45:368][638]LogModuleManager: Shutting down and abandoning module CollectionManager (196)
+[2018.05.26-08.20.45:368][638]LogModuleManager: Shutting down and abandoning module StatsViewer (195)
+[2018.05.26-08.20.45:368][638]LogModuleManager: Shutting down and abandoning module FoliageEdit (194)
+[2018.05.26-08.20.45:368][638]LogModuleManager: Shutting down and abandoning module LandscapeEditor (193)
+[2018.05.26-08.20.45:369][638]LogModuleManager: Shutting down and abandoning module ActorPickerMode (192)
+[2018.05.26-08.20.45:369][638]LogModuleManager: Shutting down and abandoning module GeometryMode (191)
+[2018.05.26-08.20.45:369][638]LogModuleManager: Shutting down and abandoning module TextureAlignMode (190)
+[2018.05.26-08.20.45:369][638]LogModuleManager: Shutting down and abandoning module BspMode (189)
+[2018.05.26-08.20.45:369][638]LogModuleManager: Shutting down and abandoning module PlacementMode (188)
+[2018.05.26-08.20.45:369][638]LogModuleManager: Shutting down and abandoning module AutomationWorker (187)
+[2018.05.26-08.20.45:369][638]LogModuleManager: Shutting down and abandoning module CharacterAI (186)
+[2018.05.26-08.20.45:369][638]LogModuleManager: Shutting down and abandoning module SmartSnapping (185)
+[2018.05.26-08.20.45:369][638]LogModuleManager: Shutting down and abandoning module ViewportSnapping (184)
+[2018.05.26-08.20.45:369][638]LogModuleManager: Shutting down and abandoning module LogVisualizer (183)
+[2018.05.26-08.20.45:369][638]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (182)
+[2018.05.26-08.20.45:369][638]LogModuleManager: Shutting down and abandoning module IntroTutorials (181)
+[2018.05.26-08.20.45:369][638]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (180)
+[2018.05.26-08.20.45:369][638]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (179)
+[2018.05.26-08.20.45:369][638]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (178)
+[2018.05.26-08.20.45:369][638]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (177)
+[2018.05.26-08.20.46:118][638]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (176)
+[2018.05.26-08.20.46:118][638]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (175)
+[2018.05.26-08.20.46:118][638]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (174)
+[2018.05.26-08.20.46:118][638]LogModuleManager: Shutting down and abandoning module MergeActors (173)
+[2018.05.26-08.20.46:118][638]LogModuleManager: Shutting down and abandoning module SizeMap (172)
+[2018.05.26-08.20.46:118][638]LogModuleManager: Shutting down and abandoning module TreeMap (171)
+[2018.05.26-08.20.46:118][638]LogModuleManager: Shutting down and abandoning module ReferenceViewer (170)
+[2018.05.26-08.20.46:118][638]LogModuleManager: Shutting down and abandoning module LocalizationService (169)
+[2018.05.26-08.20.46:118][638]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (168)
+[2018.05.26-08.20.46:118][638]LogModuleManager: Shutting down and abandoning module HardwareTargeting (167)
+[2018.05.26-08.20.46:118][638]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (166)
+[2018.05.26-08.20.46:118][638]LogModuleManager: Shutting down and abandoning module UndoHistory (165)
+[2018.05.26-08.20.46:118][638]LogModuleManager: Shutting down and abandoning module UserFeedback (164)
+[2018.05.26-08.20.46:118][638]LogModuleManager: Shutting down and abandoning module XmlParser (163)
+[2018.05.26-08.20.46:118][638]LogModuleManager: Shutting down and abandoning module Blutility (162)
+[2018.05.26-08.20.46:119][638]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (161)
+[2018.05.26-08.20.46:119][638]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (160)
+[2018.05.26-08.20.46:119][638]LogModuleManager: Shutting down and abandoning module InputBindingEditor (159)
+[2018.05.26-08.20.46:119][638]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (158)
+[2018.05.26-08.20.46:119][638]LogModuleManager: Shutting down and abandoning module SettingsEditor (157)
+[2018.05.26-08.20.46:119][638]LogModuleManager: Shutting down and abandoning module ProjectLauncher (156)
+[2018.05.26-08.20.46:119][638]LogModuleManager: Shutting down and abandoning module SessionFrontend (155)
+[2018.05.26-08.20.46:119][638]LogModuleManager: Shutting down and abandoning module ProfilerClient (154)
+[2018.05.26-08.20.46:119][638]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (153)
+[2018.05.26-08.20.46:119][638]LogModuleManager: Shutting down and abandoning module DeviceManager (152)
+[2018.05.26-08.20.46:149][638]LogModuleManager: Shutting down and abandoning module AutomationController (151)
+[2018.05.26-08.20.46:149][638]LogModuleManager: Shutting down and abandoning module AutomationWindow (150)
+[2018.05.26-08.20.46:149][638]LogModuleManager: Shutting down and abandoning module Layers (149)
+[2018.05.26-08.20.46:149][638]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (148)
+[2018.05.26-08.20.46:149][638]LogModuleManager: Shutting down and abandoning module DetailCustomizations (147)
+[2018.05.26-08.20.46:149][638]LogModuleManager: Shutting down and abandoning module PackagesDialog (146)
+[2018.05.26-08.20.46:149][638]LogModuleManager: Shutting down and abandoning module Persona (145)
+[2018.05.26-08.20.46:149][638]LogModuleManager: Shutting down and abandoning module Kismet (144)
+[2018.05.26-08.20.46:149][638]LogModuleManager: Shutting down and abandoning module GraphEditor (143)
+[2018.05.26-08.20.46:149][638]LogModuleManager: Shutting down and abandoning module ClassViewer (142)
+[2018.05.26-08.20.46:149][638]LogModuleManager: Shutting down and abandoning module Toolbox (141)
+[2018.05.26-08.20.46:149][638]LogModuleManager: Shutting down and abandoning module ModuleUI (140)
+[2018.05.26-08.20.46:149][638]LogModuleManager: Shutting down and abandoning module MovieSceneTools (139)
+[2018.05.26-08.20.46:149][638]LogModuleManager: Shutting down and abandoning module OutputLog (138)
+[2018.05.26-08.20.46:149][638]LogModuleManager: Shutting down and abandoning module GammaUI (137)
+[2018.05.26-08.20.46:150][638]LogModuleManager: Shutting down and abandoning module Documentation (136)
+[2018.05.26-08.20.46:150][638]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (135)
+[2018.05.26-08.20.46:150][638]LogModuleManager: Shutting down and abandoning module AnalyticsET (134)
+[2018.05.26-08.20.46:150][638]LogModuleManager: Shutting down and abandoning module Analytics (133)
+[2018.05.26-08.20.46:150][638]LogModuleManager: Shutting down and abandoning module PortalServices (132)
+[2018.05.26-08.20.46:150][638]LogModuleManager: Shutting down and abandoning module PortalRpc (131)
+[2018.05.26-08.20.46:150][638]LogModuleManager: Shutting down and abandoning module MessagingRpc (130)
+[2018.05.26-08.20.46:150][638]LogModuleManager: Shutting down and abandoning module AITestSuite (129)
+[2018.05.26-08.20.46:150][638]LogModuleManager: Shutting down and abandoning module GameplayDebugger (128)
+[2018.05.26-08.20.46:150][638]LogModuleManager: Shutting down and abandoning module AIModule (127)
+[2018.05.26-08.20.46:150][638]LogModuleManager: Shutting down and abandoning module ProfilerService (126)
+[2018.05.26-08.20.46:194][638]LogModuleManager: Shutting down and abandoning module TaskGraph (125)
+[2018.05.26-08.20.46:194][638]LogModuleManager: Shutting down and abandoning module SlateRemote (124)
+[2018.05.26-08.20.46:194][638]LogModuleManager: Shutting down and abandoning module SteamVRController (123)
+[2018.05.26-08.20.46:194][638]LogModuleManager: Shutting down and abandoning module SteamVR (122)
+[2018.05.26-08.20.46:194][638]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (121)
+[2018.05.26-08.20.46:194][638]LogModuleManager: Shutting down and abandoning module OculusLibrary (120)
+[2018.05.26-08.20.46:194][638]LogModuleManager: Shutting down and abandoning module OculusInput (119)
+[2018.05.26-08.20.46:194][638]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (118)
+[2018.05.26-08.20.46:194][638]LogModuleManager: Shutting down and abandoning module CableComponent (117)
+[2018.05.26-08.20.46:194][638]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (116)
+[2018.05.26-08.20.46:194][638]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (115)
+[2018.05.26-08.20.46:194][638]LogModuleManager: Shutting down and abandoning module HTML5Networking (114)
+[2018.05.26-08.20.46:194][638]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (113)
+[2018.05.26-08.20.46:194][638]LogModuleManager: Shutting down and abandoning module PluginBrowser (112)
+[2018.05.26-08.20.46:194][638]LogModuleManager: Shutting down and abandoning module EpicSurvey (111)
+[2018.05.26-08.20.46:194][638]LogModuleManager: Shutting down and abandoning module DesktopPlatform (110)
+[2018.05.26-08.20.46:194][638]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (109)
+[2018.05.26-08.20.46:194][638]LogModuleManager: Shutting down and abandoning module UObjectPlugin (108)
+[2018.05.26-08.20.46:194][638]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (107)
+[2018.05.26-08.20.46:194][638]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (106)
+[2018.05.26-08.20.46:194][638]LogModuleManager: Shutting down and abandoning module SourceControl (105)
+[2018.05.26-08.20.46:194][638]LogModuleManager: Shutting down and abandoning module GitSourceControl (104)
+[2018.05.26-08.20.46:194][638]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (103)
+[2018.05.26-08.20.46:194][638]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (102)
+[2018.05.26-08.20.46:194][638]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (101)
+[2018.05.26-08.20.46:194][638]LogModuleManager: Shutting down and abandoning module MeshPaint (100)
+[2018.05.26-08.20.46:194][638]LogModuleManager: Shutting down and abandoning module HotReload (99)
+[2018.05.26-08.20.46:195][638]LogModuleManager: Shutting down and abandoning module MainFrame (98)
+[2018.05.26-08.20.46:195][638]LogModuleManager: Shutting down and abandoning module LevelEditor (97)
+[2018.05.26-08.20.46:197][638]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (96)
+[2018.05.26-08.20.46:197][638]LogModuleManager: Shutting down and abandoning module AssetRegistry (95)
+[2018.05.26-08.20.46:453][638]LogModuleManager: Shutting down and abandoning module ContentBrowser (94)
+[2018.05.26-08.20.46:454][638]LogModuleManager: Shutting down and abandoning module Paper2DEditor (93)
+[2018.05.26-08.20.46:454][638]LogModuleManager: Shutting down and abandoning module UdpMessaging (92)
+[2018.05.26-08.20.46:554][638]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (91)
+[2018.05.26-08.20.46:554][638]LogModuleManager: Shutting down and abandoning module Paper2D (90)
+[2018.05.26-08.20.46:554][638]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (89)
+[2018.05.26-08.20.46:554][638]LogModuleManager: Shutting down and abandoning module Media (88)
+[2018.05.26-08.20.46:554][638]LogModuleManager: Shutting down and abandoning module WmfMedia (87)
+[2018.05.26-08.20.46:554][638]LogModuleManager: Shutting down and abandoning module MediaAssets (86)
+[2018.05.26-08.20.46:554][638]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (85)
+[2018.05.26-08.20.46:555][638]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (84)
+[2018.05.26-08.20.46:555][638]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (83)
+[2018.05.26-08.20.46:555][638]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (82)
+[2018.05.26-08.20.46:555][638]LogModuleManager: Shutting down and abandoning module PropertyEditor (81)
+[2018.05.26-08.20.46:555][638]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (80)
+[2018.05.26-08.20.46:555][638]LogModuleManager: Shutting down and abandoning module FunctionalTesting (79)
+[2018.05.26-08.20.46:555][638]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (78)
+[2018.05.26-08.20.46:555][638]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2018.05.26-08.20.46:555][638]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2018.05.26-08.20.46:555][638]LogModuleManager: Shutting down and abandoning module Sequencer (75)
+[2018.05.26-08.20.46:555][638]LogModuleManager: Shutting down and abandoning module AssetTools (74)
+[2018.05.26-08.20.46:555][638]LogModuleManager: Shutting down and abandoning module UMGEditor (73)
+[2018.05.26-08.20.46:555][638]LogModuleManager: Shutting down and abandoning module UMG (72)
+[2018.05.26-08.20.46:555][638]LogModuleManager: Shutting down and abandoning module SlateReflector (71)
+[2018.05.26-08.20.46:555][638]LogModuleManager: Shutting down and abandoning module Slate (70)
+[2018.05.26-08.20.46:555][638]LogModuleManager: Shutting down and abandoning module EditorStyle (69)
+[2018.05.26-08.20.46:557][638]LogModuleManager: Shutting down and abandoning module SessionServices (68)
+[2018.05.26-08.20.46:557][638]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (67)
+[2018.05.26-08.20.46:557][638]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (66)
+[2018.05.26-08.20.46:557][638]LogModuleManager: Shutting down and abandoning module XAudio2 (65)
+[2018.05.26-08.20.46:557][638]LogModuleManager: Shutting down and abandoning module Networking (63)
+[2018.05.26-08.20.46:557][638]LogModuleManager: Shutting down and abandoning module Core (62)
+[2018.05.26-08.20.46:557][638]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2018.05.26-08.20.46:557][638]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2018.05.26-08.20.46:557][638]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2018.05.26-08.20.46:557][638]LogModuleManager: Shutting down and abandoning module CookingStats (58)
+[2018.05.26-08.20.46:557][638]LogModuleManager: Shutting down and abandoning module DerivedDataCache (57)
+[2018.05.26-08.20.46:557][638]LogDerivedDataCache: Shutdown
+[2018.05.26-08.20.46:557][638]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2018.05.26-08.20.46:557][638]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2018.05.26-08.20.46:557][638]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2018.05.26-08.20.46:557][638]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2018.05.26-08.20.46:557][638]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2018.05.26-08.20.46:557][638]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2018.05.26-08.20.46:558][638]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2018.05.26-08.20.46:558][638]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2018.05.26-08.20.46:558][638]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2018.05.26-08.20.46:558][638]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2018.05.26-08.20.46:558][638]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2018.05.26-08.20.46:558][638]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2018.05.26-08.20.46:558][638]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2018.05.26-08.20.46:558][638]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2018.05.26-08.20.46:558][638]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2018.05.26-08.20.46:558][638]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2018.05.26-08.20.46:558][638]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2018.05.26-08.20.46:558][638]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2018.05.26-08.20.46:558][638]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2018.05.26-08.20.46:558][638]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2018.05.26-08.20.46:558][638]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2018.05.26-08.20.46:558][638]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2018.05.26-08.20.46:558][638]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2018.05.26-08.20.46:558][638]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2018.05.26-08.20.46:558][638]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2018.05.26-08.20.46:558][638]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2018.05.26-08.20.46:558][638]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2018.05.26-08.20.46:558][638]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2018.05.26-08.20.46:558][638]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2018.05.26-08.20.46:558][638]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2018.05.26-08.20.46:558][638]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2018.05.26-08.20.46:558][638]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2018.05.26-08.20.46:558][638]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2018.05.26-08.20.46:558][638]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2018.05.26-08.20.46:558][638]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2018.05.26-08.20.46:558][638]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2018.05.26-08.20.46:558][638]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2018.05.26-08.20.46:558][638]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2018.05.26-08.20.59:560][638]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2018.05.26-08.20.59:560][638]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2018.05.26-08.20.59:560][638]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2018.05.26-08.20.59:560][638]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2018.05.26-08.20.59:560][638]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2018.05.26-08.20.59:560][638]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2018.05.26-08.20.59:560][638]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2018.05.26-08.20.59:563][638]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2018.05.26-08.20.59:563][638]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2018.05.26-08.20.59:563][638]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2018.05.26-08.20.59:563][638]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2018.05.26-08.20.59:563][638]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2018.05.26-08.20.59:563][638]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2018.05.26-08.20.59:563][638]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2018.05.26-08.20.59:563][638]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2018.05.26-08.20.59:563][638]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2018.05.26-08.20.59:563][638]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2018.05.26-08.20.59:564][638]LogExit: Exiting.
+[2018.05.26-08.20.59:566][638]Log file closed, 05/26/18 16:20:59
