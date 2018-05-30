@@ -1,0 +1,1130 @@
+﻿Log file open, 05/29/18 16:10:02
+LogInit:Display: Running engine for game: TopDownProject
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-736270604) SRandInit(-736270603).
+LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+LogStats: Stats thread started at 0.958070
+LogInit: Version: 4.11.2-2946394+++UE4+Release-4.11
+LogInit: API Version: 2927265
+LogInit: Compiled (64-bit): Apr 18 2016 02:18:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.11
+LogInit: Command line:  
+LogInit: Base directory: D:/UE_4.11/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.05.29-08.10.24:909][  0]LogInit: Selected Device Profile: [Windows]
+[2018.05.29-08.10.25:074][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.05.29-08.10.27:079][  0]LogInit: Computer: 1-ПК
+[2018.05.29-08.10.27:079][  0]LogInit: User: 1
+[2018.05.29-08.10.27:079][  0]LogInit: CPU Page size=65536, Cores=2
+[2018.05.29-08.10.27:079][  0]LogInit: High frequency timer resolution =2.338496 MHz
+[2018.05.29-08.10.27:768][  0]LogMemory: Memory total: Physical=3.9GB (4GB approx)
+[2018.05.29-08.10.27:768][  0]LogMemory: Platform Memory Stats for Windows
+[2018.05.29-08.10.27:768][  0]LogMemory: Process Physical Memory: 314.36 MB used, 314.36 MB peak
+[2018.05.29-08.10.27:768][  0]LogMemory: Process Virtual Memory: 314.82 MB used, 314.82 MB peak
+[2018.05.29-08.10.27:768][  0]LogMemory: Physical Memory: 2029.86 MB used, 4010.14 MB total
+[2018.05.29-08.10.27:768][  0]LogMemory: Virtual Memory: 620.87 MB used, 8388608.00 MB total
+[2018.05.29-08.10.47:722][  0]LogTextLocalizationManager: No translations for ('ru-RU') exist, falling back to 'en' for localization and internationalization data.
+[2018.05.29-08.11.12:528][  0]LogD3D11RHI: D3D11 adapters:
+[2018.05.29-08.11.13:791][  0]LogD3D11RHI:    0. 'NVIDIA GeForce 410M' (Feature Level 11_0)
+[2018.05.29-08.11.13:791][  0]LogD3D11RHI:       979MB of dedicated video memory, 0MB of dedicated system memory, and 1749MB of shared system memory, 1 output[s]
+[2018.05.29-08.11.13:838][  0]LogD3D11RHI:    1. 'NVIDIA GeForce 410M' (Feature Level 11_0)
+[2018.05.29-08.11.13:838][  0]LogD3D11RHI:       979MB of dedicated video memory, 0MB of dedicated system memory, and 1749MB of shared system memory, 0 output[s]
+[2018.05.29-08.11.13:838][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.05.29-08.11.14:105][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.05.29-08.11.14:283][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 3000
+[2018.05.29-08.11.14:283][  0]LogD3D11RHI:   Driver Version: Unknown (internal Unknown)
+[2018.05.29-08.11.14:283][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.05.29-08.11.14:440][  0]LogRHI: Texture pool is 1297 MB (70% of 1854 MB)
+[2018.05.29-08.11.14:516][  0]LogD3D11RHI: Async texture creation enabled
+[2018.05.29-08.11.22:425][  0]LogShaderCompilers: Guid format shader working directory is -16 characters bigger than the processId version (../../../../sergey/UnrealProjects/Game_1337/TopDownProject/Intermediate/Shaders/WorkingDirectory/6960/).
+[2018.05.29-08.11.22:425][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/1/AppData/Local/Temp/UnrealShaderWorkingDir/C43B1EBE4BA9579365DE598D8EC381DE/'.
+[2018.05.29-08.11.22:569][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.05.29-08.12.08:400][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.05.29-08.12.08:674][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.05.29-08.12.08:931][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.05.29-08.12.09:150][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.05.29-08.12.09:526][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.05.29-08.12.09:901][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.05.29-08.12.10:175][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.05.29-08.12.10:550][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.05.29-08.12.10:892][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.05.29-08.12.11:249][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.05.29-08.12.11:628][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.05.29-08.12.12:774][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.05.29-08.12.12:775][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.05.29-08.12.12:985][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.05.29-08.12.14:994][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.05.29-08.12.15:000][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2018.05.29-08.12.15:638][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.05.29-08.12.15:771][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.05.29-08.12.16:155][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.05.29-08.12.16:155][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.05.29-08.12.33:030][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.05.29-08.12.42:526][  0]LogDerivedDataCache: Loaded boot cache 9.44s 46MB C:/Users/1/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2018.05.29-08.12.42:527][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/1/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc
+[2018.05.29-08.12.42:527][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../sergey/UnrealProjects/Game_1337/TopDownProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.05.29-08.12.42:527][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.05.29-08.12.42:527][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../sergey/UnrealProjects/Game_1337/TopDownProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.05.29-08.12.42:527][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.05.29-08.12.42:953][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.05.29-08.12.43:142][  0]LogDerivedDataCache: Using Local data cache path C:/Users/1/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.05.29-08.14.29:441][  0]LogInit: Selected Device Profile: [Windows]
+[2018.05.29-08.14.31:426][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.05.29-08.14.43:553][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.05.29-08.15.07:035][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2018.05.29-08.15.07:035][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.05.29-08.15.07:035][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2018.05.29-08.15.52:569][  0]LogUObjectArray: 27679 objects as part of root set at end of initial load.
+[2018.05.29-08.15.52:569][  0]LogUObjectAllocator: 5591592 out of 0 bytes used by permanent object pool.
+[2018.05.29-08.15.52:569][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.05.29-08.15.52:727][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.05.29-08.16.23:286][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.05.29-08.16.23:286][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.05.29-08.16.40:831][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2018.05.29-08.16.40:831][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2018.05.29-08.16.40:863][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2018.05.29-08.16.40:863][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2018.05.29-08.16.40:863][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2018.05.29-08.16.40:863][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2018.05.29-08.17.45:839][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.05.29-08.17.51:341][  0]LogAssetRegistry: FAssetRegistry took 0.2676 seconds to start up
+[2018.05.29-08.18.05:558][  0]SourceControl: Info Source control is disabled
+[2018.05.29-08.18.05:605][  0]SourceControl: Info Source control is disabled
+[2018.05.29-08.18.06:420][  0]SourceControl: Info Source control is disabled
+[2018.05.29-08.18.06:952][  0]SourceControl: Info Source control is disabled
+[2018.05.29-08.18.13:300][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.05.29-08.18.18:479][  0]LogAutomationTest:Warning: Smoke tests took > 1s to run: 2.83s
+[2018.05.29-08.18.18:807][  0]LogEngine: Initializing Engine...
+[2018.05.29-08.18.31:750][  0]LogAIModule: Creating AISystem for world NewWorld
+[2018.05.29-08.18.32:998][  0]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.05.29-08.18.34:776][  0]LogInit: FAudioDevice initialized.
+[2018.05.29-08.18.34:936][  0]LogDerivedDataCache: Saved boot cache 0.16s 46MB C:/Users/1/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2018.05.29-08.18.34:955][  0]LogInit: Texture streaming: Enabled
+[2018.05.29-08.18.41:008][  0]LogInit: Transaction tracking system initialized
+[2018.05.29-08.18.48:910][  0]BlueprintLog: New page: Editor Load
+[2018.05.29-08.19.10:253][  0]LocalizationService: Info Localization service is disabled
+[2018.05.29-08.19.26:307][  0]LogConsoleResponse:Display: 
+[2018.05.29-08.19.37:602][  0]LogFileCache: Scanning file cache for directory 'D:/sergey/UnrealProjects/Game_1337/TopDownProject/Content/' took 0.05s
+[2018.05.29-08.19.37:602][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2018.05.29-08.19.37:602][  0]LogCook:Display: Mobile HDR setting 1
+[2018.05.29-08.19.37:611][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2018.05.29-08.19.44:747][  0]SourceControl: Info Source control is disabled
+[2018.05.29-08.19.45:095][  0]Cmd: MAP LOAD FILE="../../../../sergey/UnrealProjects/Game_1337/TopDownProject/Content/TopDownBP/Maps/LowPolyMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.05.29-08.19.45:404][  0]LightingResults: New page: Lighting Build
+[2018.05.29-08.19.46:820][  0]MapCheck: New page: Map Check
+[2018.05.29-08.19.46:820][  0]LightingResults: New page: Lighting Build
+[2018.05.29-08.19.50:688][  0]LogLinker:Warning: Asset '../../../../sergey/UnrealProjects/Game_1337/TopDownProject/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.05.29-08.19.50:739][  0]LogLinker:Warning: Asset '../../../../sergey/UnrealProjects/Game_1337/TopDownProject/Content/Mannequin/Animations/ThirdPerson_Jump.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.05.29-08.19.50:869][  0]LogLinker:Warning: Asset '../../../../sergey/UnrealProjects/Game_1337/TopDownProject/Content/Mannequin/Animations/ThirdPersonJump_Loop.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.05.29-08.19.50:933][  0]LogLinker:Warning: Asset '../../../../sergey/UnrealProjects/Game_1337/TopDownProject/Content/Mannequin/Animations/ThirdPersonJump_Start.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.05.29-08.19.51:016][  0]LogLinker:Warning: Asset '../../../../sergey/UnrealProjects/Game_1337/TopDownProject/Content/Mannequin/Animations/ThirdPersonIdle.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.05.29-08.19.51:047][  0]LogLinker:Warning: Asset '../../../../sergey/UnrealProjects/Game_1337/TopDownProject/Content/Mannequin/Animations/ThirdPersonRun.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.05.29-08.19.51:115][  0]LogLinker:Warning: Asset '../../../../sergey/UnrealProjects/Game_1337/TopDownProject/Content/Mannequin/Animations/ThirdPersonWalk.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.05.29-08.20.07:196][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.05.29-08.20.07:198][  0]LogMaterial: Uniform references updated for custom material expression TemporalAA SampleID.
+[2018.05.29-08.20.19:675][  0]LogAIModule: Creating AISystem for world LowPolyMap
+[2018.05.29-08.20.22:942][  0]LogMaterial:Warning: Material /Game/LowPolyModels/Materials/Green_3.Green_3 needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2018.05.29-08.20.23:254][  0]LogMaterial: Missing cached shader map for material Green_3, compiling. 
+[2018.05.29-08.20.24:315][  0]MapCheck:Warning: Warning Green_3 Material /Game/LowPolyModels/Materials/Green_3.Green_3 was missing the usage flag bUsedWithInstancedStaticMeshes. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2018.05.29-08.20.24:317][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2018.05.29-08.20.29:530][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.05.29-08.20.30:368][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.05.29-08.20.30:515][  0]MapCheck: Info Map check complete: 0 Error(s), 1 Warning(s), took 146.732ms to complete.
+[2018.05.29-08.20.31:265][  0]LogFileHelpers: Loading map 'LowPolyMap' took 46.230
+[2018.05.29-08.20.44:076][  0]LogCollectionManager: Loaded 0 collections in 0.003747 seconds
+[2018.05.29-08.20.45:704][  0]LogFileCache: Scanning file cache for directory 'D:/sergey/UnrealProjects/Game_1337/TopDownProject/Saved/Collections/' took 0.01s
+[2018.05.29-08.20.45:704][  0]LogFileCache: Scanning file cache for directory 'D:/sergey/UnrealProjects/Game_1337/TopDownProject/Content/Developers/1/Collections/' took 0.00s
+[2018.05.29-08.20.45:704][  0]LogFileCache: Scanning file cache for directory 'D:/sergey/UnrealProjects/Game_1337/TopDownProject/Content/Collections/' took 0.00s
+[2018.05.29-08.20.45:704][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
+[2018.05.29-08.20.45:788][  0]LogContentBrowser: Native class hierarchy populated in 0.0833 seconds. Added 1979 classes and 343 folders.
+[2018.05.29-08.20.46:458][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.05.29-08.20.46:510][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.052 s
+[2018.05.29-08.20.46:634][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0009 seconds. Added 12 classes and 0 folders.
+[2018.05.29-08.20.46:859][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2018.05.29-08.20.49:249][  0]LogContentBrowser: Native class hierarchy updated for 'SuperSearch' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2018.05.29-08.20.52:723][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.05.29-08.20.52:972][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2018.05.29-08.20.56:683][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.05.29-08.21.00:111][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2018.05.29-08.21.01:398][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2018.05.29-08.21.01:398][  0]LogLoad: Full Startup: 662.63 seconds (BP compile: 13.67 seconds)
+[2018.05.29-08.21.01:398][  0]LogExternalProfiler:Warning: No registered external profiler was matched with a command-line switch (or the DLL could not be loaded).  External profiling features will not be available.
+[2018.05.29-08.21.01:909][  0]LogOcInput: OculusInput pre-init called
+[2018.05.29-08.21.06:177][  0]LogContentStreaming: Texture pool size now 200 MB
+[2018.05.29-08.21.15:717][  0]LogRenderer: Reallocating scene render targets to support 736x392 (Frame:2).
+[2018.05.29-08.21.21:816][  2]LogAssetRegistry: Asset discovery search completed in 210.5710 seconds
+[2018.05.29-08.21.21:859][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.05.29-08.21.21:859][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.043570 seconds (updated 0 objects)
+[2018.05.29-08.25.57:433][887]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.29-08.25.57:849][887]PIE: New page: PIE session: LowPolyMap (May 30, 2018, 12:25:57 AM)
+[2018.05.29-08.25.57:849][887]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_LowPolyMap
+[2018.05.29-08.25.57:999][887]LogPlayLevel: PIE: StaticDuplicateObject took: (0.150034s)
+[2018.05.29-08.25.58:000][887]LogAIModule: Creating AISystem for world LowPolyMap
+[2018.05.29-08.25.58:000][887]LogPlayLevel: PIE: World Init took: (0.001004s)
+[2018.05.29-08.25.58:000][887]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/LowPolyMap.LowPolyMap to /Game/TopDownBP/Maps/UEDPIE_0_LowPolyMap.LowPolyMap (0.151377s)
+[2018.05.29-08.25.58:027][887]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2018.05.29-08.25.58:027][887]LogActorComponent: UnregisterComponent: (/Engine/Transient.CursorOnActorText_GEN_VARIABLE) Not registered. Aborting.
+[2018.05.29-08.25.58:027][887]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharGoingForAction_GEN_VARIABLE) Not registered. Aborting.
+[2018.05.29-08.25.58:027][887]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2018.05.29-08.25.58:027][887]LogActorComponent: UnregisterComponent: (/Engine/Transient.CursorOnActorText_C_0) Not registered. Aborting.
+[2018.05.29-08.25.58:027][887]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharGoingForAction_C_0) Not registered. Aborting.
+[2018.05.29-08.25.58:404][887]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.05.29-08.25.58:413][887]LogInit: FAudioDevice initialized.
+[2018.05.29-08.26.00:504][887]LogWorld: Game class is 'TopDownGameMode_C'
+[2018.05.29-08.26.00:583][887]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_LowPolyMap.LowPolyMap up for play (max tick rate 60) at 2018.05.29-16.26.00
+[2018.05.29-08.26.00:836][887]LogWorld: Bringing up level for play took: 0.259041
+[2018.05.29-08.26.01:048][887]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 9 classes and 0 folders.
+[2018.05.29-08.26.01:322][887]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_LowPolyMap 4.58
+[2018.05.29-08.26.01:446][887]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.01:574][888]LogRenderer: Reallocating scene render targets to support 800x600 (Frame:78).
+[2018.05.29-08.26.01:587][888]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.01:753][889]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.01:795][890]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.01:859][891]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.01:894][892]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.01:935][893]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.01:970][894]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.02:009][895]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.02:043][896]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.02:082][897]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.02:117][898]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.02:156][899]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.02:191][900]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.02:230][901]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.02:267][902]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.02:309][903]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.02:344][904]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.02:383][905]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.02:420][906]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.02:460][907]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.02:494][908]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.02:533][909]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.02:571][910]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.02:614][911]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.02:652][912]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.02:690][913]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.02:724][914]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.02:763][915]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.02:800][916]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.02:839][917]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.02:875][918]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.02:917][919]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.02:950][920]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.02:993][921]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.03:028][922]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.03:067][923]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.03:102][924]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.03:140][925]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.03:177][926]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.03:216][927]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.03:249][928]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.03:291][929]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.03:325][930]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.03:366][931]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.03:400][932]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.03:439][933]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.03:474][934]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.03:517][935]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.03:552][936]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.03:591][937]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.03:626][938]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.03:667][939]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.03:699][940]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.03:739][941]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.03:776][942]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.03:819][943]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.03:854][944]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.03:896][945]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.03:934][946]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.03:972][947]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.04:007][948]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.04:050][949]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.04:086][950]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.04:124][951]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.04:162][952]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.04:203][953]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.04:236][954]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.04:277][955]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.04:314][956]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.04:355][957]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.04:392][958]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.04:433][959]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.04:470][960]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.04:510][961]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.04:547][962]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.04:589][963]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.04:623][964]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.04:662][965]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.04:700][966]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.04:771][967]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.04:783][968]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.04:821][969]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.04:854][970]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.04:893][971]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.04:934][972]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.04:967][973]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.05:006][974]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.05:039][975]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.05:072][976]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.05:112][977]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.05:145][978]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.05:189][979]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.05:223][980]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.05:260][981]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.05:293][982]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.05:337][983]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.05:371][984]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.05:409][985]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.05:444][986]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.05:483][987]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.05:519][988]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.05:557][989]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.05:595][990]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.05:635][991]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.05:669][992]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.05:714][993]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.05:745][994]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.05:789][995]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.05:823][996]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.05:876][997]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.05:899][998]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.05:940][999]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.05:973][  0]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.06:016][  1]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.06:050][  2]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.06:090][  3]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.06:127][  4]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.06:170][  5]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.06:203][  6]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.06:243][  7]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.06:276][  8]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.06:315][  9]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.06:349][ 10]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.06:392][ 11]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.06:426][ 12]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.06:465][ 13]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.06:501][ 14]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.06:541][ 15]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.06:575][ 16]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.06:613][ 17]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.06:647][ 18]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.06:695][ 19]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.06:720][ 20]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.06:760][ 21]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.06:793][ 22]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.06:834][ 23]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.06:867][ 24]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.06:907][ 25]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.06:942][ 26]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.06:979][ 27]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.07:013][ 28]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.07:051][ 29]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.07:086][ 30]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.07:126][ 31]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.07:161][ 32]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.07:201][ 33]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.07:235][ 34]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.07:274][ 35]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.07:307][ 36]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.07:348][ 37]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.07:382][ 38]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.07:421][ 39]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.07:455][ 40]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.07:495][ 41]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.07:529][ 42]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.07:568][ 43]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.07:601][ 44]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.07:640][ 45]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.07:679][ 46]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.07:717][ 47]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.07:759][ 48]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.07:789][ 49]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.07:824][ 50]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.07:863][ 51]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.07:899][ 52]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.07:939][ 53]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.07:973][ 54]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.08:013][ 55]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.08:045][ 56]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.08:086][ 57]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.08:123][ 58]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.08:171][ 59]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.08:199][ 60]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.08:240][ 61]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.08:276][ 62]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.08:316][ 63]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.08:349][ 64]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.08:390][ 65]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.08:424][ 66]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.08:464][ 67]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.08:498][ 68]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.08:538][ 69]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.08:571][ 70]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.08:610][ 71]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.08:647][ 72]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.08:688][ 73]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.08:725][ 74]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.08:766][ 75]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.08:799][ 76]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.08:838][ 77]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.08:875][ 78]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.08:917][ 79]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.08:952][ 80]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.08:995][ 81]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.09:034][ 82]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.09:074][ 83]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.09:107][ 84]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.09:154][ 85]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.09:187][ 86]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.09:229][ 87]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.09:263][ 88]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.09:304][ 89]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.09:337][ 90]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.09:387][ 91]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.09:412][ 92]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.09:452][ 93]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.09:487][ 94]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.09:526][ 95]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.09:566][ 96]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.09:605][ 97]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.09:640][ 98]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.09:681][ 99]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.09:717][100]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.09:755][101]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.09:790][102]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.09:830][103]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.09:865][104]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.09:904][105]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.09:939][106]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.09:979][107]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.10:014][108]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.10:054][109]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.10:089][110]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.10:135][111]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.10:168][112]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.10:208][113]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.10:243][114]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.10:282][115]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.10:320][116]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.10:359][117]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.10:397][118]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.10:436][119]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.10:472][120]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.10:512][121]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.10:544][122]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.10:584][123]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.10:620][124]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.10:660][125]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.10:696][126]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.10:734][127]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.10:770][128]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.10:813][129]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.10:846][130]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.10:886][131]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.10:923][132]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.10:964][133]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.11:001][134]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.11:043][135]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.11:078][136]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.11:118][137]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.11:154][138]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.11:191][139]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.11:225][140]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.11:266][141]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.11:305][142]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.11:306][142]LogBlueprintUserMessages: [MyAIEnemy_358] Bang!
+[2018.05.29-08.26.11:344][143]LogBlueprintUserMessages: [MyAIEnemy_358] 50.0
+[2018.05.29-08.26.11:389][144]LogBlueprintUserMessages: [MyAIEnemy_358] 45.0
+[2018.05.29-08.26.11:429][145]LogBlueprintUserMessages: [MyAIEnemy_358] 45.0
+[2018.05.29-08.26.11:468][146]LogBlueprintUserMessages: [MyAIEnemy_358] 45.0
+[2018.05.29-08.26.11:507][147]LogBlueprintUserMessages: [MyAIEnemy_358] 45.0
+[2018.05.29-08.26.11:542][148]LogBlueprintUserMessages: [MyAIEnemy_358] 45.0
+[2018.05.29-08.26.11:582][149]LogBlueprintUserMessages: [MyAIEnemy_358] 45.0
+[2018.05.29-08.26.11:617][150]LogBlueprintUserMessages: [MyAIEnemy_358] 45.0
+[2018.05.29-08.26.11:656][151]LogBlueprintUserMessages: [MyAIEnemy_358] 45.0
+[2018.05.29-08.26.11:693][152]LogBlueprintUserMessages: [MyAIEnemy_358] 45.0
+[2018.05.29-08.26.11:732][153]LogBlueprintUserMessages: [MyAIEnemy_358] 45.0
+[2018.05.29-08.26.11:770][154]LogBlueprintUserMessages: [MyAIEnemy_358] 45.0
+[2018.05.29-08.26.11:809][155]LogBlueprintUserMessages: [MyAIEnemy_358] 45.0
+[2018.05.29-08.26.11:846][156]LogBlueprintUserMessages: [MyAIEnemy_358] 45.0
+[2018.05.29-08.26.11:884][157]LogBlueprintUserMessages: [MyAIEnemy_358] 45.0
+[2018.05.29-08.26.11:920][158]LogBlueprintUserMessages: [MyAIEnemy_358] 45.0
+[2018.05.29-08.26.11:961][159]LogBlueprintUserMessages: [MyAIEnemy_358] 45.0
+[2018.05.29-08.26.12:008][160]LogBlueprintUserMessages: [MyAIEnemy_358] 45.0
+[2018.05.29-08.26.12:009][160]LogBlueprintUserMessages: [MyAIEnemy_358] Bang!
+[2018.05.29-08.26.12:040][161]LogBlueprintUserMessages: [MyAIEnemy_358] 45.0
+[2018.05.29-08.26.12:077][162]LogBlueprintUserMessages: [MyAIEnemy_358] 40.0
+[2018.05.29-08.26.12:117][163]LogBlueprintUserMessages: [MyAIEnemy_358] 40.0
+[2018.05.29-08.26.12:152][164]LogBlueprintUserMessages: [MyAIEnemy_358] 40.0
+[2018.05.29-08.26.12:192][165]LogBlueprintUserMessages: [MyAIEnemy_358] 40.0
+[2018.05.29-08.26.12:193][165]LogBlueprintUserMessages: [MyAIEnemy_358] Bang!
+[2018.05.29-08.26.12:229][166]LogBlueprintUserMessages: [MyAIEnemy_358] 40.0
+[2018.05.29-08.26.12:268][167]LogBlueprintUserMessages: [MyAIEnemy_358] 35.0
+[2018.05.29-08.26.12:302][168]LogBlueprintUserMessages: [MyAIEnemy_358] 35.0
+[2018.05.29-08.26.12:351][169]LogBlueprintUserMessages: [MyAIEnemy_358] 35.0
+[2018.05.29-08.26.12:391][170]LogBlueprintUserMessages: [MyAIEnemy_358] 35.0
+[2018.05.29-08.26.12:391][170]LogBlueprintUserMessages: [MyAIEnemy_358] Bang!
+[2018.05.29-08.26.12:423][171]LogBlueprintUserMessages: [MyAIEnemy_358] 35.0
+[2018.05.29-08.26.12:454][172]LogBlueprintUserMessages: [MyAIEnemy_358] 30.0
+[2018.05.29-08.26.12:494][173]LogBlueprintUserMessages: [MyAIEnemy_358] 30.0
+[2018.05.29-08.26.12:529][174]LogBlueprintUserMessages: [MyAIEnemy_358] 30.0
+[2018.05.29-08.26.12:568][175]LogBlueprintUserMessages: [MyAIEnemy_358] 30.0
+[2018.05.29-08.26.12:569][175]LogBlueprintUserMessages: [MyAIEnemy_358] Bang!
+[2018.05.29-08.26.12:602][176]LogBlueprintUserMessages: [MyAIEnemy_358] 30.0
+[2018.05.29-08.26.12:642][177]LogBlueprintUserMessages: [MyAIEnemy_358] 25.0
+[2018.05.29-08.26.12:677][178]LogBlueprintUserMessages: [MyAIEnemy_358] 25.0
+[2018.05.29-08.26.12:715][179]LogBlueprintUserMessages: [MyAIEnemy_358] 25.0
+[2018.05.29-08.26.12:757][180]LogBlueprintUserMessages: [MyAIEnemy_358] 25.0
+[2018.05.29-08.26.12:758][180]LogBlueprintUserMessages: [MyAIEnemy_358] Bang!
+[2018.05.29-08.26.12:792][181]LogBlueprintUserMessages: [MyAIEnemy_358] 25.0
+[2018.05.29-08.26.12:826][182]LogBlueprintUserMessages: [MyAIEnemy_358] 20.0
+[2018.05.29-08.26.12:866][183]LogBlueprintUserMessages: [MyAIEnemy_358] 20.0
+[2018.05.29-08.26.12:904][184]LogBlueprintUserMessages: [MyAIEnemy_358] 20.0
+[2018.05.29-08.26.12:905][184]LogBlueprintUserMessages: [MyAIEnemy_358] Bang!
+[2018.05.29-08.26.12:943][185]LogBlueprintUserMessages: [MyAIEnemy_358] 20.0
+[2018.05.29-08.26.12:981][186]LogBlueprintUserMessages: [MyAIEnemy_358] 15.0
+[2018.05.29-08.26.13:021][187]LogBlueprintUserMessages: [MyAIEnemy_358] 15.0
+[2018.05.29-08.26.13:070][188]LogBlueprintUserMessages: [MyAIEnemy_358] 15.0
+[2018.05.29-08.26.13:118][189]LogBlueprintUserMessages: [MyAIEnemy_358] 15.0
+[2018.05.29-08.26.13:119][189]LogBlueprintUserMessages: [MyAIEnemy_358] Bang!
+[2018.05.29-08.26.13:144][190]LogBlueprintUserMessages: [MyAIEnemy_358] 15.0
+[2018.05.29-08.26.13:183][191]LogBlueprintUserMessages: [MyAIEnemy_358] 10.0
+[2018.05.29-08.26.13:220][192]LogBlueprintUserMessages: [MyAIEnemy_358] 10.0
+[2018.05.29-08.26.13:261][193]LogBlueprintUserMessages: [MyAIEnemy_358] 10.0
+[2018.05.29-08.26.13:262][193]LogBlueprintUserMessages: [MyAIEnemy_358] Bang!
+[2018.05.29-08.26.13:294][194]LogBlueprintUserMessages: [MyAIEnemy_358] 10.0
+[2018.05.29-08.26.13:337][195]LogBlueprintUserMessages: [MyAIEnemy_358] 5.0
+[2018.05.29-08.26.13:367][196]LogBlueprintUserMessages: [MyAIEnemy_358] 5.0
+[2018.05.29-08.26.13:417][197]LogBlueprintUserMessages: [MyAIEnemy_358] 5.0
+[2018.05.29-08.26.13:417][197]LogBlueprintUserMessages: [MyAIEnemy_358] Bang!
+[2018.05.29-08.26.13:442][198]LogBlueprintUserMessages: [MyAIEnemy_358] 5.0
+[2018.05.29-08.26.13:481][199]LogBlueprintUserMessages: [MyAIEnemy_358] 0.0
+[2018.05.29-08.26.13:513][200]LogBlueprintUserMessages: [MyAIEnemy_358] 0.0
+[2018.05.29-08.26.13:553][201]LogBlueprintUserMessages: [MyAIEnemy_358] 0.0
+[2018.05.29-08.26.13:554][201]LogBlueprintUserMessages: [MyAIEnemy_358] Bang!
+[2018.05.29-08.26.13:586][202]LogBlueprintUserMessages: [MyAIEnemy_358] 0.0
+[2018.05.29-08.26.13:628][203]LogBlueprintUserMessages: [MyAIEnemy_358] -5.0
+[2018.05.29-08.26.13:662][204]LogBlueprintUserMessages: [MyAIEnemy_358] -5.0
+[2018.05.29-08.26.13:704][205]LogBlueprintUserMessages: [MyAIEnemy_358] -5.0
+[2018.05.29-08.26.13:751][206]LogBlueprintUserMessages: [MyAIEnemy_358] -5.0
+[2018.05.29-08.26.13:751][206]LogBlueprintUserMessages: [MyAIEnemy_358] Bang!
+[2018.05.29-08.26.13:785][207]LogBlueprintUserMessages: [MyAIEnemy_358] -5.0
+[2018.05.29-08.26.13:820][208]LogBlueprintUserMessages: [MyAIEnemy_358] -10.0
+[2018.05.29-08.26.13:861][209]LogBlueprintUserMessages: [MyAIEnemy_358] -10.0
+[2018.05.29-08.26.13:897][210]LogBlueprintUserMessages: [MyAIEnemy_358] -10.0
+[2018.05.29-08.26.13:898][210]LogBlueprintUserMessages: [MyAIEnemy_358] Bang!
+[2018.05.29-08.26.13:935][211]LogBlueprintUserMessages: [MyAIEnemy_358] -10.0
+[2018.05.29-08.26.13:970][212]LogBlueprintUserMessages: [MyAIEnemy_358] -15.0
+[2018.05.29-08.26.14:009][213]LogBlueprintUserMessages: [MyAIEnemy_358] -15.0
+[2018.05.29-08.26.14:046][214]LogBlueprintUserMessages: [MyAIEnemy_358] -15.0
+[2018.05.29-08.26.14:093][215]LogBlueprintUserMessages: [MyAIEnemy_358] -15.0
+[2018.05.29-08.26.14:094][215]LogBlueprintUserMessages: [MyAIEnemy_358] Bang!
+[2018.05.29-08.26.14:120][216]LogBlueprintUserMessages: [MyAIEnemy_358] -15.0
+[2018.05.29-08.26.14:163][217]LogBlueprintUserMessages: [MyAIEnemy_358] -20.0
+[2018.05.29-08.26.14:195][218]LogBlueprintUserMessages: [MyAIEnemy_358] -20.0
+[2018.05.29-08.26.14:234][219]LogBlueprintUserMessages: [MyAIEnemy_358] -20.0
+[2018.05.29-08.26.14:235][219]LogBlueprintUserMessages: [MyAIEnemy_358] Bang!
+[2018.05.29-08.26.14:266][220]LogBlueprintUserMessages: [MyAIEnemy_358] -20.0
+[2018.05.29-08.26.14:305][221]LogBlueprintUserMessages: [MyAIEnemy_358] -25.0
+[2018.05.29-08.26.14:338][222]LogBlueprintUserMessages: [MyAIEnemy_358] -25.0
+[2018.05.29-08.26.14:380][223]LogBlueprintUserMessages: [MyAIEnemy_358] -25.0
+[2018.05.29-08.26.14:422][224]LogBlueprintUserMessages: [MyAIEnemy_358] -25.0
+[2018.05.29-08.26.14:422][224]LogBlueprintUserMessages: [MyAIEnemy_358] Bang!
+[2018.05.29-08.26.14:454][225]LogBlueprintUserMessages: [MyAIEnemy_358] -25.0
+[2018.05.29-08.26.14:489][226]LogBlueprintUserMessages: [MyAIEnemy_358] -30.0
+[2018.05.29-08.26.14:528][227]LogBlueprintUserMessages: [MyAIEnemy_358] -30.0
+[2018.05.29-08.26.14:564][228]LogBlueprintUserMessages: [MyAIEnemy_358] -30.0
+[2018.05.29-08.26.14:565][228]LogBlueprintUserMessages: [MyAIEnemy_358] Bang!
+[2018.05.29-08.26.14:604][229]LogBlueprintUserMessages: [MyAIEnemy_358] -30.0
+[2018.05.29-08.26.14:637][230]LogBlueprintUserMessages: [MyAIEnemy_358] -35.0
+[2018.05.29-08.26.14:679][231]LogBlueprintUserMessages: [MyAIEnemy_358] -35.0
+[2018.05.29-08.26.14:710][232]LogBlueprintUserMessages: [MyAIEnemy_358] -35.0
+[2018.05.29-08.26.14:751][233]LogBlueprintUserMessages: [MyAIEnemy_358] -35.0
+[2018.05.29-08.26.14:788][234]LogBlueprintUserMessages: [MyAIEnemy_358] -35.0
+[2018.05.29-08.26.14:835][235]LogBlueprintUserMessages: [MyAIEnemy_358] -35.0
+[2018.05.29-08.26.14:862][236]LogBlueprintUserMessages: [MyAIEnemy_358] -35.0
+[2018.05.29-08.26.14:905][237]LogBlueprintUserMessages: [MyAIEnemy_358] -35.0
+[2018.05.29-08.26.14:940][238]LogBlueprintUserMessages: [MyAIEnemy_358] -35.0
+[2018.05.29-08.26.14:980][239]LogBlueprintUserMessages: [MyAIEnemy_358] -35.0
+[2018.05.29-08.26.15:012][240]LogBlueprintUserMessages: [MyAIEnemy_358] -35.0
+[2018.05.29-08.26.15:055][241]LogBlueprintUserMessages: [MyAIEnemy_358] -35.0
+[2018.05.29-08.26.15:089][242]LogBlueprintUserMessages: [MyAIEnemy_358] -35.0
+[2018.05.29-08.26.15:128][243]LogBlueprintUserMessages: [MyAIEnemy_358] -35.0
+[2018.05.29-08.26.15:161][244]LogBlueprintUserMessages: [MyAIEnemy_358] -35.0
+[2018.05.29-08.26.15:201][245]LogBlueprintUserMessages: [MyAIEnemy_358] -35.0
+[2018.05.29-08.26.15:236][246]LogBlueprintUserMessages: [MyAIEnemy_358] -35.0
+[2018.05.29-08.26.15:275][247]LogBlueprintUserMessages: [MyAIEnemy_358] -35.0
+[2018.05.29-08.26.15:308][248]LogBlueprintUserMessages: [MyAIEnemy_358] -35.0
+[2018.05.29-08.26.15:350][249]LogBlueprintUserMessages: [MyAIEnemy_358] -35.0
+[2018.05.29-08.26.15:383][250]LogBlueprintUserMessages: [MyAIEnemy_358] -35.0
+[2018.05.29-08.26.15:430][251]LogBlueprintUserMessages: [MyAIEnemy_358] -35.0
+[2018.05.29-08.26.15:456][252]LogBlueprintUserMessages: [MyAIEnemy_358] -35.0
+[2018.05.29-08.26.15:496][253]LogBlueprintUserMessages: [MyAIEnemy_358] -35.0
+[2018.05.29-08.26.15:532][254]LogBlueprintUserMessages: [MyAIEnemy_358] -35.0
+[2018.05.29-08.26.15:574][255]LogBlueprintUserMessages: [MyAIEnemy_358] -35.0
+[2018.05.29-08.26.15:612][256]LogBlueprintUserMessages: [MyAIEnemy_358] -35.0
+[2018.05.29-08.26.15:652][257]LogBlueprintUserMessages: [MyAIEnemy_358] -35.0
+[2018.05.29-08.26.15:687][258]LogBlueprintUserMessages: [MyAIEnemy_358] -35.0
+[2018.05.29-08.26.15:727][259]LogBlueprintUserMessages: [MyAIEnemy_358] -35.0
+[2018.05.29-08.26.15:759][260]LogBlueprintUserMessages: [MyAIEnemy_358] -35.0
+[2018.05.29-08.26.15:800][261]LogBlueprintUserMessages: [MyAIEnemy_358] -35.0
+[2018.05.29-08.26.15:837][262]LogBlueprintUserMessages: [MyAIEnemy_358] -35.0
+[2018.05.29-08.26.15:876][263]LogBlueprintUserMessages: [MyAIEnemy_358] -35.0
+[2018.05.29-08.26.15:909][264]LogBlueprintUserMessages: [MyAIEnemy_358] -35.0
+[2018.05.29-08.26.15:959][265]LogBlueprintUserMessages: [MyAIEnemy_358] -35.0
+[2018.05.29-08.26.15:985][266]LogBlueprintUserMessages: [MyAIEnemy_358] -35.0
+[2018.05.29-08.26.16:022][267]LogBlueprintUserMessages: [MyAIEnemy_358] -35.0
+[2018.05.29-08.26.16:055][268]LogBlueprintUserMessages: [MyAIEnemy_358] -35.0
+[2018.05.29-08.26.16:095][269]LogBlueprintUserMessages: [MyAIEnemy_358] -35.0
+[2018.05.29-08.26.16:130][270]LogBlueprintUserMessages: [MyAIEnemy_358] -35.0
+[2018.05.29-08.26.16:169][271]LogBlueprintUserMessages: [MyAIEnemy_358] -35.0
+[2018.05.29-08.26.16:203][272]LogBlueprintUserMessages: [MyAIEnemy_358] -35.0
+[2018.05.29-08.26.16:242][273]LogBlueprintUserMessages: [MyAIEnemy_358] -35.0
+[2018.05.29-08.26.16:279][274]LogBlueprintUserMessages: [MyAIEnemy_358] -35.0
+[2018.05.29-08.26.16:319][275]LogBlueprintUserMessages: [MyAIEnemy_358] -35.0
+[2018.05.29-08.26.16:356][276]LogBlueprintUserMessages: [MyAIEnemy_358] -35.0
+[2018.05.29-08.26.16:395][277]LogBlueprintUserMessages: [MyAIEnemy_358] -35.0
+[2018.05.29-08.26.16:428][278]LogBlueprintUserMessages: [MyAIEnemy_358] -35.0
+[2018.05.29-08.26.16:470][279]LogBlueprintUserMessages: [MyAIEnemy_358] -35.0
+[2018.05.29-08.26.16:502][280]LogBlueprintUserMessages: [MyAIEnemy_358] -35.0
+[2018.05.29-08.26.16:545][281]LogBlueprintUserMessages: [MyAIEnemy_358] -35.0
+[2018.05.29-08.26.16:578][282]LogBlueprintUserMessages: [MyAIEnemy_358] -35.0
+[2018.05.29-08.26.16:578][282]LogBlueprintUserMessages: [MyAIEnemy_358] Bang!
+[2018.05.29-08.26.16:619][283]LogBlueprintUserMessages: [MyAIEnemy_358] -35.0
+[2018.05.29-08.26.16:653][284]LogBlueprintUserMessages: [MyAIEnemy_358] -40.0
+[2018.05.29-08.26.16:691][285]LogBlueprintUserMessages: [MyAIEnemy_358] -40.0
+[2018.05.29-08.26.16:727][286]LogBlueprintUserMessages: [MyAIEnemy_358] -40.0
+[2018.05.29-08.26.16:766][287]LogBlueprintUserMessages: [MyAIEnemy_358] -40.0
+[2018.05.29-08.26.16:799][288]LogBlueprintUserMessages: [MyAIEnemy_358] -40.0
+[2018.05.29-08.26.16:840][289]LogBlueprintUserMessages: [MyAIEnemy_358] -40.0
+[2018.05.29-08.26.16:870][290]LogBlueprintUserMessages: [MyAIEnemy_358] -40.0
+[2018.05.29-08.26.16:912][291]LogBlueprintUserMessages: [MyAIEnemy_358] -40.0
+[2018.05.29-08.26.16:950][292]LogBlueprintUserMessages: [MyAIEnemy_358] -40.0
+[2018.05.29-08.26.16:989][293]LogBlueprintUserMessages: [MyAIEnemy_358] -40.0
+[2018.05.29-08.26.17:023][294]LogBlueprintUserMessages: [MyAIEnemy_358] -40.0
+[2018.05.29-08.26.17:098][295]LogBlueprintUserMessages: [MyAIEnemy_358] -40.0
+[2018.05.29-08.26.17:109][296]LogBlueprintUserMessages: [MyAIEnemy_358] -40.0
+[2018.05.29-08.26.17:146][297]LogBlueprintUserMessages: [MyAIEnemy_358] -40.0
+[2018.05.29-08.26.17:182][298]LogBlueprintUserMessages: [MyAIEnemy_358] -40.0
+[2018.05.29-08.26.17:223][299]LogBlueprintUserMessages: [MyAIEnemy_358] -40.0
+[2018.05.29-08.26.17:259][300]LogBlueprintUserMessages: [MyAIEnemy_358] -40.0
+[2018.05.29-08.26.17:299][301]LogBlueprintUserMessages: [MyAIEnemy_358] -40.0
+[2018.05.29-08.26.17:338][302]LogBlueprintUserMessages: [MyAIEnemy_358] -40.0
+[2018.05.29-08.26.17:378][303]LogBlueprintUserMessages: [MyAIEnemy_358] -40.0
+[2018.05.29-08.26.17:412][304]LogBlueprintUserMessages: [MyAIEnemy_358] -40.0
+[2018.05.29-08.26.17:452][305]LogBlueprintUserMessages: [MyAIEnemy_358] -40.0
+[2018.05.29-08.26.17:488][306]LogBlueprintUserMessages: [MyAIEnemy_358] -40.0
+[2018.05.29-08.26.17:528][307]LogBlueprintUserMessages: [MyAIEnemy_358] -40.0
+[2018.05.29-08.26.17:564][308]LogBlueprintUserMessages: [MyAIEnemy_358] -40.0
+[2018.05.29-08.26.17:605][309]LogBlueprintUserMessages: [MyAIEnemy_358] -40.0
+[2018.05.29-08.26.17:641][310]LogBlueprintUserMessages: [MyAIEnemy_358] -40.0
+[2018.05.29-08.26.17:681][311]LogBlueprintUserMessages: [MyAIEnemy_358] -40.0
+[2018.05.29-08.26.17:715][312]LogBlueprintUserMessages: [MyAIEnemy_358] -40.0
+[2018.05.29-08.26.17:756][313]LogBlueprintUserMessages: [MyAIEnemy_358] -40.0
+[2018.05.29-08.26.17:790][314]LogBlueprintUserMessages: [MyAIEnemy_358] -40.0
+[2018.05.29-08.26.17:829][315]LogBlueprintUserMessages: [MyAIEnemy_358] -40.0
+[2018.05.29-08.26.17:862][316]LogBlueprintUserMessages: [MyAIEnemy_358] -40.0
+[2018.05.29-08.26.17:901][317]LogBlueprintUserMessages: [MyAIEnemy_358] -40.0
+[2018.05.29-08.26.17:935][318]LogBlueprintUserMessages: [MyAIEnemy_358] -40.0
+[2018.05.29-08.26.17:975][319]LogBlueprintUserMessages: [MyAIEnemy_358] -40.0
+[2018.05.29-08.26.18:012][320]LogBlueprintUserMessages: [MyAIEnemy_358] -40.0
+[2018.05.29-08.26.18:049][321]LogBlueprintUserMessages: [MyAIEnemy_358] -40.0
+[2018.05.29-08.26.18:085][322]LogBlueprintUserMessages: [MyAIEnemy_358] -40.0
+[2018.05.29-08.26.18:124][323]LogBlueprintUserMessages: [MyAIEnemy_358] -40.0
+[2018.05.29-08.26.18:161][324]LogBlueprintUserMessages: [MyAIEnemy_358] -40.0
+[2018.05.29-08.26.18:199][325]LogBlueprintUserMessages: [MyAIEnemy_358] -40.0
+[2018.05.29-08.26.18:234][326]LogBlueprintUserMessages: [MyAIEnemy_358] -40.0
+[2018.05.29-08.26.18:274][327]LogBlueprintUserMessages: [MyAIEnemy_358] -40.0
+[2018.05.29-08.26.18:308][328]LogBlueprintUserMessages: [MyAIEnemy_358] -40.0
+[2018.05.29-08.26.18:347][329]LogBlueprintUserMessages: [MyAIEnemy_358] -40.0
+[2018.05.29-08.26.18:382][330]LogBlueprintUserMessages: [MyAIEnemy_358] -40.0
+[2018.05.29-08.26.18:430][331]LogBlueprintUserMessages: [MyAIEnemy_358] -40.0
+[2018.05.29-08.26.18:431][331]LogBlueprintUserMessages: [MyAIEnemy_358] Bang!
+[2018.05.29-08.26.18:460][332]LogBlueprintUserMessages: [MyAIEnemy_358] -40.0
+[2018.05.29-08.26.18:499][333]LogBlueprintUserMessages: [MyAIEnemy_358] -45.0
+[2018.05.29-08.26.18:535][334]LogBlueprintUserMessages: [MyAIEnemy_358] -45.0
+[2018.05.29-08.26.18:574][335]LogBlueprintUserMessages: [MyAIEnemy_358] -45.0
+[2018.05.29-08.26.18:610][336]LogBlueprintUserMessages: [MyAIEnemy_358] -45.0
+[2018.05.29-08.26.18:650][337]LogBlueprintUserMessages: [MyAIEnemy_358] -45.0
+[2018.05.29-08.26.18:687][338]LogBlueprintUserMessages: [MyAIEnemy_358] -45.0
+[2018.05.29-08.26.18:726][339]LogBlueprintUserMessages: [MyAIEnemy_358] -45.0
+[2018.05.29-08.26.18:759][340]LogBlueprintUserMessages: [MyAIEnemy_358] -45.0
+[2018.05.29-08.26.18:806][341]LogBlueprintUserMessages: [MyAIEnemy_358] -45.0
+[2018.05.29-08.26.18:832][342]LogBlueprintUserMessages: [MyAIEnemy_358] -45.0
+[2018.05.29-08.26.18:871][343]LogBlueprintUserMessages: [MyAIEnemy_358] -45.0
+[2018.05.29-08.26.18:904][344]LogBlueprintUserMessages: [MyAIEnemy_358] -45.0
+[2018.05.29-08.26.18:944][345]LogBlueprintUserMessages: [MyAIEnemy_358] -45.0
+[2018.05.29-08.26.18:980][346]LogBlueprintUserMessages: [MyAIEnemy_358] -45.0
+[2018.05.29-08.26.19:019][347]LogBlueprintUserMessages: [MyAIEnemy_358] -45.0
+[2018.05.29-08.26.19:056][348]LogBlueprintUserMessages: [MyAIEnemy_358] -45.0
+[2018.05.29-08.26.19:095][349]LogBlueprintUserMessages: [MyAIEnemy_358] -45.0
+[2018.05.29-08.26.19:128][350]LogBlueprintUserMessages: [MyAIEnemy_358] -45.0
+[2018.05.29-08.26.19:168][351]LogBlueprintUserMessages: [MyAIEnemy_358] -45.0
+[2018.05.29-08.26.19:203][352]LogBlueprintUserMessages: [MyAIEnemy_358] -45.0
+[2018.05.29-08.26.19:243][353]LogBlueprintUserMessages: [MyAIEnemy_358] -45.0
+[2018.05.29-08.26.19:280][354]LogBlueprintUserMessages: [MyAIEnemy_358] -45.0
+[2018.05.29-08.26.19:320][355]LogBlueprintUserMessages: [MyAIEnemy_358] -45.0
+[2018.05.29-08.26.19:365][356]LogBlueprintUserMessages: [MyAIEnemy_358] -45.0
+[2018.05.29-08.26.19:397][357]LogBlueprintUserMessages: [MyAIEnemy_358] -45.0
+[2018.05.29-08.26.19:435][358]LogBlueprintUserMessages: [MyAIEnemy_358] -45.0
+[2018.05.29-08.26.19:474][359]LogBlueprintUserMessages: [MyAIEnemy_358] -45.0
+[2018.05.29-08.26.19:509][360]LogBlueprintUserMessages: [MyAIEnemy_358] -45.0
+[2018.05.29-08.26.19:548][361]LogBlueprintUserMessages: [MyAIEnemy_358] -45.0
+[2018.05.29-08.26.19:583][362]LogBlueprintUserMessages: [MyAIEnemy_358] -45.0
+[2018.05.29-08.26.19:621][363]LogBlueprintUserMessages: [MyAIEnemy_358] -45.0
+[2018.05.29-08.26.19:656][364]LogBlueprintUserMessages: [MyAIEnemy_358] -45.0
+[2018.05.29-08.26.19:696][365]LogBlueprintUserMessages: [MyAIEnemy_358] -45.0
+[2018.05.29-08.26.19:730][366]LogBlueprintUserMessages: [MyAIEnemy_358] -45.0
+[2018.05.29-08.26.19:770][367]LogBlueprintUserMessages: [MyAIEnemy_358] -45.0
+[2018.05.29-08.26.19:806][368]LogBlueprintUserMessages: [MyAIEnemy_358] -45.0
+[2018.05.29-08.26.19:846][369]LogBlueprintUserMessages: [MyAIEnemy_358] -45.0
+[2018.05.29-08.26.19:881][370]LogBlueprintUserMessages: [MyAIEnemy_358] -45.0
+[2018.05.29-08.26.19:920][371]LogBlueprintUserMessages: [MyAIEnemy_358] -45.0
+[2018.05.29-08.26.19:956][372]LogBlueprintUserMessages: [MyAIEnemy_358] -45.0
+[2018.05.29-08.26.19:997][373]LogBlueprintUserMessages: [MyAIEnemy_358] -45.0
+[2018.05.29-08.26.20:055][374]LogBlueprintUserMessages: [MyAIEnemy_358] -45.0
+[2018.05.29-08.26.20:072][375]LogBlueprintUserMessages: [MyAIEnemy_358] -45.0
+[2018.05.29-08.26.20:108][376]LogBlueprintUserMessages: [MyAIEnemy_358] -45.0
+[2018.05.29-08.26.20:148][377]LogBlueprintUserMessages: [MyAIEnemy_358] -45.0
+[2018.05.29-08.26.20:184][378]LogBlueprintUserMessages: [MyAIEnemy_358] -45.0
+[2018.05.29-08.26.20:224][379]LogBlueprintUserMessages: [MyAIEnemy_358] -45.0
+[2018.05.29-08.26.20:258][380]LogBlueprintUserMessages: [MyAIEnemy_358] -45.0
+[2018.05.29-08.26.20:298][381]LogBlueprintUserMessages: [MyAIEnemy_358] -45.0
+[2018.05.29-08.26.20:330][382]LogBlueprintUserMessages: [MyAIEnemy_358] -45.0
+[2018.05.29-08.26.20:370][383]LogBlueprintUserMessages: [MyAIEnemy_358] -45.0
+[2018.05.29-08.26.20:407][384]LogBlueprintUserMessages: [MyAIEnemy_358] -45.0
+[2018.05.29-08.26.20:454][385]LogBlueprintUserMessages: [MyAIEnemy_358] -45.0
+[2018.05.29-08.26.20:482][386]LogBlueprintUserMessages: [MyAIEnemy_358] -45.0
+[2018.05.29-08.26.20:520][387]LogBlueprintUserMessages: [MyAIEnemy_358] -45.0
+[2018.05.29-08.26.20:553][388]LogBlueprintUserMessages: [MyAIEnemy_358] -45.0
+[2018.05.29-08.26.20:595][389]LogBlueprintUserMessages: [MyAIEnemy_358] -45.0
+[2018.05.29-08.26.20:627][390]LogBlueprintUserMessages: [MyAIEnemy_358] -45.0
+[2018.05.29-08.26.20:665][391]LogBlueprintUserMessages: [MyAIEnemy_358] -45.0
+[2018.05.29-08.26.20:700][392]LogBlueprintUserMessages: [MyAIEnemy_358] -45.0
+[2018.05.29-08.26.20:738][393]LogBlueprintUserMessages: [MyAIEnemy_358] -45.0
+[2018.05.29-08.26.20:771][394]LogBlueprintUserMessages: [MyAIEnemy_358] -45.0
+[2018.05.29-08.26.20:808][395]LogBlueprintUserMessages: [MyAIEnemy_358] -45.0
+[2018.05.29-08.26.20:841][396]LogBlueprintUserMessages: [MyAIEnemy_358] -45.0
+[2018.05.29-08.26.20:881][397]LogBlueprintUserMessages: [MyAIEnemy_358] -45.0
+[2018.05.29-08.26.20:915][398]LogBlueprintUserMessages: [MyAIEnemy_358] -45.0
+[2018.05.29-08.26.20:952][399]LogBlueprintUserMessages: [MyAIEnemy_358] -45.0
+[2018.05.29-08.26.20:983][400]LogBlueprintUserMessages: [MyAIEnemy_358] -45.0
+[2018.05.29-08.26.21:023][401]LogBlueprintUserMessages: [MyAIEnemy_358] -45.0
+[2018.05.29-08.26.21:052][402]LogBlueprintUserMessages: [MyAIEnemy_358] -45.0
+[2018.05.29-08.26.21:092][403]LogBlueprintUserMessages: [MyAIEnemy_358] -45.0
+[2018.05.29-08.26.21:122][404]LogBlueprintUserMessages: [MyAIEnemy_358] -45.0
+[2018.05.29-08.26.21:161][405]LogBlueprintUserMessages: [MyAIEnemy_358] -45.0
+[2018.05.29-08.26.21:193][406]LogBlueprintUserMessages: [MyAIEnemy_358] -45.0
+[2018.05.29-08.26.21:239][407]LogBlueprintUserMessages: [MyAIEnemy_358] -45.0
+[2018.05.29-08.26.21:266][408]LogBlueprintUserMessages: [MyAIEnemy_358] -45.0
+[2018.05.29-08.26.21:304][409]LogBlueprintUserMessages: [MyAIEnemy_358] -45.0
+[2018.05.29-08.26.21:337][410]LogBlueprintUserMessages: [MyAIEnemy_358] -45.0
+[2018.05.29-08.26.21:375][411]LogBlueprintUserMessages: [MyAIEnemy_358] -45.0
+[2018.05.29-08.26.21:410][412]LogBlueprintUserMessages: [MyAIEnemy_358] -45.0
+[2018.05.29-08.26.21:449][413]LogBlueprintUserMessages: [MyAIEnemy_358] -45.0
+[2018.05.29-08.26.21:484][414]LogBlueprintUserMessages: [MyAIEnemy_358] -45.0
+[2018.05.29-08.26.21:522][415]LogBlueprintUserMessages: [MyAIEnemy_358] -45.0
+[2018.05.29-08.26.21:563][416]LogBlueprintUserMessages: [MyAIEnemy_358] -45.0
+[2018.05.29-08.26.21:563][416]LogBlueprintUserMessages: [MyAIEnemy_358] Bang!
+[2018.05.29-08.26.21:593][417]LogBlueprintUserMessages: [MyAIEnemy_358] -45.0
+[2018.05.29-08.26.21:627][418]LogBlueprintUserMessages: [MyAIEnemy_358] -50.0
+[2018.05.29-08.26.21:666][419]LogBlueprintUserMessages: [MyAIEnemy_358] -50.0
+[2018.05.29-08.26.21:700][420]LogBlueprintUserMessages: [MyAIEnemy_358] -50.0
+[2018.05.29-08.26.21:738][421]LogBlueprintUserMessages: [MyAIEnemy_358] -50.0
+[2018.05.29-08.26.21:771][422]LogBlueprintUserMessages: [MyAIEnemy_358] -50.0
+[2018.05.29-08.26.21:809][423]LogBlueprintUserMessages: [MyAIEnemy_358] -50.0
+[2018.05.29-08.26.21:843][424]LogBlueprintUserMessages: [MyAIEnemy_358] -50.0
+[2018.05.29-08.26.21:881][425]LogBlueprintUserMessages: [MyAIEnemy_358] -50.0
+[2018.05.29-08.26.21:917][426]LogBlueprintUserMessages: [MyAIEnemy_358] -50.0
+[2018.05.29-08.26.21:955][427]LogBlueprintUserMessages: [MyAIEnemy_358] -50.0
+[2018.05.29-08.26.21:988][428]LogBlueprintUserMessages: [MyAIEnemy_358] -50.0
+[2018.05.29-08.26.22:028][429]LogBlueprintUserMessages: [MyAIEnemy_358] -50.0
+[2018.05.29-08.26.22:060][430]LogBlueprintUserMessages: [MyAIEnemy_358] -50.0
+[2018.05.29-08.26.22:097][431]LogBlueprintUserMessages: [MyAIEnemy_358] -50.0
+[2018.05.29-08.26.22:135][432]LogBlueprintUserMessages: [MyAIEnemy_358] -50.0
+[2018.05.29-08.26.22:180][433]LogBlueprintUserMessages: [MyAIEnemy_358] -50.0
+[2018.05.29-08.26.22:180][433]LogBlueprintUserMessages: [MyAIEnemy_358] Bang!
+[2018.05.29-08.26.22:205][434]LogBlueprintUserMessages: [MyAIEnemy_358] -50.0
+[2018.05.29-08.26.22:243][435]LogBlueprintUserMessages: [MyAIEnemy_358] -55.0
+[2018.05.29-08.26.22:276][436]LogBlueprintUserMessages: [MyAIEnemy_358] -55.0
+[2018.05.29-08.26.22:314][437]LogBlueprintUserMessages: [MyAIEnemy_358] -55.0
+[2018.05.29-08.26.22:359][438]LogBlueprintUserMessages: [MyAIEnemy_358] -55.0
+[2018.05.29-08.26.22:359][438]LogBlueprintUserMessages: [MyAIEnemy_358] Bang!
+[2018.05.29-08.26.22:388][439]LogBlueprintUserMessages: [MyAIEnemy_358] -55.0
+[2018.05.29-08.26.22:422][440]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.22:460][441]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.22:496][442]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.22:535][443]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.22:569][444]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.22:607][445]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.22:641][446]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.22:680][447]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.22:717][448]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.22:758][449]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.22:790][450]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.22:829][451]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.22:861][452]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.22:901][453]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.22:933][454]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.22:971][455]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.23:004][456]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.23:044][457]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.23:076][458]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.23:114][459]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.23:147][460]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.23:187][461]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.23:223][462]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.23:264][463]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.23:303][464]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.23:340][465]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.23:374][466]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.23:414][467]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.23:453][468]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.23:493][469]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.23:527][470]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.23:568][471]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.23:604][472]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.23:643][473]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.23:678][474]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.23:721][475]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.23:759][476]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.23:802][477]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.23:838][478]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.23:879][479]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.23:916][480]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.23:957][481]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.23:993][482]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.24:035][483]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.24:073][484]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.24:115][485]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.24:151][486]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.24:194][487]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.24:231][488]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.24:273][489]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.24:310][490]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.24:351][491]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.24:386][492]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.24:429][493]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.24:464][494]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.24:507][495]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.24:542][496]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.24:584][497]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.24:621][498]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.24:663][499]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.24:700][500]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.24:741][501]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.24:776][502]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.24:816][503]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.24:850][504]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.24:891][505]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.24:927][506]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.24:967][507]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.25:000][508]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.25:042][509]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.25:077][510]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.25:116][511]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.25:149][512]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.25:188][513]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.25:224][514]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.25:261][515]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.25:295][516]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.25:333][517]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.25:367][518]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.25:405][519]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.25:439][520]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.25:477][521]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.25:510][522]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.25:549][523]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.25:582][524]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.25:621][525]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.25:654][526]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.25:694][527]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.25:727][528]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.25:764][529]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.25:800][530]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.25:838][531]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.25:872][532]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.25:911][533]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.25:945][534]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.25:981][535]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.26:015][536]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.26:053][537]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.26:088][538]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.26:126][539]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.26:163][540]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.26:201][541]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.26:235][542]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.26:273][543]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.26:316][544]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.26:345][545]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.26:379][546]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.26:418][547]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.26:451][548]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.26:489][549]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.26:523][550]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.26:561][551]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.26:596][552]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.26:636][553]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.26:668][554]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.26:707][555]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.26:741][556]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.26:780][557]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.26:814][558]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.26:852][559]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.26:887][560]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.26:928][561]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.26:964][562]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.27:003][563]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.27:034][564]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.27:073][565]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.27:109][566]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.27:149][567]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.27:181][568]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.27:219][569]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.27:251][570]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.27:292][571]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.27:324][572]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.27:366][573]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.27:400][574]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.27:438][575]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.27:470][576]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.27:510][577]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.27:549][578]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.27:587][579]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.27:618][580]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.27:658][581]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.27:689][582]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.27:728][583]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.27:760][584]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.27:800][585]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.27:831][586]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.27:871][587]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.27:903][588]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.27:942][589]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.27:979][590]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.28:018][591]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.28:053][592]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.28:093][593]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.28:126][594]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.28:168][595]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.28:201][596]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.28:241][597]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.28:270][598]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.28:311][599]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.28:343][600]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.28:385][601]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.28:419][602]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.28:457][603]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.28:491][604]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.28:529][605]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.28:564][606]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.28:602][607]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.28:637][608]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.28:674][609]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.28:705][610]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.28:744][611]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.28:778][612]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.28:816][613]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.28:852][614]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.28:892][615]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.28:924][616]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.28:964][617]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.28:998][618]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.29:037][619]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.29:071][620]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.29:111][621]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.29:146][622]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.29:186][623]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.29:222][624]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.29:262][625]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.29:296][626]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.29:336][627]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.29:372][628]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.29:412][629]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.29:448][630]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.29:487][631]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.29:523][632]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.29:563][633]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.29:598][634]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.29:639][635]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.29:673][636]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.29:712][637]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.29:747][638]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.29:796][639]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.29:823][640]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.29:861][641]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.29:894][642]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.29:932][643]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.29:965][644]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.30:005][645]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.30:040][646]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.30:078][647]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.30:110][648]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.30:150][649]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.30:183][650]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.30:223][651]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.30:256][652]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.30:294][653]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.30:330][654]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.30:369][655]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.30:402][656]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.30:441][657]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.30:474][658]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.30:515][659]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.30:551][660]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.30:591][661]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.30:625][662]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.30:663][663]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.30:694][664]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.30:736][665]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.30:769][666]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.30:808][667]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.30:842][668]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.30:880][669]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.30:917][670]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.30:958][671]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.30:991][672]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.31:029][673]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.31:064][674]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.31:103][675]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.31:133][676]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.31:171][677]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.31:205][678]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.31:243][679]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.31:276][680]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.31:315][681]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.31:347][682]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.31:386][683]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.31:420][684]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.31:460][685]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.31:492][686]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.31:530][687]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.31:567][688]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.31:607][689]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.31:643][690]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.31:681][691]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.31:714][692]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.31:755][693]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.31:786][694]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.31:826][695]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.31:862][696]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.31:902][697]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.31:937][698]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.31:976][699]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.32:012][700]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.32:052][701]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.32:089][702]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.32:130][703]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.32:165][704]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.32:205][705]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.32:240][706]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.32:279][707]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.32:313][708]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.32:353][709]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.32:385][710]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.32:424][711]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.32:462][712]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.32:502][713]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.32:535][714]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.32:576][715]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.32:614][716]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.32:654][717]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.32:692][718]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.32:732][719]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.32:769][720]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.32:811][721]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.32:842][722]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.32:881][723]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.32:913][724]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.32:952][725]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.32:985][726]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.33:023][727]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.33:060][728]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.33:101][729]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.33:136][730]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.33:174][731]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.33:211][732]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.33:252][733]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.33:289][734]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.33:328][735]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.33:365][736]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.33:406][737]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.33:439][738]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.33:478][739]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.33:516][740]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.33:555][741]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.33:591][742]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.33:630][743]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.33:666][744]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.33:704][745]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.33:740][746]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.33:779][747]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.33:815][748]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.33:853][749]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.33:886][750]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.33:924][751]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.33:958][752]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.33:997][753]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.34:029][754]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.34:069][755]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.34:103][756]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.34:141][757]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.34:174][758]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.34:213][759]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.34:246][760]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.34:286][761]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.34:318][762]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.34:356][763]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.34:390][764]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.34:429][765]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.34:462][766]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.34:499][767]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.34:536][768]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.34:573][769]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.34:660][770]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.34:697][771]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.34:732][772]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.34:771][773]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.34:803][774]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.34:842][775]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.34:878][776]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.34:919][777]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.34:955][778]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.34:995][779]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.35:040][780]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.35:072][781]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.35:108][782]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.35:147][783]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.35:185][784]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.35:224][785]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.35:259][786]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.35:299][787]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.35:338][788]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.35:375][789]LogBlueprintUserMessages: [MyAIEnemy_358] -60.0
+[2018.05.29-08.26.37:414][849]Cmd: CLOSE_SLATE_MAINFRAME
+[2018.05.29-08.26.38:474][850]Cmd: QUIT_EDITOR
+[2018.05.29-08.26.40:264][850]LogExit: Preparing to exit.
+[2018.05.29-08.26.42:446][850]LogExit: Editor shut down
+[2018.05.29-08.26.42:447][850]LogExit: Transaction tracking system shut down
+[2018.05.29-08.26.45:786][850]LogObj: Freed 0b from 0 cluster array pools.
+[2018.05.29-08.26.45:786][850]LogExit: Object subsystem successfully closed.
+[2018.05.29-08.26.46:562][850]LogD3D11RHI: Shutdown
+[2018.05.29-08.26.46:562][850]LogD3D11RHI: CleanupD3DDe
