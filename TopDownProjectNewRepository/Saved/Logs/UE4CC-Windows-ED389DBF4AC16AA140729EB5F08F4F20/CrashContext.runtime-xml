@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+<RuntimeProperties>
+<CrashVersion>3</CrashVersion>
+<CrashGUID>UE4CC-Windows-ED389DBF4AC16AA140729EB5F08F4F20</CrashGUID>
+<ProcessId>6196</ProcessId>
+<IsInternalBuild>0</IsInternalBuild>
+<IsPerforceBuild>0</IsPerforceBuild>
+<IsSourceDistribution>0</IsSourceDistribution>
+<SecondsSinceStart>962</SecondsSinceStart>
+<GameName>UE4-TopDownProject</GameName>
+<ExecutableName>UE4Editor</ExecutableName>
+<BuildConfiguration>Development</BuildConfiguration>
+<PlatformName>Windows</PlatformName>
+<PlatformNameIni>Windows</PlatformNameIni>
+<EngineMode>Editor</EngineMode>
+<EngineVersion>4.11.2-2946394+++UE4+Release-4.11</EngineVersion>
+<CommandLine>&quot;D:\sergey\UnrealProjects\Game_1337\TopDownProject\TopDownProject.uproject&quot; </CommandLine>
+<LanguageLCID>9</LanguageLCID>
+<AppDefaultLocale>ru_RU</AppDefaultLocale>
+<IsUE4Release>1</IsUE4Release>
+<UserName></UserName>
+<BaseDir>D:/UE_4.11/Engine/Binaries/Win64/</BaseDir>
+<RootDir>D:/UE_4.11/</RootDir>
+<MachineId>FDB2DE1848DB1FA47A6F94ACDE81DCA0</MachineId>
+<EpicAccountId>be1dc849c34248278283a980c6ca8968</EpicAccountId>
+<CallStack></CallStack>
+<SourceContext></SourceContext>
+<UserDescription></UserDescription>
+<ErrorMessage>Ensure condition failed: OwnerActor [File:D:\BuildFarm\buildmachine_++UE4+Release-4.11\Engine\Source\Runtime\Engine\Private\AI\Navigation\NavigationSystem.cpp] [Line: 2493] &nl;&nl;</ErrorMessage>
+<CrashDumpMode>0</CrashDumpMode>
+<Misc.NumberOfCores>2</Misc.NumberOfCores>
+<Misc.NumberOfCoresIncludingHyperthreads>4</Misc.NumberOfCoresIncludingHyperthreads>
+<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+<Misc.CPUBrand>       Intel(R) Core(TM) i3-2370M CPU @ 2.40GHz</Misc.CPUBrand>
+<Misc.PrimaryGPUBrand>Intel(R) HD Graphics 3000</Misc.PrimaryGPUBrand>
+<Misc.OSVersionMajor>Windows 7</Misc.OSVersionMajor>
+<Misc.OSVersionMinor>Service Pack 1</Misc.OSVersionMinor>
+<MemoryStats.TotalPhysical>4204937216</MemoryStats.TotalPhysical>
+<MemoryStats.TotalVirtual>8796092891136</MemoryStats.TotalVirtual>
+<MemoryStats.PageSize>65536</MemoryStats.PageSize>
+<MemoryStats.TotalPhysicalGB>4</MemoryStats.TotalPhysicalGB>
+<MemoryStats.AvailablePhysical>1283305472</MemoryStats.AvailablePhysical>
+<MemoryStats.AvailableVirtual>8793709948928</MemoryStats.AvailableVirtual>
+<MemoryStats.UsedPhysical>1186500608</MemoryStats.UsedPhysical>
+<MemoryStats.PeakUsedPhysical>1186500608</MemoryStats.PeakUsedPhysical>
+<MemoryStats.UsedVirtual>1698299904</MemoryStats.UsedVirtual>
+<MemoryStats.PeakUsedVirtual>1736249344</MemoryStats.PeakUsedVirtual>
+<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+</RuntimeProperties>
+<PlatformProperties>
+<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+</PlatformProperties>
+</FGenericCrashContext>
