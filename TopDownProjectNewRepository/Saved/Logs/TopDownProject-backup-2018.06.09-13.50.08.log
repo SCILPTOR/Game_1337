@@ -1,0 +1,96 @@
+﻿Log file open, 06/08/18 21:23:07
+LogInit:Display: Running engine for game: TopDownProject
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1310182377) SRandInit(-1310182371).
+LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+LogStats: Stats thread started at 8.064945
+LogInit: Version: 4.11.2-2946394+++UE4+Release-4.11
+LogInit: API Version: 2927265
+LogInit: Compiled (64-bit): Apr 18 2016 02:18:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.11
+LogInit: Command line:  
+LogInit: Base directory: D:/UE_4.11/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.06.08-13.23.14:828][  0]LogInit: Selected Device Profile: [Windows]
+[2018.06.08-13.23.14:828][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.06.08-13.23.16:013][  0]LogInit: Computer: 1-ПК
+[2018.06.08-13.23.16:013][  0]LogInit: User: 1
+[2018.06.08-13.23.16:013][  0]LogInit: CPU Page size=65536, Cores=2
+[2018.06.08-13.23.16:013][  0]LogInit: High frequency timer resolution =2.338496 MHz
+[2018.06.08-13.23.16:038][  0]LogMemory: Memory total: Physical=3.9GB (4GB approx)
+[2018.06.08-13.23.16:039][  0]LogMemory: Platform Memory Stats for Windows
+[2018.06.08-13.23.16:039][  0]LogMemory: Process Physical Memory: 314.66 MB used, 314.66 MB peak
+[2018.06.08-13.23.16:039][  0]LogMemory: Process Virtual Memory: 318.98 MB used, 318.98 MB peak
+[2018.06.08-13.23.16:039][  0]LogMemory: Physical Memory: 2796.69 MB used, 4010.14 MB total
+[2018.06.08-13.23.16:039][  0]LogMemory: Virtual Memory: 624.87 MB used, 8388608.00 MB total
+[2018.06.08-13.23.26:725][  0]LogTextLocalizationManager: No translations for ('ru-RU') exist, falling back to 'en' for localization and internationalization data.
+[2018.06.08-13.23.30:788][  0]LogD3D11RHI: D3D11 adapters:
+[2018.06.08-13.23.33:555][  0]LogD3D11RHI:    0. 'NVIDIA GeForce 410M' (Feature Level 11_0)
+[2018.06.08-13.23.33:555][  0]LogD3D11RHI:       979MB of dedicated video memory, 0MB of dedicated system memory, and 1749MB of shared system memory, 1 output[s]
+[2018.06.08-13.23.33:610][  0]LogD3D11RHI:    1. 'NVIDIA GeForce 410M' (Feature Level 11_0)
+[2018.06.08-13.23.33:610][  0]LogD3D11RHI:       979MB of dedicated video memory, 0MB of dedicated system memory, and 1749MB of shared system memory, 0 output[s]
+[2018.06.08-13.23.33:610][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.06.08-13.23.33:766][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.06.08-13.23.33:767][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 3000
+[2018.06.08-13.23.33:767][  0]LogD3D11RHI:   Driver Version: Unknown (internal Unknown)
+[2018.06.08-13.23.33:811][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.06.08-13.23.33:859][  0]LogRHI: Texture pool is 1297 MB (70% of 1854 MB)
+[2018.06.08-13.23.33:907][  0]LogD3D11RHI: Async texture creation enabled
+[2018.06.08-13.23.35:097][  0]LogShaderCompilers: Guid format shader working directory is -29 characters bigger than the processId version (../../../../sergey/UnrealProjects/Game_1337/TopDownProjectNewRepository/Intermediate/Shaders/WorkingDirectory/7384/).
+[2018.06.08-13.23.35:097][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/1/AppData/Local/Temp/UnrealShaderWorkingDir/B1C72F384FF4543380FAB1BA6385BE51/'.
+[2018.06.08-13.23.35:117][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.06.08-13.23.55:077][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.06.08-13.23.55:122][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.06.08-13.23.55:189][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.06.08-13.23.55:252][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.06.08-13.23.55:319][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.06.08-13.23.55:424][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.06.08-13.23.55:463][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.06.08-13.23.55:528][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.06.08-13.23.55:641][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.06.08-13.23.55:754][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.06.08-13.23.56:000][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.06.08-13.23.56:143][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.06.08-13.23.56:143][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.06.08-13.23.56:170][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.06.08-13.23.56:335][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.06.08-13.23.56:342][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2018.06.08-13.23.56:390][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.06.08-13.23.56:415][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.06.08-13.23.56:461][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.06.08-13.23.56:461][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.06.08-13.23.58:003][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.06.08-13.23.58:920][  0]LogDerivedDataCache: Loaded boot cache 0.90s 46MB C:/Users/1/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2018.06.08-13.23.58:920][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/1/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc
+[2018.06.08-13.23.58:920][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../sergey/UnrealProjects/Game_1337/TopDownProjectNewRepository/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.06.08-13.23.58:920][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.06.08-13.23.58:920][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../sergey/UnrealProjects/Game_1337/TopDownProjectNewRepository/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.06.08-13.23.58:920][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.06.08-13.23.59:065][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.06.08-13.23.59:151][  0]LogDerivedDataCache: Using Local data cache path C:/Users/1/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.06.08-13.24.11:170][  0]LogInit: Selected Device Profile: [Windows]
+[2018.06.08-13.24.11:395][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.06.08-13.24.12:976][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.06.08-13.24.16:628][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2018.06.08-13.24.16:628][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.06.08-13.24.16:628][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2018.06.08-13.24.28:383][  0]LogUObjectArray: 27679 objects as part of root set at end of initial load.
+[2018.06.08-13.24.28:401][  0]LogUObjectAllocator: 5591592 out of 0 byte
