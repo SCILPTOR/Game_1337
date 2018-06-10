@@ -1,0 +1,627 @@
+﻿Log file open, 06/09/18 17:14:20
+LogInit:Display: Running engine for game: TopDownProject
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-517737538) SRandInit(-517737535).
+LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+LogStats: Stats thread started at 0.052757
+LogInit: Version: 4.11.2-2946394+++UE4+Release-4.11
+LogInit: API Version: 2927265
+LogInit: Compiled (64-bit): Apr 18 2016 02:18:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.11
+LogInit: Command line:  
+LogInit: Base directory: D:/UE_4.11/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.06.09-09.14.20:847][  0]LogInit: Selected Device Profile: [Windows]
+[2018.06.09-09.14.20:847][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.06.09-09.14.20:856][  0]LogInit: Computer: 1-ПК
+[2018.06.09-09.14.20:856][  0]LogInit: User: 1
+[2018.06.09-09.14.20:856][  0]LogInit: CPU Page size=65536, Cores=2
+[2018.06.09-09.14.20:856][  0]LogInit: High frequency timer resolution =2.338496 MHz
+[2018.06.09-09.14.20:856][  0]LogMemory: Memory total: Physical=3.9GB (4GB approx)
+[2018.06.09-09.14.20:856][  0]LogMemory: Platform Memory Stats for Windows
+[2018.06.09-09.14.20:856][  0]LogMemory: Process Physical Memory: 314.50 MB used, 314.50 MB peak
+[2018.06.09-09.14.20:856][  0]LogMemory: Process Virtual Memory: 318.82 MB used, 318.82 MB peak
+[2018.06.09-09.14.20:856][  0]LogMemory: Physical Memory: 2179.61 MB used, 4010.14 MB total
+[2018.06.09-09.14.20:856][  0]LogMemory: Virtual Memory: 624.87 MB used, 8388608.00 MB total
+[2018.06.09-09.14.21:409][  0]LogTextLocalizationManager: No translations for ('ru-RU') exist, falling back to 'en' for localization and internationalization data.
+[2018.06.09-09.14.22:024][  0]LogD3D11RHI: D3D11 adapters:
+[2018.06.09-09.14.22:064][  0]LogD3D11RHI:    0. 'NVIDIA GeForce 410M' (Feature Level 11_0)
+[2018.06.09-09.14.22:064][  0]LogD3D11RHI:       979MB of dedicated video memory, 0MB of dedicated system memory, and 1749MB of shared system memory, 1 output[s]
+[2018.06.09-09.14.22:087][  0]LogD3D11RHI:    1. 'NVIDIA GeForce 410M' (Feature Level 11_0)
+[2018.06.09-09.14.22:087][  0]LogD3D11RHI:       979MB of dedicated video memory, 0MB of dedicated system memory, and 1749MB of shared system memory, 0 output[s]
+[2018.06.09-09.14.22:087][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.06.09-09.14.22:096][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.06.09-09.14.22:097][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 3000
+[2018.06.09-09.14.22:097][  0]LogD3D11RHI:   Driver Version: Unknown (internal Unknown)
+[2018.06.09-09.14.22:097][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.06.09-09.14.22:097][  0]LogRHI: Texture pool is 1297 MB (70% of 1854 MB)
+[2018.06.09-09.14.22:116][  0]LogD3D11RHI: Async texture creation enabled
+[2018.06.09-09.14.22:138][  0]LogShaderCompilers: Guid format shader working directory is -29 characters bigger than the processId version (../../../../sergey/UnrealProjects/Game_1337/TopDownProjectNewRepository/Intermediate/Shaders/WorkingDirectory/6712/).
+[2018.06.09-09.14.22:138][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/1/AppData/Local/Temp/UnrealShaderWorkingDir/C4E9FDBD455E278FD48E8E95F2298689/'.
+[2018.06.09-09.14.22:138][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.06.09-09.14.24:605][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.06.09-09.14.24:610][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.06.09-09.14.24:617][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.06.09-09.14.24:622][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.06.09-09.14.24:627][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.06.09-09.14.24:631][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.06.09-09.14.24:635][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.06.09-09.14.24:639][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.06.09-09.14.24:643][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.06.09-09.14.24:647][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.06.09-09.14.24:650][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.06.09-09.14.24:658][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.06.09-09.14.24:658][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.06.09-09.14.24:659][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.06.09-09.14.24:676][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.06.09-09.14.24:681][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2018.06.09-09.14.24:684][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.06.09-09.14.24:688][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.06.09-09.14.24:692][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.06.09-09.14.24:692][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.06.09-09.14.24:776][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.06.09-09.14.24:873][  0]LogDerivedDataCache: Loaded boot cache 0.10s 66MB C:/Users/1/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2018.06.09-09.14.24:873][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/1/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc
+[2018.06.09-09.14.24:873][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../sergey/UnrealProjects/Game_1337/TopDownProjectNewRepository/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.06.09-09.14.24:873][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.06.09-09.14.24:873][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../sergey/UnrealProjects/Game_1337/TopDownProjectNewRepository/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.06.09-09.14.24:873][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.06.09-09.14.24:897][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.06.09-09.14.24:909][  0]LogDerivedDataCache: Using Local data cache path C:/Users/1/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.06.09-09.14.25:179][  0]LogInit: Selected Device Profile: [Windows]
+[2018.06.09-09.14.25:180][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.06.09-09.14.25:216][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.06.09-09.14.25:426][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2018.06.09-09.14.25:426][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.06.09-09.14.25:426][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2018.06.09-09.14.25:773][  0]LogUObjectArray: 27679 objects as part of root set at end of initial load.
+[2018.06.09-09.14.25:773][  0]LogUObjectAllocator: 5591592 out of 0 bytes used by permanent object pool.
+[2018.06.09-09.14.25:798][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.06.09-09.14.25:804][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.06.09-09.14.25:906][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.06.09-09.14.25:906][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.06.09-09.14.26:065][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2018.06.09-09.14.26:065][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2018.06.09-09.14.26:065][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2018.06.09-09.14.26:065][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2018.06.09-09.14.26:065][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2018.06.09-09.14.26:065][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2018.06.09-09.14.26:864][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.06.09-09.14.26:967][  0]LogAssetRegistry: FAssetRegistry took 0.0201 seconds to start up
+[2018.06.09-09.14.27:222][  0]SourceControl: Info Source control is disabled
+[2018.06.09-09.14.27:223][  0]SourceControl: Info Source control is disabled
+[2018.06.09-09.14.27:242][  0]SourceControl: Info Source control is disabled
+[2018.06.09-09.14.27:249][  0]SourceControl: Info Source control is disabled
+[2018.06.09-09.14.27:357][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.06.09-09.14.27:448][  0]LogEngine: Initializing Engine...
+[2018.06.09-09.14.27:698][  0]LogAIModule: Creating AISystem for world NewWorld
+[2018.06.09-09.14.27:704][  0]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.06.09-09.14.27:714][  0]LogInit: FAudioDevice initialized.
+[2018.06.09-09.14.27:761][  0]LogDerivedDataCache: Saved boot cache 0.05s 66MB C:/Users/1/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2018.06.09-09.14.27:772][  0]LogInit: Texture streaming: Enabled
+[2018.06.09-09.14.27:792][  0]LogInit: Transaction tracking system initialized
+[2018.06.09-09.14.27:812][  0]BlueprintLog: New page: Editor Load
+[2018.06.09-09.14.27:884][  0]LocalizationService: Info Localization service is disabled
+[2018.06.09-09.14.27:971][  0]LogConsoleResponse:Display: 
+[2018.06.09-09.14.28:144][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2018.06.09-09.14.28:144][  0]LogCook:Display: Mobile HDR setting 1
+[2018.06.09-09.14.28:144][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2018.06.09-09.14.28:206][  0]LogFileCache: Scanning file cache for directory 'D:/sergey/UnrealProjects/Game_1337/TopDownProjectNewRepository/Content/' took 0.03s
+[2018.06.09-09.14.28:206][  0]SourceControl: Info Source control is disabled
+[2018.06.09-09.14.28:206][  0]Cmd: MAP LOAD FILE="../../../../sergey/UnrealProjects/Game_1337/TopDownProjectNewRepository/Content/TopDownBP/Maps/LowPolyMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.06.09-09.14.28:207][  0]LightingResults: New page: Lighting Build
+[2018.06.09-09.14.28:210][  0]MapCheck: New page: Map Check
+[2018.06.09-09.14.28:210][  0]LightingResults: New page: Lighting Build
+[2018.06.09-09.14.28:241][  0]LogLinker:Warning: Asset '../../../../sergey/UnrealProjects/Game_1337/TopDownProjectNewRepository/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.06.09-09.14.28:244][  0]LogLinker:Warning: Asset '../../../../sergey/UnrealProjects/Game_1337/TopDownProjectNewRepository/Content/Mannequin/Animations/ThirdPerson_Jump.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.06.09-09.14.28:246][  0]LogLinker:Warning: Asset '../../../../sergey/UnrealProjects/Game_1337/TopDownProjectNewRepository/Content/Mannequin/Animations/ThirdPersonJump_Loop.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.06.09-09.14.28:247][  0]LogLinker:Warning: Asset '../../../../sergey/UnrealProjects/Game_1337/TopDownProjectNewRepository/Content/Mannequin/Animations/ThirdPersonJump_Start.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.06.09-09.14.28:248][  0]LogLinker:Warning: Asset '../../../../sergey/UnrealProjects/Game_1337/TopDownProjectNewRepository/Content/Mannequin/Animations/ThirdPersonIdle.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.06.09-09.14.28:249][  0]LogLinker:Warning: Asset '../../../../sergey/UnrealProjects/Game_1337/TopDownProjectNewRepository/Content/Mannequin/Animations/ThirdPersonRun.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.06.09-09.14.28:251][  0]LogLinker:Warning: Asset '../../../../sergey/UnrealProjects/Game_1337/TopDownProjectNewRepository/Content/Mannequin/Animations/ThirdPersonWalk.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.06.09-09.14.30:654][  0]LogMaterial: Uniform references updated for custom material expression TemporalAA SampleID.
+[2018.06.09-09.14.30:654][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.06.09-09.14.31:875][  0]LogAIModule: Creating AISystem for world LowPolyMap
+[2018.06.09-09.14.31:910][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.06.09-09.14.31:912][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.06.09-09.14.31:977][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 64.642ms to complete.
+[2018.06.09-09.14.31:977][  0]LogFileHelpers: Loading map 'LowPolyMap' took 3.770
+[2018.06.09-09.14.32:109][  0]LogCollectionManager: Loaded 0 collections in 0.001386 seconds
+[2018.06.09-09.14.32:150][  0]LogFileCache: Scanning file cache for directory 'D:/sergey/UnrealProjects/Game_1337/TopDownProjectNewRepository/Saved/Collections/' took 0.01s
+[2018.06.09-09.14.32:150][  0]LogFileCache: Scanning file cache for directory 'D:/sergey/UnrealProjects/Game_1337/TopDownProjectNewRepository/Content/Developers/1/Collections/' took 0.01s
+[2018.06.09-09.14.32:150][  0]LogFileCache: Scanning file cache for directory 'D:/sergey/UnrealProjects/Game_1337/TopDownProjectNewRepository/Content/Collections/' took 0.01s
+[2018.06.09-09.14.32:150][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2018.06.09-09.14.32:162][  0]LogContentBrowser: Native class hierarchy populated in 0.0118 seconds. Added 1980 classes and 345 folders.
+[2018.06.09-09.14.32:166][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.06.09-09.14.32:166][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.06.09-09.14.32:167][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0006 seconds. Added 12 classes and 0 folders.
+[2018.06.09-09.14.32:171][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.06.09-09.14.32:177][  0]LogContentBrowser: Native class hierarchy updated for 'SuperSearch' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2018.06.09-09.14.32:229][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.06.09-09.14.32:243][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.06.09-09.14.32:256][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2018.06.09-09.14.32:286][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0018 seconds. Added 1 classes and 2 folders.
+[2018.06.09-09.14.32:287][  0]LogLoad: Full Startup: 12.18 seconds (BP compile: 1.00 seconds)
+[2018.06.09-09.14.32:287][  0]LogExternalProfiler:Warning: No registered external profiler was matched with a command-line switch (or the DLL could not be loaded).  External profiling features will not be available.
+[2018.06.09-09.14.32:308][  0]LogOcInput: OculusInput pre-init called
+[2018.06.09-09.14.32:384][  0]LogContentStreaming: Texture pool size now 200 MB
+[2018.06.09-09.14.32:593][  0]LogRenderer: Reallocating scene render targets to support 856x680 (Frame:2).
+[2018.06.09-09.14.32:679][  1]Cmd: UpdateLandscapeEditorData -warnings
+[2018.06.09-09.14.32:797][  1]LogAssetRegistry: Asset discovery search completed in 5.8506 seconds
+[2018.06.09-09.14.32:797][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.06.09-09.14.32:797][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000046 seconds (updated 0 objects)
+[2018.06.09-09.14.37:024][ 70]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.09-09.14.37:026][ 70]PIE: New page: PIE session: LowPolyMap (Jun 10, 2018, 1:14:37 AM)
+[2018.06.09-09.14.37:026][ 70]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_LowPolyMap
+[2018.06.09-09.14.37:046][ 70]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019644s)
+[2018.06.09-09.14.37:047][ 70]LogAIModule: Creating AISystem for world LowPolyMap
+[2018.06.09-09.14.37:048][ 70]LogPlayLevel: PIE: World Init took: (0.001483s)
+[2018.06.09-09.14.37:048][ 70]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/LowPolyMap.LowPolyMap to /Game/TopDownBP/Maps/UEDPIE_0_LowPolyMap.LowPolyMap (0.021491s)
+[2018.06.09-09.14.37:048][ 70]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2018.06.09-09.14.37:048][ 70]LogActorComponent: UnregisterComponent: (/Engine/Transient.CursorOnActorText_GEN_VARIABLE) Not registered. Aborting.
+[2018.06.09-09.14.37:048][ 70]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharGoingForAction_GEN_VARIABLE) Not registered. Aborting.
+[2018.06.09-09.14.37:048][ 70]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2018.06.09-09.14.37:048][ 70]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2018.06.09-09.14.37:048][ 70]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2018.06.09-09.14.37:048][ 70]LogActorComponent: UnregisterComponent: (/Engine/Transient.CursorOnActorText_C_0) Not registered. Aborting.
+[2018.06.09-09.14.37:048][ 70]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharGoingForAction_C_1) Not registered. Aborting.
+[2018.06.09-09.14.37:048][ 70]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_0) Not registered. Aborting.
+[2018.06.09-09.14.37:185][ 70]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.06.09-09.14.37:192][ 70]LogInit: FAudioDevice initialized.
+[2018.06.09-09.14.37:280][ 70]LogWorld: Game class is 'TopDownGameMode_C'
+[2018.06.09-09.14.37:294][ 70]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_LowPolyMap.LowPolyMap up for play (max tick rate 60) at 2018.06.09-17.14.37
+[2018.06.09-09.14.37:299][ 70]LogWorld: Bringing up level for play took: 0.016893
+[2018.06.09-09.14.37:303][ 70]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 9 classes and 0 folders.
+[2018.06.09-09.14.37:311][ 70]LogBlueprintUserMessages: [TestQuest_C_0] убейте 3 врага
+[2018.06.09-09.14.37:312][ 70]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_LowPolyMap -0.41
+[2018.06.09-09.14.43:410][193]LogTexture:Display: Building textures: Texture2D_2 (G8)
+[2018.06.09-09.14.45:112][220]Cmd: TRANSACTION UNDO
+[2018.06.09-09.14.45:112][220]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2018.06.09-09.14.45:186][220]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2018.06.09-09.14.45:186][220]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2018.06.09-09.14.45:189][220]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2018.06.09-09.14.45:190][220]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2018.06.09-09.14.45:199][220]PIE:Warning: Warning AttachTo: '/Game/TopDownBP/Maps/LowPolyMap.LowPolyMap:PersistentLevel.LandscapeGizmoActiveActor_1.GizmoRendererComponent0' is not static , cannot attach '/Game/TopDownBP/Maps/LowPolyMap.LowPolyMap:PersistentLevel.LandscapeGizmoActiveActor_1.RootComponent0' which is static to it. Aborting.
+[2018.06.09-09.15.21:256][824]LogActorFactory: Actor Factory created Grass_2
+[2018.06.09-09.15.30:043][970]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.09-09.15.30:044][970]PIE: New page: PIE session: LowPolyMap (Jun 10, 2018, 1:15:30 AM)
+[2018.06.09-09.15.30:044][970]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_LowPolyMap
+[2018.06.09-09.15.30:066][970]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022337s)
+[2018.06.09-09.15.30:067][970]LogAIModule: Creating AISystem for world LowPolyMap
+[2018.06.09-09.15.30:067][970]LogPlayLevel: PIE: World Init took: (0.000946s)
+[2018.06.09-09.15.30:067][970]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/LowPolyMap.LowPolyMap to /Game/TopDownBP/Maps/UEDPIE_0_LowPolyMap.LowPolyMap (0.023562s)
+[2018.06.09-09.15.30:103][970]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.06.09-09.15.30:112][970]LogInit: FAudioDevice initialized.
+[2018.06.09-09.15.30:145][970]LogWorld: Game class is 'TopDownGameMode_C'
+[2018.06.09-09.15.30:155][970]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_LowPolyMap.LowPolyMap up for play (max tick rate 60) at 2018.06.09-17.15.30
+[2018.06.09-09.15.30:157][970]LogWorld: Bringing up level for play took: 0.011688
+[2018.06.09-09.15.30:170][970]LogBlueprintUserMessages: [TestQuest_C_1] убейте 3 врага
+[2018.06.09-09.15.30:170][970]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_LowPolyMap 0.447
+[2018.06.09-09.15.49:197][433]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.09-09.15.49:197][433]PIE: New page: PIE session: LowPolyMap (Jun 10, 2018, 1:15:49 AM)
+[2018.06.09-09.15.49:198][433]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_LowPolyMap
+[2018.06.09-09.15.49:223][433]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025286s)
+[2018.06.09-09.15.49:224][433]LogAIModule: Creating AISystem for world LowPolyMap
+[2018.06.09-09.15.49:224][433]LogPlayLevel: PIE: World Init took: (0.001403s)
+[2018.06.09-09.15.49:225][433]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/LowPolyMap.LowPolyMap to /Game/TopDownBP/Maps/UEDPIE_0_LowPolyMap.LowPolyMap (0.027023s)
+[2018.06.09-09.15.49:264][433]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.06.09-09.15.49:273][433]LogInit: FAudioDevice initialized.
+[2018.06.09-09.15.49:306][433]LogWorld: Game class is 'TopDownGameMode_C'
+[2018.06.09-09.15.49:322][433]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_LowPolyMap.LowPolyMap up for play (max tick rate 60) at 2018.06.09-17.15.49
+[2018.06.09-09.15.49:329][433]LogWorld: Bringing up level for play took: 0.021624
+[2018.06.09-09.15.49:339][433]LogBlueprintUserMessages: [TestQuest_C_2] убейте 3 врага
+[2018.06.09-09.15.49:339][433]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_LowPolyMap -0.384
+[2018.06.09-09.15.59:451][670]Cmd: TRANSACTION UNDO
+[2018.06.09-09.15.59:451][670]LogEditorTransaction: Undo Foliage Editing
+[2018.06.09-09.15.59:452][670]PIE:Warning: Warning AttachTo: '/Game/TopDownBP/Maps/LowPolyMap.LowPolyMap:PersistentLevel.LandscapeGizmoActiveActor_1.GizmoRendererComponent0' is not static , cannot attach '/Game/TopDownBP/Maps/LowPolyMap.LowPolyMap:PersistentLevel.LandscapeGizmoActiveActor_1.RootComponent0' which is static to it. Aborting.
+[2018.06.09-09.16.01:976][709]LogActorFactory: Actor Factory created Grass_1
+[2018.06.09-09.16.59:804][789]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.09-09.16.59:804][789]PIE: New page: PIE session: LowPolyMap (Jun 10, 2018, 1:16:59 AM)
+[2018.06.09-09.16.59:804][789]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_LowPolyMap
+[2018.06.09-09.16.59:830][789]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025948s)
+[2018.06.09-09.16.59:831][789]LogAIModule: Creating AISystem for world LowPolyMap
+[2018.06.09-09.16.59:831][789]LogPlayLevel: PIE: World Init took: (0.001146s)
+[2018.06.09-09.16.59:832][789]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/LowPolyMap.LowPolyMap to /Game/TopDownBP/Maps/UEDPIE_0_LowPolyMap.LowPolyMap (0.027395s)
+[2018.06.09-09.16.59:876][789]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.06.09-09.16.59:889][789]LogInit: FAudioDevice initialized.
+[2018.06.09-09.16.59:924][789]LogWorld: Game class is 'TopDownGameMode_C'
+[2018.06.09-09.16.59:938][789]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_LowPolyMap.LowPolyMap up for play (max tick rate 60) at 2018.06.09-17.16.59
+[2018.06.09-09.16.59:942][789]LogWorld: Bringing up level for play took: 0.017502
+[2018.06.09-09.16.59:953][789]LogBlueprintUserMessages: [TestQuest_C_3] убейте 3 врага
+[2018.06.09-09.16.59:953][789]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_LowPolyMap 0.229
+[2018.06.09-09.17.05:616][893]Cmd: TRANSACTION UNDO
+[2018.06.09-09.17.05:617][893]LogEditorTransaction: Undo Foliage Editing
+[2018.06.09-09.17.05:684][893]PIE:Warning: Warning AttachTo: '/Game/TopDownBP/Maps/LowPolyMap.LowPolyMap:PersistentLevel.LandscapeGizmoActiveActor_1.GizmoRendererComponent0' is not static , cannot attach '/Game/TopDownBP/Maps/LowPolyMap.LowPolyMap:PersistentLevel.LandscapeGizmoActiveActor_1.RootComponent0' which is static to it. Aborting.
+[2018.06.09-09.17.06:172][901]Cmd: TRANSACTION UNDO
+[2018.06.09-09.17.06:172][901]LogEditorTransaction: Undo Foliage Editing
+[2018.06.09-09.17.06:192][901]PIE:Warning: Warning AttachTo: '/Game/TopDownBP/Maps/LowPolyMap.LowPolyMap:PersistentLevel.LandscapeGizmoActiveActor_1.GizmoRendererComponent0' is not static , cannot attach '/Game/TopDownBP/Maps/LowPolyMap.LowPolyMap:PersistentLevel.LandscapeGizmoActiveActor_1.RootComponent0' which is static to it. Aborting.
+[2018.06.09-09.17.06:753][912]Cmd: TRANSACTION UNDO
+[2018.06.09-09.17.06:753][912]LogEditorTransaction: Undo Foliage Editing
+[2018.06.09-09.17.06:820][912]PIE:Warning: Warning AttachTo: '/Game/TopDownBP/Maps/LowPolyMap.LowPolyMap:PersistentLevel.LandscapeGizmoActiveActor_1.GizmoRendererComponent0' is not static , cannot attach '/Game/TopDownBP/Maps/LowPolyMap.LowPolyMap:PersistentLevel.LandscapeGizmoActiveActor_1.RootComponent0' which is static to it. Aborting.
+[2018.06.09-09.17.07:269][921]Cmd: TRANSACTION UNDO
+[2018.06.09-09.17.07:269][921]LogEditorTransaction: Undo Foliage Editing
+[2018.06.09-09.17.07:315][921]PIE:Warning: Warning AttachTo: '/Game/TopDownBP/Maps/LowPolyMap.LowPolyMap:PersistentLevel.LandscapeGizmoActiveActor_1.GizmoRendererComponent0' is not static , cannot attach '/Game/TopDownBP/Maps/LowPolyMap.LowPolyMap:PersistentLevel.LandscapeGizmoActiveActor_1.RootComponent0' which is static to it. Aborting.
+[2018.06.09-09.17.22:661][181]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.06.09-09.17.38:674][455]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.09-09.17.38:674][455]PIE: New page: PIE session: LowPolyMap (Jun 10, 2018, 1:17:38 AM)
+[2018.06.09-09.17.38:674][455]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_LowPolyMap
+[2018.06.09-09.17.38:717][455]LogPlayLevel: PIE: StaticDuplicateObject took: (0.042557s)
+[2018.06.09-09.17.38:718][455]LogAIModule: Creating AISystem for world LowPolyMap
+[2018.06.09-09.17.38:718][455]LogPlayLevel: PIE: World Init took: (0.001401s)
+[2018.06.09-09.17.38:718][455]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/LowPolyMap.LowPolyMap to /Game/TopDownBP/Maps/UEDPIE_0_LowPolyMap.LowPolyMap (0.044293s)
+[2018.06.09-09.17.38:758][455]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.06.09-09.17.38:766][455]LogInit: FAudioDevice initialized.
+[2018.06.09-09.17.38:797][455]LogWorld: Game class is 'TopDownGameMode_C'
+[2018.06.09-09.17.38:808][455]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_LowPolyMap.LowPolyMap up for play (max tick rate 60) at 2018.06.09-17.17.38
+[2018.06.09-09.17.38:810][455]LogWorld: Bringing up level for play took: 0.012216
+[2018.06.09-09.17.38:818][455]LogBlueprintUserMessages: [TestQuest_C_4] убейте 3 врага
+[2018.06.09-09.17.38:819][455]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_LowPolyMap 1.092
+[2018.06.09-09.19.30:727][474]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.09-09.19.30:727][474]PIE: New page: PIE session: LowPolyMap (Jun 10, 2018, 1:19:30 AM)
+[2018.06.09-09.19.30:727][474]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_LowPolyMap
+[2018.06.09-09.19.30:756][474]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028133s)
+[2018.06.09-09.19.30:757][474]LogAIModule: Creating AISystem for world LowPolyMap
+[2018.06.09-09.19.30:757][474]LogPlayLevel: PIE: World Init took: (0.001137s)
+[2018.06.09-09.19.30:757][474]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/LowPolyMap.LowPolyMap to /Game/TopDownBP/Maps/UEDPIE_0_LowPolyMap.LowPolyMap (0.029646s)
+[2018.06.09-09.19.30:800][474]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.06.09-09.19.30:812][474]LogInit: FAudioDevice initialized.
+[2018.06.09-09.19.30:849][474]LogWorld: Game class is 'TopDownGameMode_C'
+[2018.06.09-09.19.30:860][474]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_LowPolyMap.LowPolyMap up for play (max tick rate 60) at 2018.06.09-17.19.30
+[2018.06.09-09.19.30:862][474]LogWorld: Bringing up level for play took: 0.012281
+[2018.06.09-09.19.30:872][474]LogBlueprintUserMessages: [TestQuest_C_5] убейте 3 врага
+[2018.06.09-09.19.30:872][474]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_LowPolyMap 1.143
+[2018.06.09-09.19.37:862][580]LogRenderer: Reallocating scene render targets to support 856x680 (Frame:5755).
+[2018.06.09-09.19.38:596][582]LogContentStreaming: Texture pool size now 700 MB
+[2018.06.09-09.19.39:015][584]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.09-09.19.39:015][584]PIE: New page: PIE session: LowPolyMap (Jun 10, 2018, 1:19:39 AM)
+[2018.06.09-09.19.39:015][584]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_LowPolyMap
+[2018.06.09-09.19.39:035][584]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019636s)
+[2018.06.09-09.19.39:036][584]LogAIModule: Creating AISystem for world LowPolyMap
+[2018.06.09-09.19.39:036][584]LogPlayLevel: PIE: World Init took: (0.000929s)
+[2018.06.09-09.19.39:036][584]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/LowPolyMap.LowPolyMap to /Game/TopDownBP/Maps/UEDPIE_0_LowPolyMap.LowPolyMap (0.020888s)
+[2018.06.09-09.19.39:079][584]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.06.09-09.19.39:089][584]LogInit: FAudioDevice initialized.
+[2018.06.09-09.19.39:122][584]LogWorld: Game class is 'TopDownGameMode_C'
+[2018.06.09-09.19.39:133][584]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_LowPolyMap.LowPolyMap up for play (max tick rate 60) at 2018.06.09-17.19.39
+[2018.06.09-09.19.39:135][584]LogWorld: Bringing up level for play took: 0.012518
+[2018.06.09-09.19.39:145][584]LogBlueprintUserMessages: [TestQuest_C_6] убейте 3 врага
+[2018.06.09-09.19.39:145][584]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_LowPolyMap -0.585
+[2018.06.09-09.19.39:764][586]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.073395 > MaxSimulationTimeStep (0.050) for 'MyAIEnemy_1923', movement 'Walking'
+[2018.06.09-09.20.08:581][762]LogRenderer: Reallocating scene render targets to support 856x680 (Frame:5938).
+[2018.06.09-09.20.08:597][762]LogContentStreaming: Texture pool size now 200 MB
+[2018.06.09-09.20.09:606][777]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.09-09.20.09:607][777]PIE: New page: PIE session: LowPolyMap (Jun 10, 2018, 1:20:09 AM)
+[2018.06.09-09.20.09:607][777]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_LowPolyMap
+[2018.06.09-09.20.09:634][777]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026789s)
+[2018.06.09-09.20.09:635][777]LogAIModule: Creating AISystem for world LowPolyMap
+[2018.06.09-09.20.09:635][777]LogPlayLevel: PIE: World Init took: (0.001230s)
+[2018.06.09-09.20.09:635][777]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/LowPolyMap.LowPolyMap to /Game/TopDownBP/Maps/UEDPIE_0_LowPolyMap.LowPolyMap (0.028342s)
+[2018.06.09-09.20.09:672][777]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.06.09-09.20.09:683][777]LogInit: FAudioDevice initialized.
+[2018.06.09-09.20.09:714][777]LogWorld: Game class is 'TopDownGameMode_C'
+[2018.06.09-09.20.09:726][777]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_LowPolyMap.LowPolyMap up for play (max tick rate 60) at 2018.06.09-17.20.09
+[2018.06.09-09.20.09:729][777]LogWorld: Bringing up level for play took: 0.013928
+[2018.06.09-09.20.09:736][777]LogBlueprintUserMessages: [TestQuest_C_7] убейте 3 врага
+[2018.06.09-09.20.09:737][777]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_LowPolyMap 0.007
+[2018.06.09-09.20.20:573][979]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.09-09.20.20:574][979]PIE: New page: PIE session: LowPolyMap (Jun 10, 2018, 1:20:20 AM)
+[2018.06.09-09.20.20:574][979]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_LowPolyMap
+[2018.06.09-09.20.20:601][979]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026946s)
+[2018.06.09-09.20.20:602][979]LogAIModule: Creating AISystem for world LowPolyMap
+[2018.06.09-09.20.20:602][979]LogPlayLevel: PIE: World Init took: (0.001255s)
+[2018.06.09-09.20.20:602][979]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/LowPolyMap.LowPolyMap to /Game/TopDownBP/Maps/UEDPIE_0_LowPolyMap.LowPolyMap (0.028672s)
+[2018.06.09-09.20.20:647][979]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.06.09-09.20.20:655][979]LogInit: FAudioDevice initialized.
+[2018.06.09-09.20.20:686][979]LogWorld: Game class is 'TopDownGameMode_C'
+[2018.06.09-09.20.20:697][979]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_LowPolyMap.LowPolyMap up for play (max tick rate 60) at 2018.06.09-17.20.20
+[2018.06.09-09.20.20:700][979]LogWorld: Bringing up level for play took: 0.013270
+[2018.06.09-09.20.20:710][979]LogBlueprintUserMessages: [TestQuest_C_8] убейте 3 врага
+[2018.06.09-09.20.20:710][979]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_LowPolyMap 0.98
+[2018.06.09-09.20.33:938][186]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.09-09.20.33:938][186]PIE: New page: PIE session: LowPolyMap (Jun 10, 2018, 1:20:33 AM)
+[2018.06.09-09.20.33:938][186]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_LowPolyMap
+[2018.06.09-09.20.33:962][186]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023593s)
+[2018.06.09-09.20.33:963][186]LogAIModule: Creating AISystem for world LowPolyMap
+[2018.06.09-09.20.33:963][186]LogPlayLevel: PIE: World Init took: (0.000879s)
+[2018.06.09-09.20.33:963][186]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/LowPolyMap.LowPolyMap to /Game/TopDownBP/Maps/UEDPIE_0_LowPolyMap.LowPolyMap (0.024753s)
+[2018.06.09-09.20.34:008][186]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.06.09-09.20.34:019][186]LogInit: FAudioDevice initialized.
+[2018.06.09-09.20.34:053][186]LogWorld: Game class is 'TopDownGameMode_C'
+[2018.06.09-09.20.34:065][186]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_LowPolyMap.LowPolyMap up for play (max tick rate 60) at 2018.06.09-17.20.34
+[2018.06.09-09.20.34:068][186]LogWorld: Bringing up level for play took: 0.013892
+[2018.06.09-09.20.34:078][186]LogBlueprintUserMessages: [TestQuest_C_9] убейте 3 врага
+[2018.06.09-09.20.34:079][186]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_LowPolyMap 0.348
+[2018.06.09-09.20.45:179][401]Cmd: STAT FPS
+[2018.06.09-09.20.46:471][420]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.09-09.20.46:471][420]PIE: New page: PIE session: LowPolyMap (Jun 10, 2018, 1:20:46 AM)
+[2018.06.09-09.20.46:471][420]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_LowPolyMap
+[2018.06.09-09.20.46:495][420]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023801s)
+[2018.06.09-09.20.46:497][420]LogAIModule: Creating AISystem for world LowPolyMap
+[2018.06.09-09.20.46:497][420]LogPlayLevel: PIE: World Init took: (0.002429s)
+[2018.06.09-09.20.46:497][420]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/LowPolyMap.LowPolyMap to /Game/TopDownBP/Maps/UEDPIE_0_LowPolyMap.LowPolyMap (0.026488s)
+[2018.06.09-09.20.46:532][420]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.06.09-09.20.46:544][420]LogInit: FAudioDevice initialized.
+[2018.06.09-09.20.46:578][420]LogWorld: Game class is 'TopDownGameMode_C'
+[2018.06.09-09.20.46:589][420]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_LowPolyMap.LowPolyMap up for play (max tick rate 60) at 2018.06.09-17.20.46
+[2018.06.09-09.20.46:592][420]LogWorld: Bringing up level for play took: 0.012570
+[2018.06.09-09.20.46:602][420]LogBlueprintUserMessages: [TestQuest_C_10] убейте 3 врага
+[2018.06.09-09.20.46:602][420]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_LowPolyMap 0.872
+[2018.06.09-09.21.38:253][915]LogSavePackage: Save=207.79ms
+[2018.06.09-09.21.38:253][915]LogSavePackage: Moving '../../../../sergey/UnrealProjects/Game_1337/TopDownProjectNewRepository/Saved/LowPolyMapBA4454D54811FD6EE9E8EA8D500EA260.tmp' to '../../../../sergey/UnrealProjects/Game_1337/TopDownProjectNewRepository/Content/TopDownBP/Maps/LowPolyMap.umap'
+[2018.06.09-09.21.38:255][915]LogSavePackage: Total save time: 224.03ms
+[2018.06.09-09.21.38:255][915]LogSavePackage:Display: Finished SavePackage ../../../../sergey/UnrealProjects/Game_1337/TopDownProjectNewRepository/Content/TopDownBP/Maps/LowPolyMap.umap
+[2018.06.09-09.21.38:363][915]LogFileHelpers: Saving map 'LowPolyMap' took 0.445
+[2018.06.09-09.22.04:697][900]LogSavePackage: Save=185.68ms
+[2018.06.09-09.22.04:697][900]LogSavePackage: Moving '../../../../sergey/UnrealProjects/Game_1337/TopDownProjectNewRepository/Saved/LowPolyMap3EA95C4E407FEF4B5743B9BDEBB636EF.tmp' to '../../../../sergey/UnrealProjects/Game_1337/TopDownProjectNewRepository/Content/TopDownBP/Maps/LowPolyMap.umap'
+[2018.06.09-09.22.04:700][900]LogSavePackage: Total save time: 204.61ms
+[2018.06.09-09.22.04:700][900]LogSavePackage:Display: Finished SavePackage ../../../../sergey/UnrealProjects/Game_1337/TopDownProjectNewRepository/Content/TopDownBP/Maps/LowPolyMap.umap
+[2018.06.09-09.22.04:804][900]LogFileHelpers: Saving map 'LowPolyMap' took 0.414
+[2018.06.09-09.23.11:980][ 80]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.09-09.23.11:981][ 80]PIE: New page: PIE session: LowPolyMap (Jun 10, 2018, 1:23:11 AM)
+[2018.06.09-09.23.11:981][ 80]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_LowPolyMap
+[2018.06.09-09.23.12:013][ 80]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032066s)
+[2018.06.09-09.23.12:014][ 80]LogAIModule: Creating AISystem for world LowPolyMap
+[2018.06.09-09.23.12:014][ 80]LogPlayLevel: PIE: World Init took: (0.001491s)
+[2018.06.09-09.23.12:015][ 80]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/LowPolyMap.LowPolyMap to /Game/TopDownBP/Maps/UEDPIE_0_LowPolyMap.LowPolyMap (0.033986s)
+[2018.06.09-09.23.12:056][ 80]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.06.09-09.23.12:070][ 80]LogInit: FAudioDevice initialized.
+[2018.06.09-09.23.12:106][ 80]LogWorld: Game class is 'TopDownGameMode_C'
+[2018.06.09-09.23.12:121][ 80]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_LowPolyMap.LowPolyMap up for play (max tick rate 60) at 2018.06.09-17.23.12
+[2018.06.09-09.23.12:125][ 80]LogWorld: Bringing up level for play took: 0.018378
+[2018.06.09-09.23.12:138][ 80]LogBlueprintUserMessages: [TestQuest_C_11] убейте 3 врага
+[2018.06.09-09.23.12:139][ 80]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_LowPolyMap 0.404
+[2018.06.09-09.26.36:780][629]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.09-09.26.36:780][629]PIE: New page: PIE session: LowPolyMap (Jun 10, 2018, 1:26:36 AM)
+[2018.06.09-09.26.36:780][629]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_LowPolyMap
+[2018.06.09-09.26.36:805][629]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024428s)
+[2018.06.09-09.26.36:807][629]LogAIModule: Creating AISystem for world LowPolyMap
+[2018.06.09-09.26.36:807][629]LogPlayLevel: PIE: World Init took: (0.002337s)
+[2018.06.09-09.26.36:807][629]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/LowPolyMap.LowPolyMap to /Game/TopDownBP/Maps/UEDPIE_0_LowPolyMap.LowPolyMap (0.027071s)
+[2018.06.09-09.26.36:849][629]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.06.09-09.26.36:858][629]LogInit: FAudioDevice initialized.
+[2018.06.09-09.26.36:890][629]LogWorld: Game class is 'TopDownGameMode_C'
+[2018.06.09-09.26.36:903][629]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_LowPolyMap.LowPolyMap up for play (max tick rate 60) at 2018.06.09-17.26.36
+[2018.06.09-09.26.36:906][629]LogWorld: Bringing up level for play took: 0.015321
+[2018.06.09-09.26.36:915][629]LogBlueprintUserMessages: [TestQuest_C_12] убейте 3 врага
+[2018.06.09-09.26.36:915][629]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_LowPolyMap -0.824
+[2018.06.09-09.26.50:587][860]LogSavePackage: Save=162.17ms
+[2018.06.09-09.26.50:587][860]LogSavePackage: Moving '../../../../sergey/UnrealProjects/Game_1337/TopDownProjectNewRepository/Saved/LowPolyMap64225D71469F545A074C6693AC2F971D.tmp' to '../../../../sergey/UnrealProjects/Game_1337/TopDownProjectNewRepository/Content/TopDownBP/Maps/LowPolyMap.umap'
+[2018.06.09-09.26.50:590][860]LogSavePackage: Total save time: 178.52ms
+[2018.06.09-09.26.50:590][860]LogSavePackage:Display: Finished SavePackage ../../../../sergey/UnrealProjects/Game_1337/TopDownProjectNewRepository/Content/TopDownBP/Maps/LowPolyMap.umap
+[2018.06.09-09.26.50:692][860]LogFileHelpers: Saving map 'LowPolyMap' took 0.380
+[2018.06.09-09.26.52:403][893]Cmd: CLOSE_SLATE_MAINFRAME
+[2018.06.09-09.26.52:904][894]Cmd: QUIT_EDITOR
+[2018.06.09-09.26.52:944][894]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2018.06.09-09.26.54:117][894]LogExit: Preparing to exit.
+[2018.06.09-09.26.55:112][894]LogExit: Editor shut down
+[2018.06.09-09.26.55:112][894]LogExit: Transaction tracking system shut down
+[2018.06.09-09.26.55:279][894]LogObj: Freed 0b from 0 cluster array pools.
+[2018.06.09-09.26.55:279][894]LogExit: Object subsystem successfully closed.
+[2018.06.09-09.26.55:293][894]LogD3D11RHI: Shutdown
+[2018.06.09-09.26.55:293][894]LogD3D11RHI: CleanupD3DDevice
+[2018.06.09-09.26.55:382][894]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.06.09-09.26.55:445][894]LogDerivedDataCache: Shutdown
+[2018.06.09-09.26.55:446][894]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (205)
+[2018.06.09-09.26.55:446][894]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (204)
+[2018.06.09-09.26.55:446][894]LogModuleManager: Shutting down and abandoning module CrashTracker (203)
+[2018.06.09-09.26.55:446][894]LogModuleManager: Shutting down and abandoning module SuperSearch (202)
+[2018.06.09-09.26.55:446][894]LogModuleManager: Shutting down and abandoning module WidgetCarousel (201)
+[2018.06.09-09.26.55:446][894]LogModuleManager: Shutting down and abandoning module AddContentDialog (200)
+[2018.06.09-09.26.55:447][894]LogModuleManager: Shutting down and abandoning module GameplayTags (199)
+[2018.06.09-09.26.55:447][894]LogModuleManager: Shutting down and abandoning module EditorWidgets (198)
+[2018.06.09-09.26.55:447][894]LogModuleManager: Shutting down and abandoning module CollectionManager (197)
+[2018.06.09-09.26.55:447][894]LogModuleManager: Shutting down and abandoning module SceneOutliner (196)
+[2018.06.09-09.26.55:447][894]LogModuleManager: Shutting down and abandoning module StatsViewer (195)
+[2018.06.09-09.26.55:447][894]LogModuleManager: Shutting down and abandoning module FoliageEdit (194)
+[2018.06.09-09.26.55:448][894]LogModuleManager: Shutting down and abandoning module LandscapeEditor (193)
+[2018.06.09-09.26.55:448][894]LogModuleManager: Shutting down and abandoning module ActorPickerMode (192)
+[2018.06.09-09.26.55:448][894]LogModuleManager: Shutting down and abandoning module GeometryMode (191)
+[2018.06.09-09.26.55:448][894]LogModuleManager: Shutting down and abandoning module TextureAlignMode (190)
+[2018.06.09-09.26.55:448][894]LogModuleManager: Shutting down and abandoning module BspMode (189)
+[2018.06.09-09.26.55:448][894]LogModuleManager: Shutting down and abandoning module PlacementMode (188)
+[2018.06.09-09.26.55:448][894]LogModuleManager: Shutting down and abandoning module AutomationWorker (187)
+[2018.06.09-09.26.55:448][894]LogModuleManager: Shutting down and abandoning module CharacterAI (186)
+[2018.06.09-09.26.55:448][894]LogModuleManager: Shutting down and abandoning module SmartSnapping (185)
+[2018.06.09-09.26.55:448][894]LogModuleManager: Shutting down and abandoning module ViewportSnapping (184)
+[2018.06.09-09.26.55:448][894]LogModuleManager: Shutting down and abandoning module LogVisualizer (183)
+[2018.06.09-09.26.55:448][894]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (182)
+[2018.06.09-09.26.55:448][894]LogModuleManager: Shutting down and abandoning module IntroTutorials (181)
+[2018.06.09-09.26.55:448][894]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (180)
+[2018.06.09-09.26.55:448][894]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (179)
+[2018.06.09-09.26.55:448][894]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (178)
+[2018.06.09-09.26.55:448][894]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (177)
+[2018.06.09-09.26.56:084][894]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (176)
+[2018.06.09-09.26.56:084][894]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (175)
+[2018.06.09-09.26.56:084][894]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (174)
+[2018.06.09-09.26.56:084][894]LogModuleManager: Shutting down and abandoning module MergeActors (173)
+[2018.06.09-09.26.56:084][894]LogModuleManager: Shutting down and abandoning module SizeMap (172)
+[2018.06.09-09.26.56:084][894]LogModuleManager: Shutting down and abandoning module TreeMap (171)
+[2018.06.09-09.26.56:084][894]LogModuleManager: Shutting down and abandoning module ReferenceViewer (170)
+[2018.06.09-09.26.56:084][894]LogModuleManager: Shutting down and abandoning module LocalizationService (169)
+[2018.06.09-09.26.56:084][894]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (168)
+[2018.06.09-09.26.56:084][894]LogModuleManager: Shutting down and abandoning module HardwareTargeting (167)
+[2018.06.09-09.26.56:084][894]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (166)
+[2018.06.09-09.26.56:084][894]LogModuleManager: Shutting down and abandoning module UndoHistory (165)
+[2018.06.09-09.26.56:084][894]LogModuleManager: Shutting down and abandoning module UserFeedback (164)
+[2018.06.09-09.26.56:084][894]LogModuleManager: Shutting down and abandoning module XmlParser (163)
+[2018.06.09-09.26.56:084][894]LogModuleManager: Shutting down and abandoning module Blutility (162)
+[2018.06.09-09.26.56:084][894]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (161)
+[2018.06.09-09.26.56:085][894]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (160)
+[2018.06.09-09.26.56:085][894]LogModuleManager: Shutting down and abandoning module InputBindingEditor (159)
+[2018.06.09-09.26.56:085][894]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (158)
+[2018.06.09-09.26.56:085][894]LogModuleManager: Shutting down and abandoning module SettingsEditor (157)
+[2018.06.09-09.26.56:085][894]LogModuleManager: Shutting down and abandoning module ProjectLauncher (156)
+[2018.06.09-09.26.56:085][894]LogModuleManager: Shutting down and abandoning module SessionFrontend (155)
+[2018.06.09-09.26.56:085][894]LogModuleManager: Shutting down and abandoning module ProfilerClient (154)
+[2018.06.09-09.26.56:085][894]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (153)
+[2018.06.09-09.26.56:085][894]LogModuleManager: Shutting down and abandoning module DeviceManager (152)
+[2018.06.09-09.26.56:115][894]LogModuleManager: Shutting down and abandoning module AutomationController (151)
+[2018.06.09-09.26.56:115][894]LogModuleManager: Shutting down and abandoning module AutomationWindow (150)
+[2018.06.09-09.26.56:115][894]LogModuleManager: Shutting down and abandoning module Layers (149)
+[2018.06.09-09.26.56:115][894]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (148)
+[2018.06.09-09.26.56:115][894]LogModuleManager: Shutting down and abandoning module DetailCustomizations (147)
+[2018.06.09-09.26.56:115][894]LogModuleManager: Shutting down and abandoning module PackagesDialog (146)
+[2018.06.09-09.26.56:115][894]LogModuleManager: Shutting down and abandoning module Persona (145)
+[2018.06.09-09.26.56:115][894]LogModuleManager: Shutting down and abandoning module Kismet (144)
+[2018.06.09-09.26.56:115][894]LogModuleManager: Shutting down and abandoning module GraphEditor (143)
+[2018.06.09-09.26.56:115][894]LogModuleManager: Shutting down and abandoning module ClassViewer (142)
+[2018.06.09-09.26.56:115][894]LogModuleManager: Shutting down and abandoning module Toolbox (141)
+[2018.06.09-09.26.56:115][894]LogModuleManager: Shutting down and abandoning module ModuleUI (140)
+[2018.06.09-09.26.56:115][894]LogModuleManager: Shutting down and abandoning module MovieSceneTools (139)
+[2018.06.09-09.26.56:115][894]LogModuleManager: Shutting down and abandoning module OutputLog (138)
+[2018.06.09-09.26.56:115][894]LogModuleManager: Shutting down and abandoning module GammaUI (137)
+[2018.06.09-09.26.56:115][894]LogModuleManager: Shutting down and abandoning module Documentation (136)
+[2018.06.09-09.26.56:115][894]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (135)
+[2018.06.09-09.26.56:115][894]LogModuleManager: Shutting down and abandoning module AnalyticsET (134)
+[2018.06.09-09.26.56:115][894]LogModuleManager: Shutting down and abandoning module Analytics (133)
+[2018.06.09-09.26.56:115][894]LogModuleManager: Shutting down and abandoning module PortalServices (132)
+[2018.06.09-09.26.56:115][894]LogModuleManager: Shutting down and abandoning module PortalRpc (131)
+[2018.06.09-09.26.56:115][894]LogModuleManager: Shutting down and abandoning module MessagingRpc (130)
+[2018.06.09-09.26.56:115][894]LogModuleManager: Shutting down and abandoning module AITestSuite (129)
+[2018.06.09-09.26.56:115][894]LogModuleManager: Shutting down and abandoning module GameplayDebugger (128)
+[2018.06.09-09.26.56:115][894]LogModuleManager: Shutting down and abandoning module AIModule (127)
+[2018.06.09-09.26.56:115][894]LogModuleManager: Shutting down and abandoning module ProfilerService (126)
+[2018.06.09-09.26.56:245][894]LogModuleManager: Shutting down and abandoning module TaskGraph (125)
+[2018.06.09-09.26.56:245][894]LogModuleManager: Shutting down and abandoning module SlateRemote (124)
+[2018.06.09-09.26.56:245][894]LogModuleManager: Shutting down and abandoning module SteamVRController (123)
+[2018.06.09-09.26.56:245][894]LogModuleManager: Shutting down and abandoning module SteamVR (122)
+[2018.06.09-09.26.56:245][894]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (121)
+[2018.06.09-09.26.56:245][894]LogModuleManager: Shutting down and abandoning module OculusLibrary (120)
+[2018.06.09-09.26.56:245][894]LogModuleManager: Shutting down and abandoning module OculusInput (119)
+[2018.06.09-09.26.56:245][894]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (118)
+[2018.06.09-09.26.56:245][894]LogModuleManager: Shutting down and abandoning module CableComponent (117)
+[2018.06.09-09.26.56:245][894]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (116)
+[2018.06.09-09.26.56:245][894]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (115)
+[2018.06.09-09.26.56:246][894]LogModuleManager: Shutting down and abandoning module HTML5Networking (114)
+[2018.06.09-09.26.56:246][894]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (113)
+[2018.06.09-09.26.56:246][894]LogModuleManager: Shutting down and abandoning module PluginBrowser (112)
+[2018.06.09-09.26.56:246][894]LogModuleManager: Shutting down and abandoning module EpicSurvey (111)
+[2018.06.09-09.26.56:246][894]LogModuleManager: Shutting down and abandoning module DesktopPlatform (110)
+[2018.06.09-09.26.56:246][894]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (109)
+[2018.06.09-09.26.56:246][894]LogModuleManager: Shutting down and abandoning module UObjectPlugin (108)
+[2018.06.09-09.26.56:246][894]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (107)
+[2018.06.09-09.26.56:246][894]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (106)
+[2018.06.09-09.26.56:246][894]LogModuleManager: Shutting down and abandoning module SourceControl (105)
+[2018.06.09-09.26.56:246][894]LogModuleManager: Shutting down and abandoning module GitSourceControl (104)
+[2018.06.09-09.26.56:246][894]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (103)
+[2018.06.09-09.26.56:246][894]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (102)
+[2018.06.09-09.26.56:246][894]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (101)
+[2018.06.09-09.26.56:246][894]LogModuleManager: Shutting down and abandoning module MeshPaint (100)
+[2018.06.09-09.26.56:246][894]LogModuleManager: Shutting down and abandoning module HotReload (99)
+[2018.06.09-09.26.56:246][894]LogModuleManager: Shutting down and abandoning module MainFrame (98)
+[2018.06.09-09.26.56:246][894]LogModuleManager: Shutting down and abandoning module LevelEditor (97)
+[2018.06.09-09.26.56:247][894]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (96)
+[2018.06.09-09.26.56:248][894]LogModuleManager: Shutting down and abandoning module AssetRegistry (95)
+[2018.06.09-09.26.56:405][894]LogModuleManager: Shutting down and abandoning module ContentBrowser (94)
+[2018.06.09-09.26.56:406][894]LogModuleManager: Shutting down and abandoning module Paper2DEditor (93)
+[2018.06.09-09.26.56:406][894]LogModuleManager: Shutting down and abandoning module UdpMessaging (92)
+[2018.06.09-09.26.56:506][894]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (91)
+[2018.06.09-09.26.56:506][894]LogModuleManager: Shutting down and abandoning module Paper2D (90)
+[2018.06.09-09.26.56:506][894]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (89)
+[2018.06.09-09.26.56:506][894]LogModuleManager: Shutting down and abandoning module Media (88)
+[2018.06.09-09.26.56:506][894]LogModuleManager: Shutting down and abandoning module WmfMedia (87)
+[2018.06.09-09.26.56:506][894]LogModuleManager: Shutting down and abandoning module MediaAssets (86)
+[2018.06.09-09.26.56:506][894]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (85)
+[2018.06.09-09.26.56:506][894]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (84)
+[2018.06.09-09.26.56:506][894]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (83)
+[2018.06.09-09.26.56:506][894]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (82)
+[2018.06.09-09.26.56:506][894]LogModuleManager: Shutting down and abandoning module PropertyEditor (81)
+[2018.06.09-09.26.56:506][894]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (80)
+[2018.06.09-09.26.56:507][894]LogModuleManager: Shutting down and abandoning module FunctionalTesting (79)
+[2018.06.09-09.26.56:507][894]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (78)
+[2018.06.09-09.26.56:507][894]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2018.06.09-09.26.56:507][894]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2018.06.09-09.26.56:507][894]LogModuleManager: Shutting down and abandoning module Sequencer (75)
+[2018.06.09-09.26.56:507][894]LogModuleManager: Shutting down and abandoning module AssetTools (74)
+[2018.06.09-09.26.56:507][894]LogModuleManager: Shutting down and abandoning module UMGEditor (73)
+[2018.06.09-09.26.56:507][894]LogModuleManager: Shutting down and abandoning module UMG (72)
+[2018.06.09-09.26.56:507][894]LogModuleManager: Shutting down and abandoning module SlateReflector (71)
+[2018.06.09-09.26.56:507][894]LogModuleManager: Shutting down and abandoning module Slate (70)
+[2018.06.09-09.26.56:507][894]LogModuleManager: Shutting down and abandoning module EditorStyle (69)
+[2018.06.09-09.26.56:510][894]LogModuleManager: Shutting down and abandoning module SessionServices (68)
+[2018.06.09-09.26.56:510][894]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (67)
+[2018.06.09-09.26.56:511][894]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (66)
+[2018.06.09-09.26.56:511][894]LogModuleManager: Shutting down and abandoning module XAudio2 (65)
+[2018.06.09-09.26.56:511][894]LogModuleManager: Shutting down and abandoning module Networking (63)
+[2018.06.09-09.26.56:511][894]LogModuleManager: Shutting down and abandoning module Core (62)
+[2018.06.09-09.26.56:511][894]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2018.06.09-09.26.56:511][894]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2018.06.09-09.26.56:511][894]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2018.06.09-09.26.56:511][894]LogModuleManager: Shutting down and abandoning module CookingStats (58)
+[2018.06.09-09.26.56:511][894]LogModuleManager: Shutting down and abandoning module DerivedDataCache (57)
+[2018.06.09-09.26.56:511][894]LogDerivedDataCache: Shutdown
+[2018.06.09-09.26.56:511][894]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2018.06.09-09.26.56:511][894]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2018.06.09-09.26.56:511][894]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2018.06.09-09.26.56:511][894]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2018.06.09-09.26.56:511][894]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2018.06.09-09.26.56:511][894]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2018.06.09-09.26.56:511][894]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2018.06.09-09.26.56:511][894]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2018.06.09-09.26.56:511][894]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2018.06.09-09.26.56:511][894]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2018.06.09-09.26.56:511][894]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2018.06.09-09.26.56:511][894]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2018.06.09-09.26.56:511][894]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2018.06.09-09.26.56:511][894]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2018.06.09-09.26.56:511][894]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2018.06.09-09.26.56:511][894]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2018.06.09-09.26.56:511][894]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2018.06.09-09.26.56:511][894]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2018.06.09-09.26.56:511][894]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2018.06.09-09.26.56:511][894]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2018.06.09-09.26.56:511][894]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2018.06.09-09.26.56:511][894]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2018.06.09-09.26.56:511][894]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2018.06.09-09.26.56:511][894]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2018.06.09-09.26.56:511][894]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2018.06.09-09.26.56:511][894]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2018.06.09-09.26.56:511][894]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2018.06.09-09.26.56:511][894]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2018.06.09-09.26.56:511][894]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2018.06.09-09.26.56:511][894]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2018.06.09-09.26.56:511][894]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2018.06.09-09.26.56:511][894]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2018.06.09-09.26.56:511][894]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2018.06.09-09.26.56:511][894]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2018.06.09-09.26.56:511][894]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2018.06.09-09.26.56:511][894]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2018.06.09-09.26.56:511][894]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2018.06.09-09.26.56:511][894]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2018.06.09-09.26.58:512][894]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2018.06.09-09.26.58:512][894]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2018.06.09-09.26.58:512][894]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2018.06.09-09.26.58:512][894]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2018.06.09-09.26.58:512][894]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2018.06.09-09.26.58:512][894]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2018.06.09-09.26.58:512][894]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2018.06.09-09.26.58:514][894]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2018.06.09-09.26.58:514][894]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2018.06.09-09.26.58:514][894]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2018.06.09-09.26.58:514][894]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2018.06.09-09.26.58:514][894]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2018.06.09-09.26.58:514][894]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2018.06.09-09.26.58:514][894]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2018.06.09-09.26.58:514][894]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2018.06.09-09.26.58:514][894]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2018.06.09-09.26.58:514][894]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2018.06.09-09.26.58:516][894]LogExit: Exiting.
+[2018.06.09-09.26.58:518][894]Log file closed, 06/09/18 17:26:58
